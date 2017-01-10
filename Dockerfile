@@ -15,17 +15,16 @@ RUN \
  apt-get update && \
  apt-get install -y \
 	libcurl3 \
-	libmono-cil-dev && \
+	libmono-cil-dev \
+	mediainfo \
+	unzip && \
 
 # install radarr
- mkdir -p \
-	/app/radarr && \
  curl -o \
- /tmp/radar.tar.gz -L \
-	https://github.com/galli-leo/Radarr/releases/download/v0.2.0.45/Radarr.develop.0.2.0.45.linux.tar.gz && \
- tar xf \
- /tmp/radar.tar.gz -C \
-	/app/radarr --strip-components=1 && \
+ /tmp/radarr-app.zip -L \
+	https://leonardogalli.ch/radarr/builds/latest.php?os=mono && \
+ unzip -d /tmp /tmp/radarr-app.zip && \
+ mv /tmp/Radar* /app/radarr && \
 
 # clean up
  rm -rf \
