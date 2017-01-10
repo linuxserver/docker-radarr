@@ -19,11 +19,14 @@ RUN \
 	mediainfo && \
 
 # install radarr
+ radarr_tag=$(curl -sX GET "https://api.github.com/repos/Radarr/Radarr/releases" \
+	| awk '/tag_name/{print $4;exit}' FS='[""]') && \
+ radarr_ver="${radarr_tag#v}" && \
  mkdir -p \
 	/opt/radarr && \
  curl -o \
  /tmp/radar.tar.gz -L \
-	https://github.com/galli-leo/Radarr/releases/download/v0.2.0.45/Radarr.develop.0.2.0.45.linux.tar.gz && \
+	"https://github.com/galli-leo/Radarr/releases/download/${radarr_tag}/Radarr.develop.${radarr_ver}.linux.tar.gz" && \
  tar xf \
  /tmp/radar.tar.gz -C \
 	/opt/radarr --strip-components=1 && \
