@@ -1,6 +1,6 @@
 #!/usr/bin/with-contenv bash
 
-cd /app/radarr || exit
+cd /opt/radarr || exit
 
 exec \
 	s6-setuidgid abc mono --debug Radarr.exe \

@@ -24,7 +24,7 @@ RUN \
  /tmp/radarr-app.zip -L \
 	https://leonardogalli.ch/radarr/builds/latest.php?os=mono && \
  unzip -d /tmp /tmp/radarr-app.zip && \
- mv /tmp/Radar* /app/radarr && \
+ mv /tmp/Radar* /opt/radarr && \
 
 # clean up
  rm -rf \

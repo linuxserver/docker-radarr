@@ -3,5 +3,5 @@
 # permissions
 chown -R abc:abc \
 	/config \
-	/app
+	/opt
 
