@@ -27,7 +27,7 @@ RUN \
  curl -o \
  /tmp/radar.tar.gz -L \
 	"https://github.com/galli-leo/Radarr/releases/download/${radarr_tag}/Radarr.develop.${radarr_ver}.linux.tar.gz" && \
- tar xf \
+ tar ixzf \
  /tmp/radar.tar.gz -C \
 	/opt/radarr --strip-components=1 && \
 
