@@ -2,6 +2,8 @@
 [forumurl]: https://forum.linuxserver.io
 [ircurl]: https://www.linuxserver.io/irc/
 [podcasturl]: https://www.linuxserver.io/podcast/
+[appurl]: https://github.com/Radarr/Radarr
+[hub]: https://hub.docker.com/r/linuxserver/radarr/
 
 [![linuxserver.io](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_medium.png)][linuxserverurl]
 
@@ -12,12 +14,10 @@ The [LinuxServer.io][linuxserverurl] team brings you another container release f
 
 # linuxserver/radarr
 [![](https://images.microbadger.com/badges/version/linuxserver/radarr.svg)](https://microbadger.com/images/linuxserver/radarr "Get your own version badge on microbadger.com")[![](https://images.microbadger.com/badges/image/linuxserver/radarr.svg)](http://microbadger.com/images/linuxserver/radarr "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/linuxserver/radarr.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/linuxserver/radarr.svg)][hub][![Build Status](http://jenkins.linuxserver.io:8080/buildStatus/icon?job=Dockers/LinuxServer.io/linuxserver-radarr)](http://jenkins.linuxserver.io:8080/job/Dockers/job/LinuxServer.io/job/linuxserver-radarr/)
-[hub]: https://hub.docker.com/r/linuxserver/radarr/
 
-[Radarr][radarrurl] - A fork of Sonarr to work with movies à la Couchpotato. 
+[Radarr][appurl] - A fork of Sonarr to work with movies à la Couchpotato. 
 
-[![radarr](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/radarr.png)][radarrurl]
-[radarrurl]: https://github.com/Radarr/Radarr
+[![radarr](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/radarr.png)][appurl]
 
 ## Usage
 
@@ -64,7 +64,7 @@ In this instance `PUID=1001` and `PGID=1001`. To find yours use `id user` as bel
 
 ## Setting up the application
 
-Access the webui at `<your-ip>:7878`, for more information check out [Radarr][radarrurl].
+Access the webui at `<your-ip>:7878`, for more information check out [Radarr][appurl].
 
 ## Info
 
