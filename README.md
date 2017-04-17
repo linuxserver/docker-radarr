@@ -27,8 +27,9 @@ docker create \
 	-v <path to data>:/config \
 	-v <path to data>:/downloads \
 	-v <path to data>:/movies \
-	-e PGID=<gid> -e PUID=<uid>  \
+	-v /etc/localtime:/etc/localtime:ro \
 	-e TZ=<timezone> \
+	-e PGID=<gid> -e PUID=<uid>  \
 	-p 7878:7878 \
   linuxserver/radarr
 ```
@@ -45,11 +46,16 @@ http://192.168.x.x:8080 would show you what's running INSIDE the container on po
 * `-v /config` - Radarr Application Data
 * `-v /downloads` - Downloads Folder
 * `-v /movies` - Movie Share
+* `-v /etc/localtime` for timesync - see [Localtime](#localtime) for important information
+* `-e TZ` for timezone information, Europe/London - see [Localtime](#localtime) for important information
 * `-e PGID` for for GroupID - see below for explanation
 * `-e PUID` for for UserID - see below for explanation
-* `-e TZ` for timezone information, eg Europe/London
 
 It is based on alpine linux with s6 overlay, for shell access whilst the container is running do `docker exec -it radarr /bin/bash`.
+
+## Localtime
+
+It is important that you either set `-v /etc/localtime:/etc/localtime:ro` or the TZ variable, mono will throw exceptions without one of them set.
 
 ### User / Group Identifiers
 
@@ -81,5 +87,6 @@ Access the webui at `<your-ip>:7878`, for more information check out [Radarr][ap
 
 ## Versions
 
++ **17.04.17:** Switch to using inhouse mono baseimage, adds python also.
 + **13.04.17:** Switch to official mono repository.
 + **10.01.17:** Initial Release.
