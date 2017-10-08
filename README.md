@@ -13,7 +13,7 @@ The [LinuxServer.io][linuxserverurl] team brings you another container release f
 * [Podcast][podcasturl] covers everything to do with getting the most from your Linux Server plus a focus on all things Docker and containerisation!
 
 # linuxserver/radarr
-[![](https://images.microbadger.com/badges/version/lsiocommunity/radarr.svg)](https://microbadger.com/images/lsiocommunity/radarr "Get your own version badge on microbadger.com")[![](https://images.microbadger.com/badges/image/lsiocommunity/radarr.svg)](http://microbadger.com/images/lsiocommunity/radarr "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/lsiocommunity/radarr.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/lsiocommunity/radarr.svg)][hub][![Build Status](https://ci.linuxserver.io/buildStatus/icon?job=Docker-Builders/lsiocommunity/x86-64-radarr)](https://ci.linuxserver.io/job/Docker-Builders/job/lsiocommunity/job/x86-64-radarr/)
+[![](https://images.microbadger.com/badges/version/linuxserver/radarr.svg)](https://microbadger.com/images/linuxserver/radarr "Get your own version badge on microbadger.com")[![](https://images.microbadger.com/badges/image/linuxserver/radarr.svg)](https://microbadger.com/images/linuxserver/radarr "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/linuxserver/radarr.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/linuxserver/radarr.svg)][hub][![Build Status](https://ci.linuxserver.io/buildStatus/icon?job=Docker-Builders/x86-64/x86-64-radarr)](https://ci.linuxserver.io/job/Docker-Builders/job/x86-64/job/x86-64-radarr/)
 
 [Radarr][appurl] - A fork of Sonarr to work with movies à la Couchpotato. 
 
