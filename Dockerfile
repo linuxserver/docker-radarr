@@ -11,15 +11,16 @@ LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DA
 
 # install radarr
 RUN \
- radarr_tag=$(curl -sX GET "https://api.github.com/repos/Radarr/Radarr/releases" \
-	| awk '/tag_name/{print $4;exit}' FS='[""]') && \
+ radarr_build=$(curl -H "Accept: application/xml" -sX GET \
+    "https://ci.appveyor.com/api/projects/galli-leo/radarr-usby1/branch/develop" \
+    | sed -n '/BuildNumber/{s/.*<BuildNumber>//;s/<\/BuildNumber.*//;p;}') && \
  mkdir -p \
 	/opt/radarr && \
  curl -o \
- /tmp/radar.tar.gz -L \
-	"https://github.com/galli-leo/Radarr/releases/download/${radarr_tag}/Radarr.develop.${radarr_tag#v}.linux.tar.gz" && \
+    /tmp/radar.tar.gz -L \
+    "https://ci.appveyor.com/api/projects/galli-leo/radarr-usby1/artifacts/_artifacts%2FRadarr.develop.0.2.0.${radarr_build#v}.linux.tar.gz" && \
  tar ixzf \
- /tmp/radar.tar.gz -C \
+    /tmp/radar.tar.gz -C \
 	/opt/radarr --strip-components=1 && \
 
 # clean up
@@ -27,7 +28,7 @@ RUN \
 	/tmp/*
 
 # add local files
-COPY /root /
+COPY root/ /
 
 # ports and volumes
 EXPOSE 7878
