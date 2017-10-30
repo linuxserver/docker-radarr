@@ -18,7 +18,7 @@ RUN \
 	/opt/radarr && \
  curl -o \
     /tmp/radar.tar.gz -L \
-    "https://ci.appveyor.com/api/buildjobs/vdn7efs8ve31ctmf/artifacts/_artifacts%2FRadarr.develop.0.2.0.${radarr_build#v}.linux.tar.gz" && \
+    "https://ci.appveyor.com/api/projects/galli-leo/radarr-usby1/artifacts/_artifacts%2FRadarr.develop.0.2.0.${radarr_build#v}.linux.tar.gz" && \
  tar ixzf \
     /tmp/radar.tar.gz -C \
 	/opt/radarr --strip-components=1 && \
