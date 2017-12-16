@@ -87,6 +87,7 @@ Access the webui at `<your-ip>:7878`, for more information check out [Radarr][ap
 
 ## Versions
 
++ **15.12.17:** Fix continuation lines.
 + **17.04.17:** Switch to using inhouse mono baseimage, adds python also.
 + **13.04.17:** Switch to official mono repository.
 + **10.01.17:** Initial Release.
