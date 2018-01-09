@@ -2,6 +2,8 @@
 
 cd /opt/radarr || exit
 
+export MONO_TLS_PROVIDER=legacy
+
 exec \
 	s6-setuidgid abc mono --debug Radarr.exe \
 	-nobrowser -data=/config
