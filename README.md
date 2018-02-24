@@ -34,6 +34,14 @@ docker create \
   linuxserver/radarr
 ```
 
+You can choose between ,using tags, various branch versions of radarr, no tag is required to remain on the main branch.
+
+Add one of the tags,  if required,  to the linuxserver/radarr line of the run/create command in the following format, linuxserver/radarr:develop
+
+#### Tags
+
++ **develop**
+
 ## Parameters
 
 `The parameters are split into two halves, separated by a colon, the left hand side representing the host and the right the container side. 
@@ -87,6 +95,7 @@ Access the webui at `<your-ip>:7878`, for more information check out [Radarr][ap
 
 ## Versions
 
++ **24.02.18:** Add develop branch.
 + **06.02.18:** Radarr repo changed owner.
 + **15.12.17:** Fix continuation lines.
 + **17.04.17:** Switch to using inhouse mono baseimage, adds python also.
