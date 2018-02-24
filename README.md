@@ -38,6 +38,10 @@ You can choose between ,using tags, various branch versions of radarr, no tag is
 
 Add one of the tags,  if required,  to the linuxserver/radarr line of the run/create command in the following format, linuxserver/radarr:develop
 
+The develop branch and master branch can from time to time be the same version.
+
+HOWEVER , USE THE DEVELOP BRANCH AT YOUR OWN PERIL !!!!!!!!!
+
 #### Tags
 
 + **develop**
