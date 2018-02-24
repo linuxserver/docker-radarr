@@ -36,15 +36,15 @@ docker create \
 
 You can choose between ,using tags, various branch versions of radarr, no tag is required to remain on the main branch.
 
-Add one of the tags,  if required,  to the linuxserver/radarr line of the run/create command in the following format, linuxserver/radarr:develop
+Add one of the tags,  if required,  to the linuxserver/radarr line of the run/create command in the following format, linuxserver/radarr:nightly
 
-The develop branch and master branch can from time to time be the same version.
+The nightly branch and master branch can from time to time be the same version.
 
-HOWEVER , USE THE DEVELOP BRANCH AT YOUR OWN PERIL !!!!!!!!!
+HOWEVER , USE THE NIGHTLY BRANCH AT YOUR OWN PERIL !!!!!!!!!
 
 #### Tags
 
-+ **develop**
++ **nightly**
 
 ## Parameters
 
@@ -99,7 +99,7 @@ Access the webui at `<your-ip>:7878`, for more information check out [Radarr][ap
 
 ## Versions
 
-+ **24.02.18:** Add develop branch.
++ **24.02.18:** Add nightly branch.
 + **06.02.18:** Radarr repo changed owner.
 + **15.12.17:** Fix continuation lines.
 + **17.04.17:** Switch to using inhouse mono baseimage, adds python also.
