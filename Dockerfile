@@ -6,8 +6,9 @@ ARG VERSION
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="sparklyballs"
 
-# environment settings
+# environment settings
 ARG DEBIAN_FRONTEND="noninteractive"
+ARG RADARR_BRANCH="nightly"
 ENV XDG_CONFIG_HOME="/config/xdg"
 
 RUN \
@@ -16,7 +17,7 @@ RUN \
  apt-get install -y \
 	jq && \
  echo "**** install radarr ****" && \
- radarr_url=$(curl "http://radarr.aeonlucid.com/v1/update/nightly/changes?os=linux" \
+ radarr_url=$(curl "http://radarr.aeonlucid.com/v1/update/${RADARR_BRANCH}/changes?os=linux" \
 	| jq -r '.[0].url') && \
  mkdir -p \
 	/opt/radarr && \
@@ -32,9 +33,9 @@ RUN \
 	/var/lib/apt/lists/* \
 	/var/tmp/*
 
-# add local files
+# add local files
 COPY /root /
 
-# ports and volumes
+# ports and volumes
 EXPOSE 7878
 VOLUME /config /downloads /movies
