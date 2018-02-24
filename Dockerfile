@@ -6,28 +6,36 @@ ARG VERSION
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="sparklyballs"
 
-# environment settings
+# environment settings
+ARG DEBIAN_FRONTEND="noninteractive"
+ARG RADARR_BRANCH="develop"
 ENV XDG_CONFIG_HOME="/config/xdg"
 
 RUN \
+ echo "**** install jq ****" && \
+ apt-get update && \
+ apt-get install -y \
+	jq && \
  echo "**** install radarr ****" && \
- radarr_tag=$(curl -sX GET "https://api.github.com/repos/Radarr/Radarr/releases" \
-	| awk '/tag_name/{print $4;exit}' FS='[""]') && \
+ radarr_url=$(curl "http://radarr.aeonlucid.com/v1/update/${RADARR_BRANCH}/changes?os=linux" \
+	| jq -r '.[0].url') && \
  mkdir -p \
 	/opt/radarr && \
  curl -o \
  /tmp/radar.tar.gz -L \
-	"https://github.com/Radarr/Radarr/releases/download/${radarr_tag}/Radarr.develop.${radarr_tag#v}.linux.tar.gz" && \
+	"${radarr_url}" && \
  tar ixzf \
  /tmp/radar.tar.gz -C \
 	/opt/radarr --strip-components=1 && \
  echo "**** clean up ****" && \
  rm -rf \
-	/tmp/*
+	/tmp/* \
+	/var/lib/apt/lists/* \
+	/var/tmp/*
 
-# add local files
+# add local files
 COPY /root /
 
-# ports and volumes
+# ports and volumes
 EXPOSE 7878
 VOLUME /config /downloads /movies
