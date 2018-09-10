@@ -14,7 +14,7 @@ pipeline {
     DEV_DOCKERHUB_IMAGE = 'lsiodev/radarr'
     PR_DOCKERHUB_IMAGE = 'lspipepr/radarr'
     BUILDS_DISCORD = credentials('build_webhook_url')
-    GITHUB_TOKEN = credentials('github_token')
+    GITHUB_TOKEN = credentials('498b4638-2d02-4ce5-832d-8a57d01d97ab')
     DIST_IMAGE = 'ubuntu'
     DIST_TAG = 'xenial'
     DIST_PACKAGES = 'none'
