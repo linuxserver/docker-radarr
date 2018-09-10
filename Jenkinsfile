@@ -13,7 +13,7 @@ pipeline {
     DEV_DOCKERHUB_IMAGE = 'lsiodev/radarr'
     PR_DOCKERHUB_IMAGE = 'lspipepr/radarr'
     BUILDS_DISCORD = credentials('build_webhook_url')
-    GITHUB_TOKEN = credentials('github_token')
+    GITHUB_TOKEN = credentials('498b4638-2d02-4ce5-832d-8a57d01d97ab')
     DIST_IMAGE = 'ubuntu'
     DIST_TAG = 'xenial'
     DIST_PACKAGES = 'none'
@@ -96,25 +96,25 @@ pipeline {
     // If this is a master build use live docker endpoints
     stage("Set ENV live build"){
       when {
-        branch "master"
+        branch "nightly"
         environment name: 'CHANGE_ID', value: ''
       }
       steps {
         script{
           env.IMAGE = env.DOCKERHUB_IMAGE
           if (env.MULTIARCH == 'true') {
-            env.CI_TAGS = 'amd64-' + env.EXT_RELEASE + '-ls' + env.LS_TAG_NUMBER + '|arm32v6-' + env.EXT_RELEASE + '-ls' + env.LS_TAG_NUMBER + '|arm64v8-' + env.EXT_RELEASE + '-ls' + env.LS_TAG_NUMBER
+            env.CI_TAGS = 'amd64-' + env.EXT_RELEASE + '-ls' + env.LS_TAG_NUMBER + '-nightly' + '|arm32v6-' + env.EXT_RELEASE + '-ls' + env.LS_TAG_NUMBER + '-nightly' + '|arm64v8-' + env.EXT_RELEASE + '-ls' + env.LS_TAG_NUMBER + '-nightly'
           } else {
-            env.CI_TAGS = env.EXT_RELEASE + '-ls' + env.LS_TAG_NUMBER
+            env.CI_TAGS = env.EXT_RELEASE + '-ls' + env.LS_TAG_NUMBER + '-nightly'
           }
-          env.META_TAG = env.EXT_RELEASE + '-ls' + env.LS_TAG_NUMBER
+          env.META_TAG = env.EXT_RELEASE + '-ls' + env.LS_TAG_NUMBER + '-nightly'
         }
       }
     }
     // If this is a dev build use dev docker endpoints
     stage("Set ENV dev build"){
       when {
-        not {branch "master"}
+        not {branch "nightly"}
         environment name: 'CHANGE_ID', value: ''
       }
       steps {
@@ -347,8 +347,8 @@ pipeline {
           sh '''#! /bin/bash
              echo $DOCKERPASS | docker login -u $DOCKERUSER --password-stdin
              '''
-          sh "docker tag ${IMAGE}:${META_TAG} ${IMAGE}:latest"
-          sh "docker push ${IMAGE}:latest"
+          sh "docker tag ${IMAGE}:${META_TAG} ${IMAGE}:nightly"
+          sh "docker push ${IMAGE}:nightly"
           sh "docker push ${IMAGE}:${META_TAG}"
         }
       }
@@ -377,24 +377,24 @@ pipeline {
                   docker tag lsiodev/buildcache:arm32v6-${COMMIT_SHA}-${BUILD_NUMBER} ${IMAGE}:arm32v6-${META_TAG}
                   docker tag lsiodev/buildcache:arm64v8-${COMMIT_SHA}-${BUILD_NUMBER} ${IMAGE}:arm64v8-${META_TAG}
                 fi'''
-          sh "docker tag ${IMAGE}:amd64-${META_TAG} ${IMAGE}:amd64-latest"
-          sh "docker tag ${IMAGE}:arm32v6-${META_TAG} ${IMAGE}:arm32v6-latest"
-          sh "docker tag ${IMAGE}:arm64v8-${META_TAG} ${IMAGE}:arm64v8-latest"
+          sh "docker tag ${IMAGE}:amd64-${META_TAG} ${IMAGE}:amd64-nightly"
+          sh "docker tag ${IMAGE}:arm32v6-${META_TAG} ${IMAGE}:arm32v6-nightly"
+          sh "docker tag ${IMAGE}:arm64v8-${META_TAG} ${IMAGE}:arm64v8-nightly"
           sh "docker push ${IMAGE}:amd64-${META_TAG}"
           sh "docker push ${IMAGE}:arm32v6-${META_TAG}"
           sh "docker push ${IMAGE}:arm64v8-${META_TAG}"
-          sh "docker push ${IMAGE}:amd64-latest"
-          sh "docker push ${IMAGE}:arm32v6-latest"
-          sh "docker push ${IMAGE}:arm64v8-latest"
-          sh "docker manifest push --purge ${IMAGE}:latest || :"
-          sh "docker manifest create ${IMAGE}:latest ${IMAGE}:amd64-latest ${IMAGE}:arm32v6-latest ${IMAGE}:arm64v8-latest"
-          sh "docker manifest annotate ${IMAGE}:latest ${IMAGE}:arm32v6-latest --os linux --arch arm"
-          sh "docker manifest annotate ${IMAGE}:latest ${IMAGE}:arm64v8-latest --os linux --arch arm64 --variant armv8"
+          sh "docker push ${IMAGE}:amd64-nightly"
+          sh "docker push ${IMAGE}:arm32v6-nightly"
+          sh "docker push ${IMAGE}:arm64v8-nightly"
+          sh "docker manifest push --purge ${IMAGE}:nightly || :"
+          sh "docker manifest create ${IMAGE}:nightly ${IMAGE}:amd64-nightly ${IMAGE}:arm32v6-nightly ${IMAGE}:arm64v8-nightly"
+          sh "docker manifest annotate ${IMAGE}:nightly ${IMAGE}:arm32v6-nightly --os linux --arch arm"
+          sh "docker manifest annotate ${IMAGE}:nightly ${IMAGE}:arm64v8-nightly --os linux --arch arm64 --variant armv8"
           sh "docker manifest push --purge ${IMAGE}:${EXT_RELEASE}-ls${LS_TAG_NUMBER} || :"
           sh "docker manifest create ${IMAGE}:${META_TAG} ${IMAGE}:amd64-${META_TAG} ${IMAGE}:arm32v6-${META_TAG} ${IMAGE}:arm64v8-${META_TAG}"
           sh "docker manifest annotate ${IMAGE}:${META_TAG} ${IMAGE}:arm32v6-${META_TAG} --os linux --arch arm"
           sh "docker manifest annotate ${IMAGE}:${META_TAG} ${IMAGE}:arm64v8-${META_TAG} --os linux --arch arm64 --variant armv8"
-          sh "docker manifest push --purge ${IMAGE}:latest"
+          sh "docker manifest push --purge ${IMAGE}:nightly"
           sh "docker manifest push --purge ${IMAGE}:${META_TAG}"
         }
       }
