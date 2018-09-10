@@ -5,7 +5,7 @@ pipeline {
   // Configuraiton for the variables used for this specific repo
   environment {
     JSON_URL = 'http://radarr.aeonlucid.com/v1/update/nightly/changes?os=linux'
-    JSON_PATH = '[0].version'
+    JSON_PATH = '.[0].version'
     BUILD_VERSION_ARG = 'RADARR_VERSION'
     LS_USER = 'linuxserver'
     LS_REPO = 'radarr'
