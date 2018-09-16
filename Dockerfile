@@ -19,10 +19,10 @@ RUN \
 	jq && \
  echo "**** install radarr ****" && \
  if [ -z ${RADARR_VERSION+x} ]; then \
-        RADARR_VERSION=$(curl "http://radarr.aeonlucid.com/v1/update/${RADARR_BRANCH}/changes?os=linux" \
+        RADARR_VERSION=$(curl "https://radarr.aeonlucid.com/v1/update/${RADARR_BRANCH}/changes?os=linux" \
         | jq -r '.[0].version'); \
  fi && \
- radarr_url=$(curl -sX GET "http://radarr.aeonlucid.com/v1/update/${RADARR_BRANCH}/changes?os=linux" |jq -r ".[] \
+ radarr_url=$(curl -sX GET "https://radarr.aeonlucid.com/v1/update/${RADARR_BRANCH}/changes?os=linux" |jq -r ".[] \
 	| select(.version == \"${RADARR_VERSION}\") | .url") && \
  mkdir -p \
 	/opt/radarr && \
