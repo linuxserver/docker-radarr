@@ -3,5 +3,5 @@
 cd /opt/radarr || exit
 
 exec \
-	s6-setuidgid abc mono --debug Radarr.exe \
+	s6-setuidgid abc mono Radarr.exe \
 	-nobrowser -data=/config
