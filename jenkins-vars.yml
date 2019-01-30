@@ -1,0 +1,29 @@
+---
+
+# jenkins variables
+project_name: docker-radarr
+external_type: github_devel
+release_type: stable
+release_tag: latest
+ls_branch: master
+repo_vars:
+  - EXT_GIT_BRANCH = 'master'
+  - EXT_USER = 'Radarr'
+  - EXT_REPO = 'Radarr'
+  - BUILD_VERSION_ARG = 'RADARR_RELEASE'
+  - LS_USER = 'linuxserver'
+  - LS_REPO = 'docker-radarr'
+  - CONTAINER_NAME = 'radarr'
+  - DOCKERHUB_IMAGE = 'linuxserver/radarr'
+  - DEV_DOCKERHUB_IMAGE = 'lsiodev/radarr'
+  - PR_DOCKERHUB_IMAGE = 'lspipepr/radarr'
+  - DIST_IMAGE = 'ubuntu'
+  - MULTIARCH='true'
+  - CI='true'
+  - CI_WEB='true'
+  - CI_PORT='7878'
+  - CI_SSL='false'
+  - CI_DELAY='120'
+  - CI_DOCKERENV='TZ=US/Pacific'
+  - CI_AUTH='user:password'
+  - CI_WEBPATH=''
