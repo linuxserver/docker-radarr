@@ -1,0 +1,57 @@
+---
+
+# project information
+project_name: radarr
+project_url: "https://github.com/Radarr/Radarr"
+project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/radarr.png"
+project_blurb: |
+  [{{ project_name|capitalize }}]({{ project_url }}) - A fork of Sonarr to work with movies à la Couchpotato.
+project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
+
+# supported architectures
+available_architectures:
+  - { arch: "{{ arch_x86_64 }}", tag: "amd64-latest"}
+  - { arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
+  - { arch: "{{ arch_armhf }}", tag: "arm32v6-latest"}
+
+# Optional Block
+optional_block_1: true
+optional_block_1_items:
+  - |
+    You can choose between ,using tags, various branch versions of radarr, no tag is required to remain on the main branch.
+
+    Add one of the tags,  if required,  to the linuxserver/radarr line of the run/create command in the following format, linuxserver/radarr:nightly
+
+    The nightly branch and master branch can from time to time be the same version.
+
+    HOWEVER , USE THE NIGHTLY BRANCH AT YOUR OWN PERIL !!!!!!!!!
+
+# container parameters
+param_container_name: "{{ project_name }}"
+param_usage_include_vols: true
+param_volumes:
+  - { vol_path: "/config", vol_host_path: "<path to data>", desc: "Database and Radarr configs" }
+  - { vol_path: "/movies", vol_host_path: "<path/to/movies>", desc: "Location of Movie library on disk" }
+  - { vol_path: "/downloads", vol_host_path: "<path/to/downloadclient-downloads>", desc: "Location of download managers output directory" }
+
+param_usage_include_ports: true
+param_ports:
+  - { external_port: "7878", internal_port: "7878", port_desc: "The port for the Radarr webinterface" }
+param_usage_include_env: true
+param_env_vars:
+  - { env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London, this is required for Radarr"}
+
+# application setup block
+app_setup_block_enabled: true
+app_setup_block: |
+  Access the webui at `<your-ip>:7878`, for more information check out [Radarr](https://github.com/Radarr/Radarr).
+
+# changelog
+changelogs:
+  - { date: "09.09.18:", desc: "Add pipeline build process." }
+  - { date: "24.02.18:", desc: "Add nightly branch." }
+  - { date: "06.02.18:", desc: "Radarr repo changed owner." }
+  - { date: "15.12.17:", desc: "Fix continuation lines." }
+  - { date: "17.04.17:", desc: "Switch to using inhouse mono baseimage, adds python also." }
+  - { date: "13.04.17:", desc: "Switch to official mono repository." }
+  - { date: "10.01.17:", desc: "Initial Release." }
