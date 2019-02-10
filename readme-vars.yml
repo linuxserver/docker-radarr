@@ -48,6 +48,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "09.02.19:", desc: "Stick mono version at 5.14 stable" }
   - { date: "09.09.18:", desc: "Add pipeline build process." }
   - { date: "24.02.18:", desc: "Add nightly branch." }
   - { date: "06.02.18:", desc: "Radarr repo changed owner." }
