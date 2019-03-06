@@ -568,7 +568,7 @@ pipeline {
              "tagger": {"name": "LinuxServer Jenkins","email": "jenkins@linuxserver.io","date": "'${GITHUB_DATE}'"}}' '''
         echo "Pushing New release for Tag"
         sh '''#! /bin/bash
-              curl -s https://api.github.com/repos/${EXT_USER}/${EXT_REPO}/releases/latest | jq '. |.body' | sed 's:^.\\(.*\\).$:\\1:' > releasebody.json
+              curl -s https://api.github.com/repos/${EXT_USER}/${EXT_REPO}/releases | jq '.[0] |.body' | sed 's:^.\\(.*\\).$:\\1:' > releasebody.json
               echo '{"tag_name":"'${EXT_RELEASE_CLEAN}'-pkg-'${PACKAGE_TAG}'-ls'${LS_TAG_NUMBER}'",\
                      "target_commitish": "master",\
                      "name": "'${EXT_RELEASE_CLEAN}'-pkg-'${PACKAGE_TAG}'-ls'${LS_TAG_NUMBER}'",\
