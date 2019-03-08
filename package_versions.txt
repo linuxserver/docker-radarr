@@ -1,353 +1,353 @@
-adduser/now 3.113+nmu3ubuntu4 all [installed,local]
-apt/now 1.2.29ubuntu0.1 amd64 [installed,local]
-apt-transport-https/now 1.2.29ubuntu0.1 amd64 [installed,local]
-apt-utils/now 1.2.29ubuntu0.1 amd64 [installed,local]
-base-files/now 9.4ubuntu4.8 amd64 [installed,local]
-base-passwd/now 3.5.39 amd64 [installed,local]
-bash/now 4.3-14ubuntu1.2 amd64 [installed,local]
-binutils/now 2.26.1-1ubuntu1~16.04.8 amd64 [installed,local]
-bsdutils/now 1:2.27.1-6ubuntu3.6 amd64 [installed,local]
-bzip2/now 1.0.6-8 amd64 [installed,local]
-ca-certificates/now 20170717~16.04.2 all [installed,local]
-ca-certificates-mono/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-cli-common/now 0.9+xamarin8+ubuntu1604b1 all [installed,local]
-coreutils/now 8.25-2ubuntu3~16.04 amd64 [installed,local]
-curl/now 7.47.0-1ubuntu2.12 amd64 [installed,local]
-dash/now 0.5.8-2.1ubuntu2 amd64 [installed,local]
-debconf/now 1.5.58ubuntu1 all [installed,local]
-debianutils/now 4.7 amd64 [installed,local]
-diffutils/now 1:3.3-3 amd64 [installed,local]
-dpkg/now 1.18.4ubuntu1.5 amd64 [installed,local]
-dpkg-dev/now 1.18.4ubuntu1.5 all [installed,local]
-e2fslibs/now 1.42.13-1ubuntu1 amd64 [installed,local]
-e2fsprogs/now 1.42.13-1ubuntu1 amd64 [installed,local]
-findutils/now 4.6.0+git+20160126-2 amd64 [installed,local]
-fontconfig-config/now 2.11.94-0ubuntu1.1 all [installed,local]
-fonts-dejavu-core/now 2.35-1 all [installed,local]
-gcc-5-base/now 5.4.0-6ubuntu1~16.04.11 amd64 [installed,local]
-gcc-6-base/now 6.0.1-0ubuntu1 amd64 [installed,local]
-gnupg/now 1.4.20-1ubuntu3.3 amd64 [installed,local]
-gpgv/now 1.4.20-1ubuntu3.3 amd64 [installed,local]
-grep/now 2.25-1~16.04.1 amd64 [installed,local]
-gzip/now 1.6-4ubuntu1 amd64 [installed,local]
-hostname/now 3.16ubuntu2 amd64 [installed,local]
-init/now 1.29ubuntu4 amd64 [installed,local]
-init-system-helpers/now 1.29ubuntu4 all [installed,local]
-initscripts/now 2.88dsf-59.3ubuntu2 amd64 [installed,local]
-insserv/now 1.14.0-5ubuntu3 amd64 [installed,local]
-jq/now 1.5+dfsg-1ubuntu0.1 amd64 [installed,local]
-krb5-locales/now 1.13.2+dfsg-5ubuntu2.1 all [installed,local]
-libacl1/now 2.2.52-3 amd64 [installed,local]
-libapparmor1/now 2.10.95-0ubuntu2.10 amd64 [installed,local]
-libapt-inst2.0/now 1.2.29ubuntu0.1 amd64 [installed,local]
-libapt-pkg5.0/now 1.2.29ubuntu0.1 amd64 [installed,local]
-libasn1-8-heimdal/now 1.7~git20150920+dfsg-4ubuntu1.16.04.1 amd64 [installed,local]
-libattr1/now 1:2.4.47-2 amd64 [installed,local]
-libaudit-common/now 1:2.4.5-1ubuntu2.1 all [installed,local]
-libaudit1/now 1:2.4.5-1ubuntu2.1 amd64 [installed,local]
-libblkid1/now 2.27.1-6ubuntu3.6 amd64 [installed,local]
-libbz2-1.0/now 1.0.6-8 amd64 [installed,local]
-libc-bin/now 2.23-0ubuntu11 amd64 [installed,local]
-libc6/now 2.23-0ubuntu11 amd64 [installed,local]
-libcairo2/now 1.14.6-1 amd64 [installed,local]
-libcap2/now 1:2.24-12 amd64 [installed,local]
-libcap2-bin/now 1:2.24-12 amd64 [installed,local]
-libcomerr2/now 1.42.13-1ubuntu1 amd64 [installed,local]
-libcryptsetup4/now 2:1.6.6-5ubuntu2.1 amd64 [installed,local]
-libcurl3/now 7.47.0-1ubuntu2.12 amd64 [installed,local]
-libcurl3-gnutls/now 7.47.0-1ubuntu2.12 amd64 [installed,local]
-libcurl4-openssl-dev/now 7.47.0-1ubuntu2.12 amd64 [installed,local]
-libdb5.3/now 5.3.28-11ubuntu0.1 amd64 [installed,local]
-libdebconfclient0/now 0.198ubuntu1 amd64 [installed,local]
-libdevmapper1.02.1/now 2:1.02.110-1ubuntu10 amd64 [installed,local]
-libdpkg-perl/now 1.18.4ubuntu1.5 all [installed,local]
-libexif12/now 0.6.21-2 amd64 [installed,local]
-libexpat1/now 2.1.0-7ubuntu0.16.04.3 amd64 [installed,local]
-libfdisk1/now 2.27.1-6ubuntu3.6 amd64 [installed,local]
-libffi6/now 3.2.1-4 amd64 [installed,local]
-libfontconfig1/now 2.11.94-0ubuntu1.1 amd64 [installed,local]
-libfreetype6/now 2.6.1-0.1ubuntu2.3 amd64 [installed,local]
-libgcc1/now 1:6.0.1-0ubuntu1 amd64 [installed,local]
-libgcrypt20/now 1.6.5-2ubuntu0.5 amd64 [installed,local]
-libgdbm3/now 1.8.3-13.1 amd64 [installed,local]
-libgdiplus/now 5.6-0xamarin5+ubuntu1604b1 amd64 [installed,local]
-libgif7/now 5.1.4-0.3~16.04 amd64 [installed,local]
-libglib2.0-0/now 2.48.2-0ubuntu4.1 amd64 [installed,local]
-libgmp10/now 2:6.1.0+dfsg-2 amd64 [installed,local]
-libgnutls30/now 3.4.10-4ubuntu1.4 amd64 [installed,local]
-libgpg-error0/now 1.21-2ubuntu1 amd64 [installed,local]
-libgssapi-krb5-2/now 1.13.2+dfsg-5ubuntu2.1 amd64 [installed,local]
-libgssapi3-heimdal/now 1.7~git20150920+dfsg-4ubuntu1.16.04.1 amd64 [installed,local]
-libhcrypto4-heimdal/now 1.7~git20150920+dfsg-4ubuntu1.16.04.1 amd64 [installed,local]
-libheimbase1-heimdal/now 1.7~git20150920+dfsg-4ubuntu1.16.04.1 amd64 [installed,local]
-libheimntlm0-heimdal/now 1.7~git20150920+dfsg-4ubuntu1.16.04.1 amd64 [installed,local]
-libhogweed4/now 3.2-1ubuntu0.16.04.1 amd64 [installed,local]
-libhx509-5-heimdal/now 1.7~git20150920+dfsg-4ubuntu1.16.04.1 amd64 [installed,local]
-libidn11/now 1.32-3ubuntu1.2 amd64 [installed,local]
-libjbig0/now 2.1-3.1 amd64 [installed,local]
-libjpeg-turbo8/now 1.4.2-0ubuntu3.1 amd64 [installed,local]
-libjpeg8/now 8c-2ubuntu8 amd64 [installed,local]
-libk5crypto3/now 1.13.2+dfsg-5ubuntu2.1 amd64 [installed,local]
-libkeyutils1/now 1.5.9-8ubuntu1 amd64 [installed,local]
-libkmod2/now 22-1ubuntu5.2 amd64 [installed,local]
-libkrb5-26-heimdal/now 1.7~git20150920+dfsg-4ubuntu1.16.04.1 amd64 [installed,local]
-libkrb5-3/now 1.13.2+dfsg-5ubuntu2.1 amd64 [installed,local]
-libkrb5support0/now 1.13.2+dfsg-5ubuntu2.1 amd64 [installed,local]
-libldap-2.4-2/now 2.4.42+dfsg-2ubuntu3.4 amd64 [installed,local]
-liblz4-1/now 0.0~r131-2ubuntu2 amd64 [installed,local]
-liblzma5/now 5.1.1alpha+20120614-2ubuntu2 amd64 [installed,local]
-libmediainfo0v5/now 18.12-1 amd64 [installed,local]
-libmms0/now 0.6.4-1 amd64 [installed,local]
-libmono-2.0-dev/now 5.18.0.240-0xamarin1+ubuntu1604b1 amd64 [installed,local]
-libmono-accessibility4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-cairo4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-cecil-private-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-cecil-vb0.9-cil/now 4.7-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-cil-dev/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-codecontracts4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-compilerservices-symbolwriter4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-corlib4.5-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-cscompmgd0.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-csharp4.0c-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-custommarshalers4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-data-tds4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-db2-1.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-debugger-soft4.0a-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-http4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-i18n-cjk4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-i18n-mideast4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-i18n-other4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-i18n-rare4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-i18n-west4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-i18n4.0-all/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-i18n4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-ldap4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-management4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-messaging-rabbitmq4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-messaging4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-microsoft-build-engine4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-microsoft-build-framework4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-microsoft-build-tasks-v4.0-4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-microsoft-build-utilities-v4.0-4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-microsoft-build4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-microsoft-csharp4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-microsoft-visualbasic10.0-cil/now 4.7-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-microsoft-visualc10.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-microsoft-web-infrastructure1.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-oracle4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-parallel4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-peapi4.0a-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-posix4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-rabbitmq4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-relaxng4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-security4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-sharpzip4.84-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-simd4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-smdiagnostics0.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-sqlite4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-componentmodel-composition4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-componentmodel-dataannotations4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-configuration-install4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-configuration4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-core4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-data-datasetextensions4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-data-entity4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-data-linq4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-data-services-client4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-data-services4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-data4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-deployment4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-design4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-drawing-design4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-drawing4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-dynamic4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-enterpriseservices4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-identitymodel-selectors4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-identitymodel4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-io-compression-filesystem4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-io-compression4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-json-microsoft4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-json4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-ldap-protocols4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-ldap4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-management4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-messaging4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-net-http-formatting4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-net-http-webrequest4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-net-http4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-net4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-numerics-vectors4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-numerics4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-reactive-core2.2-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-reactive-debugger2.2-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-reactive-experimental2.2-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-reactive-interfaces2.2-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-reactive-linq2.2-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-reactive-observable-aliases0.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-reactive-platformservices2.2-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-reactive-providers2.2-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-reactive-runtime-remoting2.2-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-reactive-windows-forms2.2-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-reactive-windows-threading2.2-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-reflection-context4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-runtime-caching4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-runtime-durableinstancing4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-runtime-serialization-formatters-soap4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-runtime-serialization4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-runtime4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-security4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-servicemodel-activation4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-servicemodel-discovery4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-servicemodel-internals0.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-servicemodel-routing4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-servicemodel-web4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-servicemodel4.0a-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-serviceprocess4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-threading-tasks-dataflow4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-transactions4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-web-abstractions4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-web-applicationservices4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-web-dynamicdata4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-web-extensions-design4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-web-extensions4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-web-http-selfhost4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-web-http-webhost4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-web-http4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-web-mobile4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-web-mvc3.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-web-razor2.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-web-regularexpressions4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-web-routing4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-web-services4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-web-webpages-deployment2.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-web-webpages-razor2.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-web-webpages2.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-web4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-windows-forms-datavisualization4.0a-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-windows-forms4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-windows4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-workflow-activities4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-workflow-componentmodel4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-workflow-runtime4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-xaml4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-xml-linq4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-xml-serialization4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system-xml4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-system4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-tasklets4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-webbrowser4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-webmatrix-data4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-windowsbase4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmono-xbuild-tasks4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-libmonosgen-2.0-1/now 5.18.0.240-0xamarin1+ubuntu1604b1 amd64 [installed,local]
-libmonosgen-2.0-dev/now 5.18.0.240-0xamarin1+ubuntu1604b1 amd64 [installed,local]
-libmount1/now 2.27.1-6ubuntu3.6 amd64 [installed,local]
-libncurses5/now 6.0+20160213-1ubuntu1 amd64 [installed,local]
-libncursesw5/now 6.0+20160213-1ubuntu1 amd64 [installed,local]
-libnettle6/now 3.2-1ubuntu0.16.04.1 amd64 [installed,local]
-libnunit-cil-dev/now 2.6.4+dfsg-1 all [installed,local]
-libnunit-console-runner2.6.3-cil/now 2.6.4+dfsg-1 all [installed,local]
-libnunit-core-interfaces2.6.3-cil/now 2.6.4+dfsg-1 all [installed,local]
-libnunit-core2.6.3-cil/now 2.6.4+dfsg-1 all [installed,local]
-libnunit-framework2.6.3-cil/now 2.6.4+dfsg-1 all [installed,local]
-libnunit-mocks2.6.3-cil/now 2.6.4+dfsg-1 all [installed,local]
-libnunit-util2.6.3-cil/now 2.6.4+dfsg-1 all [installed,local]
-libonig2/now 5.9.6-1ubuntu0.1 amd64 [installed,local]
-libp11-kit0/now 0.23.2-5~ubuntu16.04.1 amd64 [installed,local]
-libpam-modules/now 1.1.8-3.2ubuntu2.1 amd64 [installed,local]
-libpam-modules-bin/now 1.1.8-3.2ubuntu2.1 amd64 [installed,local]
-libpam-runtime/now 1.1.8-3.2ubuntu2.1 all [installed,local]
-libpam0g/now 1.1.8-3.2ubuntu2.1 amd64 [installed,local]
-libpcre3/now 2:8.38-3.1 amd64 [installed,local]
-libperl5.22/now 5.22.1-9ubuntu0.6 amd64 [installed,local]
-libpixman-1-0/now 0.33.6-1 amd64 [installed,local]
-libpng12-0/now 1.2.54-1ubuntu1.1 amd64 [installed,local]
-libprocps4/now 2:3.3.10-4ubuntu2.4 amd64 [installed,local]
-libpython-stdlib/now 2.7.12-1~16.04 amd64 [installed,local]
-libpython2.7-minimal/now 2.7.12-1ubuntu0~16.04.4 amd64 [installed,local]
-libpython2.7-stdlib/now 2.7.12-1ubuntu0~16.04.4 amd64 [installed,local]
-libreadline6/now 6.3-8ubuntu2 amd64 [installed,local]
-libroken18-heimdal/now 1.7~git20150920+dfsg-4ubuntu1.16.04.1 amd64 [installed,local]
-librtmp1/now 2.4+20151223.gitfa8646d-1ubuntu0.1 amd64 [installed,local]
-libsasl2-2/now 2.1.26.dfsg1-14ubuntu0.1 amd64 [installed,local]
-libsasl2-modules/now 2.1.26.dfsg1-14ubuntu0.1 amd64 [installed,local]
-libsasl2-modules-db/now 2.1.26.dfsg1-14ubuntu0.1 amd64 [installed,local]
-libseccomp2/now 2.3.1-2.1ubuntu2~16.04.1 amd64 [installed,local]
-libselinux1/now 2.4-3build2 amd64 [installed,local]
-libsemanage-common/now 2.3-1build3 all [installed,local]
-libsemanage1/now 2.3-1build3 amd64 [installed,local]
-libsepol1/now 2.4-2 amd64 [installed,local]
-libsmartcols1/now 2.27.1-6ubuntu3.6 amd64 [installed,local]
-libsqlite3-0/now 3.11.0-1ubuntu1 amd64 [installed,local]
-libss2/now 1.42.13-1ubuntu1 amd64 [installed,local]
-libssl1.0.0/now 1.0.2g-1ubuntu4.14 amd64 [installed,local]
-libstdc++6/now 5.4.0-6ubuntu1~16.04.11 amd64 [installed,local]
-libsystemd0/now 229-4ubuntu21.16 amd64 [installed,local]
-libtasn1-6/now 4.7-3ubuntu0.16.04.3 amd64 [installed,local]
-libtiff5/now 4.0.6-1ubuntu0.5 amd64 [installed,local]
-libtinfo5/now 6.0+20160213-1ubuntu1 amd64 [installed,local]
-libudev1/now 229-4ubuntu21.16 amd64 [installed,local]
-libusb-0.1-4/now 2:0.1.12-28 amd64 [installed,local]
-libustr-1.0-1/now 1.0.4-5 amd64 [installed,local]
-libuuid1/now 2.27.1-6ubuntu3.6 amd64 [installed,local]
-libwind0-heimdal/now 1.7~git20150920+dfsg-4ubuntu1.16.04.1 amd64 [installed,local]
-libx11-6/now 2:1.6.3-1ubuntu2.1 amd64 [installed,local]
-libx11-data/now 2:1.6.3-1ubuntu2.1 all [installed,local]
-libxau6/now 1:1.0.8-1 amd64 [installed,local]
-libxcb-render0/now 1.11.1-1ubuntu1 amd64 [installed,local]
-libxcb-shm0/now 1.11.1-1ubuntu1 amd64 [installed,local]
-libxcb1/now 1.11.1-1ubuntu1 amd64 [installed,local]
-libxdmcp6/now 1:1.1.2-1.1 amd64 [installed,local]
-libxext6/now 2:1.3.3-1 amd64 [installed,local]
-libxrender1/now 1:0.9.9-0ubuntu1 amd64 [installed,local]
-libzen0v5/now 0.4.37-1 amd64 [installed,local]
-locales/now 2.23-0ubuntu11 all [installed,local]
-login/now 1:4.2-3.1ubuntu5.3 amd64 [installed,local]
-lsb-base/now 9.20160110ubuntu0.2 all [installed,local]
-make/now 4.1-6 amd64 [installed,local]
-makedev/now 2.3.1-93ubuntu2~ubuntu16.04.1 all [installed,local]
-mawk/now 1.3.3-17ubuntu2 amd64 [installed,local]
-mediainfo/now 18.12-1 amd64 [installed,local]
-mime-support/now 3.59ubuntu1 all [installed,local]
-mono-4.0-gac/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-mono-devel/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-mono-gac/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-mono-mcs/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-mono-roslyn/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-mono-runtime/now 5.18.0.240-0xamarin1+ubuntu1604b1 amd64 [installed,local]
-mono-runtime-common/now 5.18.0.240-0xamarin1+ubuntu1604b1 amd64 [installed,local]
-mono-runtime-sgen/now 5.18.0.240-0xamarin1+ubuntu1604b1 amd64 [installed,local]
-mono-vbnc/now 4.7-0xamarin1+ubuntu1604b1 all [installed,local]
-mono-xbuild/now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,local]
-mount/now 2.27.1-6ubuntu3.6 amd64 [installed,local]
-multiarch-support/now 2.23-0ubuntu11 amd64 [installed,local]
-ncurses-base/now 6.0+20160213-1ubuntu1 all [installed,local]
-ncurses-bin/now 6.0+20160213-1ubuntu1 amd64 [installed,local]
-openssl/now 1.0.2g-1ubuntu4.14 amd64 [installed,local]
-passwd/now 1:4.2-3.1ubuntu5.3 amd64 [installed,local]
-patch/now 2.7.5-1ubuntu0.16.04.1 amd64 [installed,local]
-perl/now 5.22.1-9ubuntu0.6 amd64 [installed,local]
-perl-base/now 5.22.1-9ubuntu0.6 amd64 [installed,local]
-perl-modules-5.22/now 5.22.1-9ubuntu0.6 all [installed,local]
-pkg-config/now 0.29.1-0ubuntu1 amd64 [installed,local]
-procps/now 2:3.3.10-4ubuntu2.4 amd64 [installed,local]
-python/now 2.7.12-1~16.04 amd64 [installed,local]
-python-minimal/now 2.7.12-1~16.04 amd64 [installed,local]
-python2.7/now 2.7.12-1ubuntu0~16.04.4 amd64 [installed,local]
-python2.7-minimal/now 2.7.12-1ubuntu0~16.04.4 amd64 [installed,local]
-readline-common/now 6.3-8ubuntu2 all [installed,local]
-sed/now 4.2.2-7 amd64 [installed,local]
-sensible-utils/now 0.0.9ubuntu0.16.04.1 all [installed,local]
-sqlite3/now 3.11.0-1ubuntu1 amd64 [installed,local]
-systemd/now 229-4ubuntu21.16 amd64 [installed,local]
-systemd-sysv/now 229-4ubuntu21.16 amd64 [installed,local]
-sysv-rc/now 2.88dsf-59.3ubuntu2 all [installed,local]
-sysvinit-utils/now 2.88dsf-59.3ubuntu2 amd64 [installed,local]
-tar/now 1.28-2.1ubuntu0.1 amd64 [installed,local]
-tzdata/now 2018i-0ubuntu0.16.04 all [installed,local]
-ubuntu-keyring/now 2012.05.19 all [installed,local]
-ucf/now 3.0036 all [installed,local]
-unzip/now 6.0-20ubuntu1 amd64 [installed,local]
-util-linux/now 2.27.1-6ubuntu3.6 amd64 [installed,local]
-xz-utils/now 5.1.1alpha+20120614-2ubuntu2 amd64 [installed,local]
-zlib1g/now 1:1.2.8.dfsg-2ubuntu4.1 amd64 [installed,local]
+adduser/now 3.113+nmu3ubuntu4
+apt/now 1.2.29ubuntu0.1
+apt-transport-https/now 1.2.29ubuntu0.1
+apt-utils/now 1.2.29ubuntu0.1
+base-files/now 9.4ubuntu4.8
+base-passwd/now 3.5.39
+bash/now 4.3-14ubuntu1.2
+binutils/now 2.26.1-1ubuntu1~16.04.8
+bsdutils/now 1:2.27.1-6ubuntu3.6
+bzip2/now 1.0.6-8
+ca-certificates/now 20170717~16.04.2
+ca-certificates-mono/now 5.18.0.268-0xamarin7+ubuntu1604b1
+cli-common/now 0.9+xamarin8+ubuntu1604b1
+coreutils/now 8.25-2ubuntu3~16.04
+curl/now 7.47.0-1ubuntu2.12
+dash/now 0.5.8-2.1ubuntu2
+debconf/now 1.5.58ubuntu1
+debianutils/now 4.7
+diffutils/now 1:3.3-3
+dpkg/now 1.18.4ubuntu1.5
+dpkg-dev/now 1.18.4ubuntu1.5
+e2fslibs/now 1.42.13-1ubuntu1
+e2fsprogs/now 1.42.13-1ubuntu1
+findutils/now 4.6.0+git+20160126-2
+fontconfig-config/now 2.11.94-0ubuntu1.1
+fonts-dejavu-core/now 2.35-1
+gcc-5-base/now 5.4.0-6ubuntu1~16.04.11
+gcc-6-base/now 6.0.1-0ubuntu1
+gnupg/now 1.4.20-1ubuntu3.3
+gpgv/now 1.4.20-1ubuntu3.3
+grep/now 2.25-1~16.04.1
+gzip/now 1.6-4ubuntu1
+hostname/now 3.16ubuntu2
+init/now 1.29ubuntu4
+init-system-helpers/now 1.29ubuntu4
+initscripts/now 2.88dsf-59.3ubuntu2
+insserv/now 1.14.0-5ubuntu3
+jq/now 1.5+dfsg-1ubuntu0.1
+krb5-locales/now 1.13.2+dfsg-5ubuntu2.1
+libacl1/now 2.2.52-3
+libapparmor1/now 2.10.95-0ubuntu2.10
+libapt-inst2.0/now 1.2.29ubuntu0.1
+libapt-pkg5.0/now 1.2.29ubuntu0.1
+libasn1-8-heimdal/now 1.7~git20150920+dfsg-4ubuntu1.16.04.1
+libattr1/now 1:2.4.47-2
+libaudit-common/now 1:2.4.5-1ubuntu2.1
+libaudit1/now 1:2.4.5-1ubuntu2.1
+libblkid1/now 2.27.1-6ubuntu3.6
+libbz2-1.0/now 1.0.6-8
+libc-bin/now 2.23-0ubuntu11
+libc6/now 2.23-0ubuntu11
+libcairo2/now 1.14.6-1
+libcap2/now 1:2.24-12
+libcap2-bin/now 1:2.24-12
+libcomerr2/now 1.42.13-1ubuntu1
+libcryptsetup4/now 2:1.6.6-5ubuntu2.1
+libcurl3/now 7.47.0-1ubuntu2.12
+libcurl3-gnutls/now 7.47.0-1ubuntu2.12
+libcurl4-openssl-dev/now 7.47.0-1ubuntu2.12
+libdb5.3/now 5.3.28-11ubuntu0.1
+libdebconfclient0/now 0.198ubuntu1
+libdevmapper1.02.1/now 2:1.02.110-1ubuntu10
+libdpkg-perl/now 1.18.4ubuntu1.5
+libexif12/now 0.6.21-2
+libexpat1/now 2.1.0-7ubuntu0.16.04.3
+libfdisk1/now 2.27.1-6ubuntu3.6
+libffi6/now 3.2.1-4
+libfontconfig1/now 2.11.94-0ubuntu1.1
+libfreetype6/now 2.6.1-0.1ubuntu2.3
+libgcc1/now 1:6.0.1-0ubuntu1
+libgcrypt20/now 1.6.5-2ubuntu0.5
+libgdbm3/now 1.8.3-13.1
+libgdiplus/now 5.6-0xamarin5+ubuntu1604b1
+libgif7/now 5.1.4-0.3~16.04
+libglib2.0-0/now 2.48.2-0ubuntu4.1
+libgmp10/now 2:6.1.0+dfsg-2
+libgnutls30/now 3.4.10-4ubuntu1.4
+libgpg-error0/now 1.21-2ubuntu1
+libgssapi-krb5-2/now 1.13.2+dfsg-5ubuntu2.1
+libgssapi3-heimdal/now 1.7~git20150920+dfsg-4ubuntu1.16.04.1
+libhcrypto4-heimdal/now 1.7~git20150920+dfsg-4ubuntu1.16.04.1
+libheimbase1-heimdal/now 1.7~git20150920+dfsg-4ubuntu1.16.04.1
+libheimntlm0-heimdal/now 1.7~git20150920+dfsg-4ubuntu1.16.04.1
+libhogweed4/now 3.2-1ubuntu0.16.04.1
+libhx509-5-heimdal/now 1.7~git20150920+dfsg-4ubuntu1.16.04.1
+libidn11/now 1.32-3ubuntu1.2
+libjbig0/now 2.1-3.1
+libjpeg-turbo8/now 1.4.2-0ubuntu3.1
+libjpeg8/now 8c-2ubuntu8
+libk5crypto3/now 1.13.2+dfsg-5ubuntu2.1
+libkeyutils1/now 1.5.9-8ubuntu1
+libkmod2/now 22-1ubuntu5.2
+libkrb5-26-heimdal/now 1.7~git20150920+dfsg-4ubuntu1.16.04.1
+libkrb5-3/now 1.13.2+dfsg-5ubuntu2.1
+libkrb5support0/now 1.13.2+dfsg-5ubuntu2.1
+libldap-2.4-2/now 2.4.42+dfsg-2ubuntu3.4
+liblz4-1/now 0.0~r131-2ubuntu2
+liblzma5/now 5.1.1alpha+20120614-2ubuntu2
+libmediainfo0v5/now 18.12-1
+libmms0/now 0.6.4-1
+libmono-2.0-dev/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-accessibility4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-cairo4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-cecil-private-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-cecil-vb0.9-cil/now 4.7-0xamarin1+ubuntu1604b1
+libmono-cil-dev/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-codecontracts4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-compilerservices-symbolwriter4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-corlib4.5-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-cscompmgd0.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-csharp4.0c-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-custommarshalers4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-data-tds4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-db2-1.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-debugger-soft4.0a-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-http4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-i18n-cjk4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-i18n-mideast4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-i18n-other4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-i18n-rare4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-i18n-west4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-i18n4.0-all/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-i18n4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-ldap4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-management4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-messaging-rabbitmq4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-messaging4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-microsoft-build-engine4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-microsoft-build-framework4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-microsoft-build-tasks-v4.0-4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-microsoft-build-utilities-v4.0-4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-microsoft-build4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-microsoft-csharp4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-microsoft-visualbasic10.0-cil/now 4.7-0xamarin1+ubuntu1604b1
+libmono-microsoft-visualc10.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-microsoft-web-infrastructure1.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-oracle4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-parallel4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-peapi4.0a-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-posix4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-rabbitmq4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-relaxng4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-security4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-sharpzip4.84-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-simd4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-smdiagnostics0.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-sqlite4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-componentmodel-composition4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-componentmodel-dataannotations4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-configuration-install4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-configuration4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-core4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-data-datasetextensions4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-data-entity4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-data-linq4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-data-services-client4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-data-services4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-data4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-deployment4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-design4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-drawing-design4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-drawing4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-dynamic4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-enterpriseservices4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-identitymodel-selectors4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-identitymodel4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-io-compression-filesystem4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-io-compression4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-json-microsoft4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-json4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-ldap-protocols4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-ldap4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-management4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-messaging4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-net-http-formatting4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-net-http-webrequest4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-net-http4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-net4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-numerics-vectors4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-numerics4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-reactive-core2.2-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-reactive-debugger2.2-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-reactive-experimental2.2-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-reactive-interfaces2.2-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-reactive-linq2.2-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-reactive-observable-aliases0.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-reactive-platformservices2.2-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-reactive-providers2.2-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-reactive-runtime-remoting2.2-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-reactive-windows-forms2.2-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-reactive-windows-threading2.2-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-reflection-context4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-runtime-caching4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-runtime-durableinstancing4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-runtime-serialization-formatters-soap4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-runtime-serialization4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-runtime4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-security4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-servicemodel-activation4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-servicemodel-discovery4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-servicemodel-internals0.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-servicemodel-routing4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-servicemodel-web4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-servicemodel4.0a-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-serviceprocess4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-threading-tasks-dataflow4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-transactions4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-web-abstractions4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-web-applicationservices4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-web-dynamicdata4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-web-extensions-design4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-web-extensions4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-web-http-selfhost4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-web-http-webhost4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-web-http4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-web-mobile4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-web-mvc3.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-web-razor2.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-web-regularexpressions4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-web-routing4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-web-services4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-web-webpages-deployment2.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-web-webpages-razor2.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-web-webpages2.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-web4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-windows-forms-datavisualization4.0a-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-windows-forms4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-windows4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-workflow-activities4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-workflow-componentmodel4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-workflow-runtime4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-xaml4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-xml-linq4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-xml-serialization4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system-xml4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-system4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-tasklets4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-webbrowser4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-webmatrix-data4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-windowsbase4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmono-xbuild-tasks4.0-cil/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmonosgen-2.0-1/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmonosgen-2.0-dev/now 5.18.0.268-0xamarin7+ubuntu1604b1
+libmount1/now 2.27.1-6ubuntu3.6
+libncurses5/now 6.0+20160213-1ubuntu1
+libncursesw5/now 6.0+20160213-1ubuntu1
+libnettle6/now 3.2-1ubuntu0.16.04.1
+libnunit-cil-dev/now 2.6.4+dfsg-1
+libnunit-console-runner2.6.3-cil/now 2.6.4+dfsg-1
+libnunit-core-interfaces2.6.3-cil/now 2.6.4+dfsg-1
+libnunit-core2.6.3-cil/now 2.6.4+dfsg-1
+libnunit-framework2.6.3-cil/now 2.6.4+dfsg-1
+libnunit-mocks2.6.3-cil/now 2.6.4+dfsg-1
+libnunit-util2.6.3-cil/now 2.6.4+dfsg-1
+libonig2/now 5.9.6-1ubuntu0.1
+libp11-kit0/now 0.23.2-5~ubuntu16.04.1
+libpam-modules/now 1.1.8-3.2ubuntu2.1
+libpam-modules-bin/now 1.1.8-3.2ubuntu2.1
+libpam-runtime/now 1.1.8-3.2ubuntu2.1
+libpam0g/now 1.1.8-3.2ubuntu2.1
+libpcre3/now 2:8.38-3.1
+libperl5.22/now 5.22.1-9ubuntu0.6
+libpixman-1-0/now 0.33.6-1
+libpng12-0/now 1.2.54-1ubuntu1.1
+libprocps4/now 2:3.3.10-4ubuntu2.4
+libpython-stdlib/now 2.7.12-1~16.04
+libpython2.7-minimal/now 2.7.12-1ubuntu0~16.04.4
+libpython2.7-stdlib/now 2.7.12-1ubuntu0~16.04.4
+libreadline6/now 6.3-8ubuntu2
+libroken18-heimdal/now 1.7~git20150920+dfsg-4ubuntu1.16.04.1
+librtmp1/now 2.4+20151223.gitfa8646d-1ubuntu0.1
+libsasl2-2/now 2.1.26.dfsg1-14ubuntu0.1
+libsasl2-modules/now 2.1.26.dfsg1-14ubuntu0.1
+libsasl2-modules-db/now 2.1.26.dfsg1-14ubuntu0.1
+libseccomp2/now 2.3.1-2.1ubuntu2~16.04.1
+libselinux1/now 2.4-3build2
+libsemanage-common/now 2.3-1build3
+libsemanage1/now 2.3-1build3
+libsepol1/now 2.4-2
+libsmartcols1/now 2.27.1-6ubuntu3.6
+libsqlite3-0/now 3.11.0-1ubuntu1.1
+libss2/now 1.42.13-1ubuntu1
+libssl1.0.0/now 1.0.2g-1ubuntu4.15
+libstdc++6/now 5.4.0-6ubuntu1~16.04.11
+libsystemd0/now 229-4ubuntu21.16
+libtasn1-6/now 4.7-3ubuntu0.16.04.3
+libtiff5/now 4.0.6-1ubuntu0.5
+libtinfo5/now 6.0+20160213-1ubuntu1
+libudev1/now 229-4ubuntu21.16
+libusb-0.1-4/now 2:0.1.12-28
+libustr-1.0-1/now 1.0.4-5
+libuuid1/now 2.27.1-6ubuntu3.6
+libwind0-heimdal/now 1.7~git20150920+dfsg-4ubuntu1.16.04.1
+libx11-6/now 2:1.6.3-1ubuntu2.1
+libx11-data/now 2:1.6.3-1ubuntu2.1
+libxau6/now 1:1.0.8-1
+libxcb-render0/now 1.11.1-1ubuntu1
+libxcb-shm0/now 1.11.1-1ubuntu1
+libxcb1/now 1.11.1-1ubuntu1
+libxdmcp6/now 1:1.1.2-1.1
+libxext6/now 2:1.3.3-1
+libxrender1/now 1:0.9.9-0ubuntu1
+libzen0v5/now 0.4.37-1
+locales/now 2.23-0ubuntu11
+login/now 1:4.2-3.1ubuntu5.3
+lsb-base/now 9.20160110ubuntu0.2
+make/now 4.1-6
+makedev/now 2.3.1-93ubuntu2~ubuntu16.04.1
+mawk/now 1.3.3-17ubuntu2
+mediainfo/now 18.12-1
+mime-support/now 3.59ubuntu1
+mono-4.0-gac/now 5.18.0.268-0xamarin7+ubuntu1604b1
+mono-devel/now 5.18.0.268-0xamarin7+ubuntu1604b1
+mono-gac/now 5.18.0.268-0xamarin7+ubuntu1604b1
+mono-mcs/now 5.18.0.268-0xamarin7+ubuntu1604b1
+mono-roslyn/now 5.18.0.268-0xamarin7+ubuntu1604b1
+mono-runtime/now 5.18.0.268-0xamarin7+ubuntu1604b1
+mono-runtime-common/now 5.18.0.268-0xamarin7+ubuntu1604b1
+mono-runtime-sgen/now 5.18.0.268-0xamarin7+ubuntu1604b1
+mono-vbnc/now 4.7-0xamarin1+ubuntu1604b1
+mono-xbuild/now 5.18.0.268-0xamarin7+ubuntu1604b1
+mount/now 2.27.1-6ubuntu3.6
+multiarch-support/now 2.23-0ubuntu11
+ncurses-base/now 6.0+20160213-1ubuntu1
+ncurses-bin/now 6.0+20160213-1ubuntu1
+openssl/now 1.0.2g-1ubuntu4.15
+passwd/now 1:4.2-3.1ubuntu5.3
+patch/now 2.7.5-1ubuntu0.16.04.1
+perl/now 5.22.1-9ubuntu0.6
+perl-base/now 5.22.1-9ubuntu0.6
+perl-modules-5.22/now 5.22.1-9ubuntu0.6
+pkg-config/now 0.29.1-0ubuntu1
+procps/now 2:3.3.10-4ubuntu2.4
+python/now 2.7.12-1~16.04
+python-minimal/now 2.7.12-1~16.04
+python2.7/now 2.7.12-1ubuntu0~16.04.4
+python2.7-minimal/now 2.7.12-1ubuntu0~16.04.4
+readline-common/now 6.3-8ubuntu2
+sed/now 4.2.2-7
+sensible-utils/now 0.0.9ubuntu0.16.04.1
+sqlite3/now 3.11.0-1ubuntu1.1
+systemd/now 229-4ubuntu21.16
+systemd-sysv/now 229-4ubuntu21.16
+sysv-rc/now 2.88dsf-59.3ubuntu2
+sysvinit-utils/now 2.88dsf-59.3ubuntu2
+tar/now 1.28-2.1ubuntu0.1
+tzdata/now 2018i-0ubuntu0.16.04
+ubuntu-keyring/now 2012.05.19
+ucf/now 3.0036
+unzip/now 6.0-20ubuntu1
+util-linux/now 2.27.1-6ubuntu3.6
+xz-utils/now 5.1.1alpha+20120614-2ubuntu2
+zlib1g/now 1:1.2.8.dfsg-2ubuntu4.1
