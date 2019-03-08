@@ -40,7 +40,7 @@ pipeline {
             script: '''curl -s https://api.github.com/repos/${LS_USER}/${LS_REPO}/releases | jq -r 'first(.[] | select(.prerelease == true)) | .tag_name' ''',
             returnStdout: true).trim()
           env.LS_RELEASE_NOTES = sh(
-            script: '''git log -1 --pretty=%B | sed -E ':a;N;$!ba;s/\\r{0,1}\\n/\\\\n/g' ''',
+            script: '''cat readme-vars.yml | awk -F \\" '/date: "[0-9][0-9].[0-9][0-9].[0-9][0-9]:/ {print $4;exit;}' | sed -E ':a;N;$!ba;s/\\r{0,1}\\n/\\\\n/g' ''',
             returnStdout: true).trim()
           env.GITHUB_DATE = sh(
             script: '''date '+%Y-%m-%dT%H:%M:%S%:z' ''',
@@ -284,6 +284,9 @@ pipeline {
                            --build-arg ${BUILD_VERSION_ARG}=${EXT_RELEASE} --build-arg VERSION=\"${META_TAG}\" --build-arg BUILD_DATE=${GITHUB_DATE} ."
               sh "docker tag ${IMAGE}:arm32v6-${META_TAG} lsiodev/buildcache:arm32v6-${COMMIT_SHA}-${BUILD_NUMBER}"
               sh "docker push lsiodev/buildcache:arm32v6-${COMMIT_SHA}-${BUILD_NUMBER}"
+              sh '''docker rmi \
+                    ${IMAGE}:arm32v6-${META_TAG} \
+                    lsiodev/buildcache:arm32v6-${COMMIT_SHA}-${BUILD_NUMBER} '''
             }
           }
         }
@@ -310,6 +313,9 @@ pipeline {
                            --build-arg ${BUILD_VERSION_ARG}=${EXT_RELEASE} --build-arg VERSION=\"${META_TAG}\" --build-arg BUILD_DATE=${GITHUB_DATE} ."
               sh "docker tag ${IMAGE}:arm64v8-${META_TAG} lsiodev/buildcache:arm64v8-${COMMIT_SHA}-${BUILD_NUMBER}"
               sh "docker push lsiodev/buildcache:arm64v8-${COMMIT_SHA}-${BUILD_NUMBER}"
+              sh '''docker rmi \
+                    ${IMAGE}:arm64v8-${META_TAG} \
+                    lsiodev/buildcache:arm64v8-${COMMIT_SHA}-${BUILD_NUMBER} '''
             }
           }
         }
@@ -339,7 +345,7 @@ pipeline {
                   chmod 777 /tmp/package_versions.txt'
               elif [ "${DIST_IMAGE}" == "ubuntu" ]; then
                 docker run --rm --entrypoint '/bin/sh' -v ${TEMPDIR}:/tmp ${LOCAL_CONTAINER} -c '\
-                  apt list -qq --installed > /tmp/package_versions.txt && \
+                  apt list -qq --installed | cut -d" " -f1-2 > /tmp/package_versions.txt && \
                   chmod 777 /tmp/package_versions.txt'
               fi
               NEW_PACKAGE_TAG=$(md5sum ${TEMPDIR}/package_versions.txt | cut -c1-8 )
@@ -471,6 +477,10 @@ pipeline {
           sh "docker tag ${IMAGE}:${META_TAG} ${IMAGE}:nightly"
           sh "docker push ${IMAGE}:nightly"
           sh "docker push ${IMAGE}:${META_TAG}"
+          sh '''docker rmi \
+                ${IMAGE}:${META_TAG} \
+                ${IMAGE}:nightly '''
+                
         }
       }
     }
@@ -518,6 +528,15 @@ pipeline {
           sh "docker manifest annotate ${IMAGE}:${META_TAG} ${IMAGE}:arm64v8-${META_TAG} --os linux --arch arm64 --variant v8"
           sh "docker manifest push --purge ${IMAGE}:nightly"
           sh "docker manifest push --purge ${IMAGE}:${META_TAG}"
+          sh '''docker rmi \
+                ${IMAGE}:amd64-${META_TAG} \
+                ${IMAGE}:amd64-nightly \
+                ${IMAGE}:arm32v6-${META_TAG} \
+                ${IMAGE}:arm32v6-nightly \
+                ${IMAGE}:arm64v8-${META_TAG} \
+                ${IMAGE}:arm64v8-nightly \
+                lsiodev/buildcache:arm32v6-${COMMIT_SHA}-${BUILD_NUMBER} \
+                lsiodev/buildcache:arm64v8-${COMMIT_SHA}-${BUILD_NUMBER} '''
         }
       }
     }
@@ -576,6 +595,18 @@ pipeline {
                   -e GIT_BRANCH=master \
                   lsiodev/readme-sync bash -c 'node sync' '''
         }
+      }
+    }
+    // If this is a Pull request send the CI link as a comment on it
+    stage('Pull Request Comment') {
+      when {
+        not {environment name: 'CHANGE_ID', value: ''}
+        environment name: 'CI', value: 'true'
+        environment name: 'EXIT_STATUS', value: ''
+      }
+      steps {
+        sh '''curl -H "Authorization: token ${GITHUB_TOKEN}" -X POST https://api.github.com/repos/${LS_USER}/${LS_REPO}/issues/${PULL_REQUEST}/comments \
+        -d '{"body": "I am a bot, here are the test results for this PR '${CI_URL}'"}' '''
       }
     }
   }
