@@ -14,17 +14,11 @@ available_architectures:
   - { arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
   - { arch: "{{ arch_armhf }}", tag: "arm32v7-latest"}
 
-# Optional Block
-optional_block_1: true
-optional_block_1_items:
-  - |
-    You can choose between ,using tags, various branch versions of radarr, no tag is required to remain on the main branch.
-
-    Add one of the tags,  if required,  to the linuxserver/radarr line of the run/create command in the following format, linuxserver/radarr:nightly
-
-    The nightly branch and master branch can from time to time be the same version.
-
-    HOWEVER , USE THE NIGHTLY BRANCH AT YOUR OWN PERIL !!!!!!!!!
+# development version
+development_versions: true
+development_versions_items:
+  - { tag: "latest", desc: "Stable Radarr releases" }
+  - { tag: "nightly", desc: "Nightly Radarr releases" }
 
 # container parameters
 param_container_name: "{{ project_name }}"

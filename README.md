@@ -41,6 +41,14 @@ The architectures supported by this image are:
 | arm64 | arm64v8-latest |
 | armhf | arm32v7-latest |
 
+## Version Tags
+
+This image provides various versions that are available via tags. `latest` tag usually provides the latest stable version. Others are considered under development and caution must be exercised when using them.
+
+| Tag | Description |
+| :----: | --- |
+| latest | Stable Radarr releases |
+| nightly | Nightly Radarr releases |
 
 ## Usage
 
@@ -61,14 +69,6 @@ docker create \
   --restart unless-stopped \
   linuxserver/radarr
 ```
-
-You can choose between ,using tags, various branch versions of radarr, no tag is required to remain on the main branch.
-
-Add one of the tags,  if required,  to the linuxserver/radarr line of the run/create command in the following format, linuxserver/radarr:nightly
-
-The nightly branch and master branch can from time to time be the same version.
-
-HOWEVER , USE THE NIGHTLY BRANCH AT YOUR OWN PERIL !!!!!!!!!
 
 
 ### docker-compose
