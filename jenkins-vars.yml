@@ -2,14 +2,12 @@
 
 # jenkins variables
 project_name: docker-radarr
-external_type: github_devel
-release_type: stable
-release_tag: latest
-ls_branch: master
+external_type: na
+custom_version_command: curl -sL GET https://ci.appveyor.com/api/projects/galli-leo/radarr-usby1/history?recordsNumber=100 | jq -r '. | first(.builds[] | select(.status == "success") | select(.branch =="aphrodite")) | .version'
+release_type: prerelease
+release_tag: preview
+ls_branch: preview
 repo_vars:
-  - EXT_GIT_BRANCH = 'master'
-  - EXT_USER = 'Radarr'
-  - EXT_REPO = 'Radarr'
   - BUILD_VERSION_ARG = 'RADARR_RELEASE'
   - LS_USER = 'linuxserver'
   - LS_REPO = 'docker-radarr'

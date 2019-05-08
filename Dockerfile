@@ -1,4 +1,4 @@
-FROM lsiobase/mono:xenial
+FROM lsiobase/mono:bionic
 
 # set version label
 ARG BUILD_DATE
@@ -18,16 +18,16 @@ RUN \
 	jq && \
  echo "**** install radarr ****" && \
  if [ -z ${RADARR_RELEASE+x} ]; then \
-	RADARR_RELEASE=$(curl -sX GET "https://api.github.com/repos/Radarr/Radarr/releases" \
-	| jq -r '.[0] | .tag_name'); \
+	RADARR_RELEASE=$(curl -sL GET https://ci.appveyor.com/api/projects/galli-leo/radarr-usby1/history?recordsNumber=100 | \
+	jq -r '. | first(.builds[] | select(.status == "success") | select(.branch =="aphrodite")) | .version'); \
  fi && \
- radarr_url=$(curl -s https://api.github.com/repos/Radarr/Radarr/releases/tags/"${RADARR_RELEASE}" \
-	|jq -r '.assets[].browser_download_url' |grep linux) && \
+ RADARR_JOBID=$(curl -s "https://ci.appveyor.com/api/projects/galli-leo/radarr-usby1/build/${RADARR_RELEASE}" | jq -jr '. | .build.jobs[0].jobId') \
+ RADARR_DURL="https://ci.appveyor.com/api/buildjobs/${RADARR_JOBID}/artifacts/_artifacts/Radarr.aphrodite.${RADARR_RELEASE}.linux.tar.gz"; \
  mkdir -p \
 	/opt/radarr && \
  curl -o \
  /tmp/radar.tar.gz -L \
-	"${radarr_url}" && \
+	"${RADARR_DURL}" && \
  tar ixzf \
  /tmp/radar.tar.gz -C \
 	/opt/radarr --strip-components=1 && \
