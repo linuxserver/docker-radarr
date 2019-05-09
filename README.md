@@ -49,6 +49,7 @@ This image provides various versions that are available via tags. `latest` tag u
 | :----: | --- |
 | latest | Stable Radarr releases |
 | nightly | Nightly Radarr releases |
+| preview | Preview Radarr releases, currently aphrodite |
 
 ## Usage
 
