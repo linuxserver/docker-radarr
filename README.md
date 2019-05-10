@@ -191,6 +191,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **10.05.19:** - Rebase to Bionic.
 * **23.03.19:** - Switching to new Base images, shift to arm32v7 tag.
 * **09.09.18:** - Add pipeline build process.
 * **24.02.18:** - Add nightly branch.
