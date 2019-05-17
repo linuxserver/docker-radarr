@@ -3,9 +3,9 @@
 # jenkins variables
 project_name: docker-radarr
 external_type: github_devel
-release_type: stable
-release_tag: latest
-ls_branch: master
+release_type: prerelease
+release_tag: 5.14
+ls_branch: 5.14
 repo_vars:
   - EXT_GIT_BRANCH = 'master'
   - EXT_USER = 'Radarr'

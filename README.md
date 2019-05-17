@@ -50,6 +50,7 @@ This image provides various versions that are available via tags. `latest` tag u
 | latest | Stable Radarr releases |
 | nightly | Nightly Radarr releases |
 | preview | Preview Radarr releases, currently aphrodite |
+| 5.14 | Stable Radarr releases, but run on Mono 5.14 |
 
 ## Usage
 
