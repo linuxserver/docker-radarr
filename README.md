@@ -50,7 +50,7 @@ This image provides various versions that are available via tags. `latest` tag u
 | latest | Stable Radarr releases |
 | 5.14 | Stable Radarr releases, but run on Mono 5.14 |
 | nightly | Nightly Radarr releases |
-| preview | Alpha Radarr releases, unsupported and for development only. |
+| preview | Alpha Radarr releases, unsupported and for development only |
 
 ## Usage
 

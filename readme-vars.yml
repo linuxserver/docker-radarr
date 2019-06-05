@@ -20,7 +20,7 @@ development_versions_items:
   - { tag: "latest", desc: "Stable Radarr releases" }
   - { tag: "5.14", desc: "Stable Radarr releases, but run on Mono 5.14" }
   - { tag: "nightly", desc: "Nightly Radarr releases" }
-  - { tag: "preview", desc: "Alpha Radarr releases, unsupported and for development only." }
+  - { tag: "preview", desc: "Alpha Radarr releases, unsupported and for development only" }
 
 # container parameters
 param_container_name: "{{ project_name }}"
