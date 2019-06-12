@@ -36,6 +36,7 @@ param_ports:
 param_usage_include_env: true
 param_env_vars:
   - { env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London, this is required for Radarr"}
+  - { env_var: "UMASK_SET", env_value: "022", desc: "control permissions of files and directories created by Radarr"}
 
 # application setup block
 app_setup_block_enabled: true
@@ -44,6 +45,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "13.06.19:", desc: "Add env variable for setting umask." }
   - { date: "10.05.19:", desc: "Rebase to Bionic." }
   - { date: "23.03.19:", desc: "Switching to new Base images, shift to arm32v7 tag." }
   - { date: "09.09.18:", desc: "Add pipeline build process." }
