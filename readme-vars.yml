@@ -3,7 +3,7 @@
 # project information
 project_name: radarr
 project_url: "https://github.com/Radarr/Radarr"
-project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/radarr.png"
+project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/radarr_alpha.png"
 project_blurb: |
   [{{ project_name|capitalize }}]({{ project_url }}) - A fork of Sonarr to work with movies à la Couchpotato.
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"

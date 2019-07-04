@@ -25,7 +25,7 @@ Find us at:
 [Radarr](https://github.com/Radarr/Radarr) - A fork of Sonarr to work with movies à la Couchpotato.
 
 
-[![radarr](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/radarr.png)](https://github.com/Radarr/Radarr)
+[![radarr](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/radarr_alpha.png)](https://github.com/Radarr/Radarr)
 
 ## Supported Architectures
 
