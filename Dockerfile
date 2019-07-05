@@ -19,7 +19,7 @@ RUN \
  echo "**** install radarr ****" && \
  if [ -z ${RADARR_RELEASE+x} ]; then \
 	RADARR_RELEASE=$(curl -sL GET https://ci.appveyor.com/api/projects/galli-leo/radarr-usby1/history?recordsNumber=100 | \
-	jq -r '. | first(.builds[] | select(.status == "success") | select(.branch =="aphrodite")) | .version'); \
+	jq -r '. | first(.builds[] | select(.status == "success") | select(.branch =="aphrodite") | select(.pullRequestId == null)) | .version'); \
  fi && \
  RADARR_JOBID=$(curl -s "https://ci.appveyor.com/api/projects/galli-leo/radarr-usby1/build/${RADARR_RELEASE}" | jq -jr '. | .build.jobs[0].jobId') \
  RADARR_DURL="https://ci.appveyor.com/api/buildjobs/${RADARR_JOBID}/artifacts/_artifacts/Radarr.aphrodite.${RADARR_RELEASE}.linux.tar.gz"; \
