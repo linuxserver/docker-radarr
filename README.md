@@ -27,8 +27,8 @@ Find us at:
 [![GitHub Release](https://img.shields.io/github/release/linuxserver/docker-radarr.svg?style=flat-square&color=E68523)](https://github.com/linuxserver/docker-radarr/releases)
 [![MicroBadger Layers](https://img.shields.io/microbadger/layers/linuxserver/radarr.svg?style=flat-square&color=E68523)](https://microbadger.com/images/linuxserver/radarr "Get your own version badge on microbadger.com")
 [![MicroBadger Size](https://img.shields.io/microbadger/image-size/linuxserver/radarr.svg?style=flat-square&color=E68523)](https://microbadger.com/images/linuxserver/radarr "Get your own version badge on microbadger.com")
-[![Docker Pulls](https://img.shields.io/docker/pulls/linuxserver/radarr.svg?style=flat-square&color=E68523)](https://hub.docker.com/r/linuxserver/radarr/radarr)
-[![Docker Stars](https://img.shields.io/docker/stars/linuxserver/radarr.svg?style=flat-square&color=E68523)](https://hub.docker.com/r/linuxserver/radarr/radarr)
+[![Docker Pulls](https://img.shields.io/docker/pulls/linuxserver/radarr.svg?style=flat-square&color=E68523)](https://hub.docker.com/r/linuxserver/radarr)
+[![Docker Stars](https://img.shields.io/docker/stars/linuxserver/radarr.svg?style=flat-square&color=E68523)](https://hub.docker.com/r/linuxserver/radarr)
 [![Build Status](https://ci.linuxserver.io/view/all/job/Docker-Pipeline-Builders/job/docker-radarr/job/master/badge/icon?style=flat-square)](https://ci.linuxserver.io/job/Docker-Pipeline-Builders/job/docker-radarr/job/master/)
 [![](https://lsio-ci.ams3.digitaloceanspaces.com/linuxserver/radarr/latest/badge.svg)](https://lsio-ci.ams3.digitaloceanspaces.com/linuxserver/radarr/latest/index.html)
 
