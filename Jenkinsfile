@@ -112,7 +112,7 @@ pipeline {
       steps{
         script{
           env.EXT_RELEASE = sh(
-            script: ''' curl -sL GET https://ci.appveyor.com/api/projects/galli-leo/radarr-usby1/history?recordsNumber=100 | jq -r '. | first(.builds[] | select(.status == "success") | select(.branch =="aphrodite") | select(.pullRequestId == null)) | .version' ''',
+            script: ''' curl -sL https://radarr.lidarr.audio/v1/update/aphrodite/changes?os=linux | jq -r '.[0].version' ''',
             returnStdout: true).trim()
             env.RELEASE_LINK = 'custom_command'
         }
