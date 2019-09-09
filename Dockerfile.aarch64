@@ -5,7 +5,7 @@ ARG BUILD_DATE
 ARG VERSION
 ARG RADARR_RELEASE
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
-LABEL maintainer="sparklyballs"
+LABEL maintainer="thelamer"
 
 # environment settings
 ARG DEBIAN_FRONTEND="noninteractive"
@@ -18,11 +18,11 @@ RUN \
 	jq && \
  echo "**** install radarr ****" && \
  if [ -z ${RADARR_RELEASE+x} ]; then \
-	RADARR_RELEASE=$(curl -sL GET https://ci.appveyor.com/api/projects/galli-leo/radarr-usby1/history?recordsNumber=100 | \
-	jq -r '. | first(.builds[] | select(.status == "success") | select(.branch =="aphrodite") | select(.pullRequestId == null)) | .version'); \
+	RADARR_RELEASE=$(curl -sL "https://radarr.lidarr.audio/v1/update/aphrodite/changes?os=linux" \
+	| jq -r '.[0].version'); \
  fi && \
- RADARR_JOBID=$(curl -s "https://ci.appveyor.com/api/projects/galli-leo/radarr-usby1/build/${RADARR_RELEASE}" | jq -jr '. | .build.jobs[0].jobId') \
- RADARR_DURL="https://ci.appveyor.com/api/buildjobs/${RADARR_JOBID}/artifacts/_artifacts/Radarr.aphrodite.${RADARR_RELEASE}.linux.tar.gz"; \
+ RADARR_DURL=$(curl -sL "https://radarr.lidarr.audio/v1/update/aphrodite/changes?os=linux" \
+	| jq -r "first(.[] | select(.version == \"${RADARR_RELEASE}\")) | .url") && \
  mkdir -p \
 	/opt/radarr && \
  curl -o \
