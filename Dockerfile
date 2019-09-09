@@ -18,10 +18,10 @@ RUN \
 	jq && \
  echo "**** install radarr ****" && \
  if [ -z ${RADARR_RELEASE+x} ]; then \
-	RADARR_RELEASE=$(curl -sL "https://radarr.lidarr.audio/v1/update/aphrodite/changes?os=linux" \
+	RADARR_RELEASE=$(curl -sL "https://radarr.aeonlucid.com/v1/update/aphrodite/changes?os=linux" \
 	| jq -r '.[0].version'); \
  fi && \
- RADARR_DURL=$(curl -sL "https://radarr.lidarr.audio/v1/update/aphrodite/changes?os=linux" \
+ RADARR_DURL=$(curl -sL "https://radarr.aeonlucid.com/v1/update/aphrodite/changes?os=linux" \
 	| jq -r "first(.[] | select(.version == \"${RADARR_RELEASE}\")) | .url") && \
  mkdir -p \
 	/opt/radarr && \
