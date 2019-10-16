@@ -17,7 +17,7 @@ RUN \
  apt-get update && \
  apt-get install --no-install-recommends -y \
 	jq \
-	libicu60 \
+	libicu60 
 	libmediainfo0v5 && \
  echo "**** install radarr ****" && \
  mkdir -p /opt/radarr && \
