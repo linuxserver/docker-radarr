@@ -207,6 +207,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **10.15.19:** - Use Netcore builds for preview branch.
 * **08.09.19:** - Pull artifacts from new upstream Azure build env.
 * **01.08.19:** - Rebase to Linuxserver LTS mono version.
 * **13.06.19:** - Add env variable for setting umask.
