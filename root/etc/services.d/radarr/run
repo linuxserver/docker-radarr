@@ -4,8 +4,6 @@ UMASK_SET=${UMASK_SET:-022}
 
 umask "$UMASK_SET"
 
-cd /opt/radarr || exit
-
 exec \
-	s6-setuidgid abc mono --debug Radarr.exe \
+	s6-setuidgid abc /opt/radarr/Radarr \
 	-nobrowser -data=/config
