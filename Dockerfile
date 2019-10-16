@@ -1,4 +1,4 @@
-FROM lsiobase/mono:LTS
+FROM lsiobase/ubuntu:bionic
 
 # set version label
 ARG BUILD_DATE
@@ -9,36 +9,37 @@ LABEL maintainer="thelamer"
 
 # environment settings
 ARG DEBIAN_FRONTEND="noninteractive"
+ARG RADARR_BRANCH="aphrodite"
 ENV XDG_CONFIG_HOME="/config/xdg"
 
 RUN \
- echo "**** install jq ****" && \
+ echo "**** install packages ****" && \
  apt-get update && \
- apt-get install -y \
-	jq && \
+ apt-get install --no-install-recommends -y \
+	jq \
+	libicu60 \
+	libmediainfo0v5 && \
  echo "**** install radarr ****" && \
+ mkdir -p /opt/radarr && \
  if [ -z ${RADARR_RELEASE+x} ]; then \
-	RADARR_RELEASE=$(curl -sL "https://radarr.aeonlucid.com/v1/update/aphrodite/changes?os=linux" \
+	RADARR_RELEASE=$(curl -sL "https://radarr.lidarr.audio/v1/update/${RADARR_BRANCH}/changes?os=linux" \
 	| jq -r '.[0].version'); \
  fi && \
- RADARR_DURL=$(curl -sL "https://radarr.aeonlucid.com/v1/update/aphrodite/changes?os=linux" \
-	| jq -r "first(.[] | select(.version == \"${RADARR_RELEASE}\")) | .url") && \
- mkdir -p \
-	/opt/radarr && \
  curl -o \
- /tmp/radar.tar.gz -L \
-	"${RADARR_DURL}" && \
+ /tmp/radarr.tar.gz -L \
+	"https://radarr.lidarr.audio/v1/update/${RADARR_BRANCH}/updatefile?version=${RADARR_RELEASE}&os=linux&runtime=netcore&arch=x64" && \
  tar ixzf \
- /tmp/radar.tar.gz -C \
+ /tmp/radarr.tar.gz -C \
 	/opt/radarr --strip-components=1 && \
- echo "**** clean up ****" && \
+ echo "**** cleanup ****" && \
  rm -rf \
+	/opt/radarr/Radarr.Update \
 	/tmp/* \
 	/var/lib/apt/lists/* \
 	/var/tmp/*
 
-# add local files
-COPY /root /
+# copy local files
+COPY root/ /
 
 # ports and volumes
 EXPOSE 7878

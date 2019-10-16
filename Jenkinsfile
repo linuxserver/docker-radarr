@@ -101,7 +101,7 @@ pipeline {
       steps{
         script{
           env.EXT_RELEASE = sh(
-            script: ''' curl -sL https://radarr.aeonlucid.com/v1/update/aphrodite/changes?os=linux | jq -r '.[0].version' ''',
+            script: ''' curl -sL https://radarr.lidarr.audio/v1/update/aphrodite/changes?os=linux | jq -r '.[0].version' ''',
             returnStdout: true).trim()
             env.RELEASE_LINK = 'custom_command'
         }
