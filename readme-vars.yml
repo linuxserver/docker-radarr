@@ -46,7 +46,6 @@ app_setup_block: |
 
 # changelog
 changelogs:
-  - { date: "10.15.19:", desc: "Use Netcore builds for preview branch." }
   - { date: "08.09.19:", desc: "Pull artifacts from new upstream Azure build env." }
   - { date: "01.08.19:", desc: "Rebase to Linuxserver LTS mono version." }
   - { date: "13.06.19:", desc: "Add env variable for setting umask." }
