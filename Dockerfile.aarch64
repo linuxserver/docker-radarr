@@ -14,11 +14,13 @@ ENV XDG_CONFIG_HOME="/config/xdg"
 
 RUN \
  echo "**** install packages ****" && \
+ sed -i 's/bionic/eoan/g' /etc/apt/sources.list && \
  apt-get update && \
  apt-get install --no-install-recommends -y \
 	jq \
-	libicu60 \
-	libmediainfo0v5 && \
+	libicu63 \
+	libmediainfo0v5 \
+	sqlite3 && \
  echo "**** install radarr ****" && \
  mkdir -p /opt/radarr && \
  if [ -z ${RADARR_RELEASE+x} ]; then \
