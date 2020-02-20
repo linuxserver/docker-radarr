@@ -1,4 +1,4 @@
-FROM lsiobase/ubuntu:bionic
+FROM lsiobase/ubuntu:focal
 
 # set version label
 ARG BUILD_DATE
@@ -14,7 +14,6 @@ ENV XDG_CONFIG_HOME="/config/xdg"
 
 RUN \
  echo "**** install packages ****" && \
- sed -i 's/bionic/eoan/g' /etc/apt/sources.list && \
  apt-get update && \
  apt-get install --no-install-recommends -y \
 	jq \
