@@ -46,6 +46,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "02.20.20:", desc: "Rebase Preview to focal." }
   - { date: "01.06.20:", desc: "Use Eoan packages for preview branch." }
   - { date: "10.15.19:", desc: "Use Netcore builds for preview branch." }
   - { date: "08.09.19:", desc: "Pull artifacts from new upstream Azure build env." }
