@@ -50,7 +50,7 @@ libc62.30-0ubuntu3
 libcap-ng00.7.9-2.1
 libc-bin2.30-0ubuntu3
 libcom-err21.45.3-4ubuntu2
-libcurl3-gnutls7.67.0-2ubuntu1
+libcurl3-gnutls7.68.0-1ubuntu1
 libcurl47.67.0-2ubuntu1
 libdb5.35.3.28+dfsg1-0.6ubuntu1
 libdebconfclient00.250ubuntu2
