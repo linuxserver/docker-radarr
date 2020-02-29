@@ -70,7 +70,7 @@ libheimbase1-heimdal7.7.0+dfsg-1
 libheimntlm0-heimdal7.7.0+dfsg-1
 libhogweed53.5.1+really3.5.1-2
 libhx509-5-heimdal7.7.0+dfsg-1
-libicu6363.2-2
+libicu6565.1-1ubuntu2
 libidn2-02.2.0-2
 libjq11.6-1
 libk5crypto31.17-6ubuntu4
