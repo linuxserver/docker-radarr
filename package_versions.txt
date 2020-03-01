@@ -8,7 +8,7 @@ bsdutils1:2.34-0.1ubuntu4
 bzip21.0.8-2
 ca-certificates20190110
 coreutils8.30-3ubuntu2
-curl7.67.0-2ubuntu1
+curl7.68.0-1ubuntu1
 dash0.5.10.2-6
 debconf1.5.73
 debianutils4.9.1
@@ -18,7 +18,7 @@ dpkg1.19.7ubuntu2
 e2fsprogs1.45.3-4ubuntu2
 fdisk2.34-0.1ubuntu4
 findutils4.6.0+git+20190209-2ubuntu1
-gcc-10-base10-20200211-1ubuntu1
+gcc-10-base10-20200222-1ubuntu1
 gcc-9-base9.2.1-21ubuntu1
 gnupg2.2.17-3ubuntu1
 gnupg-l10n2.2.17-3ubuntu1
@@ -51,14 +51,14 @@ libcap-ng00.7.9-2.1
 libc-bin2.30-0ubuntu3
 libcom-err21.45.3-4ubuntu2
 libcurl3-gnutls7.68.0-1ubuntu1
-libcurl47.67.0-2ubuntu1
+libcurl47.68.0-1ubuntu1
 libdb5.35.3.28+dfsg1-0.6ubuntu1
 libdebconfclient00.250ubuntu2
 libext2fs21.45.3-4ubuntu2
 libfdisk12.34-0.1ubuntu4
 libffi63.2.1-9
 libgcc11:9.2.1-21ubuntu1
-libgcc-s110-20200211-1ubuntu1
+libgcc-s110-20200222-1ubuntu1
 libgcrypt201.8.5-3ubuntu1
 libgmp102:6.1.2+dfsg-4
 libgnutls303.6.11.1-2
@@ -101,7 +101,7 @@ libpcre2-8-010.34-7
 libpcre32:8.39-12
 libprocps72:3.3.15-2ubuntu3
 libpsl50.20.2-2
-libreadline88.0-3
+libreadline88.0-4
 libroken18-heimdal7.7.0+dfsg-1
 librtmp12.4+20151223.gitfa8646d.1-2build1
 libsasl2-22.1.27+dfsg-2
@@ -142,7 +142,7 @@ perl-base5.30.0-9
 pinentry-curses1.1.0-3
 procps2:3.3.15-2ubuntu3
 publicsuffix20200201.2258-1
-readline-common8.0-3
+readline-common8.0-4
 sed4.7-1
 sensible-utils0.0.12+nmu1
 sqlite33.31.1-1ubuntu1
