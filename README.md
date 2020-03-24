@@ -158,8 +158,10 @@ In this instance `PUID=1000` and `PGID=1000`, to find yours use `id user` as bel
 ## Application Setup
 
 Access the webui at `<your-ip>:7878`, for more information check out [Radarr](https://github.com/Radarr/Radarr).
+
 Special Note: Following our current folder structure will result in an inability to hardlink from your downloads to your movies folder because they are on seperate volumes. To support hardlinking, simply ensure that the movies and downloads data are on a single volume. For example, if you have /mnt/storage/Movies and /mnt/storage/downloads/completed/Movies, you would want something like /mnt/storage:/media for your volume. Then you can hardlink from /media/downloads/completed to /media/Movies.
-Another item to keep in mind, is that within radarr itself, you should then map your torrent client folder to your radarr folder: Settings -> Download Client -> advanded -> remote path mappings. I input the host of my download client (matches the download client defined) remote path is /downloads/Movies (relative to the internal container path) and local path is /media/downloads/completed/Movies, assuming you have folders to seperate your downloaded data types.
+
+Another item to keep in mind, is that within radarr itself, you should then map your torrent client folder to your radarr folder: Settings -> Download Client -> advanced -> remote path mappings. I input the host of my download client (matches the download client defined) remote path is /downloads/Movies (relative to the internal container path) and local path is /media/downloads/completed/Movies, assuming you have folders to seperate your downloaded data types.
 
 
 
