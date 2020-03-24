@@ -121,7 +121,7 @@ libstdc++69.2.1-21ubuntu1
 libsystemd0244-3ubuntu1
 libtasn1-64.15.0-2
 libtinfo66.1+20191019-1ubuntu1
-libtinyxml2-6a7.0.0+dfsg-1
+libtinyxml2-6a7.0.0+dfsg-1build1
 libudev1244-3ubuntu1
 libunistring20.9.10-2
 libuuid12.34-0.1ubuntu4
