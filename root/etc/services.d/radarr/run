@@ -1,9 +1,8 @@
 #!/usr/bin/with-contenv bash
 
 UMASK_SET=${UMASK_SET:-022}
-
 umask "$UMASK_SET"
 
 exec \
-	s6-setuidgid abc /opt/radarr/Radarr \
+	s6-setuidgid abc /app/radarr/bin/Radarr \
 	-nobrowser -data=/config
