@@ -21,7 +21,7 @@ RUN \
 	libmediainfo0v5 \
 	sqlite3 && \
  echo "**** install radarr ****" && \
- mkdir -p /opt/radarr && \
+ mkdir -p /app/radarr/bin && \
  if [ -z ${RADARR_RELEASE+x} ]; then \
 	RADARR_RELEASE=$(curl -sL "https://radarr.lidarr.audio/v1/update/${RADARR_BRANCH}/changes?os=linux" \
 	| jq -r '.[0].version'); \
@@ -31,10 +31,11 @@ RUN \
 	"https://radarr.lidarr.audio/v1/update/${RADARR_BRANCH}/updatefile?version=${RADARR_RELEASE}&os=linux&runtime=netcore&arch=arm" && \
  tar ixzf \
  /tmp/radarr.tar.gz -C \
-	/opt/radarr --strip-components=1 && \
+	/app/radarr/bin --strip-components=1 && \
  echo "**** cleanup ****" && \
+ echo "UpdateMethod=docker\nBranch=${RADARR_BRANCH}\nPackageVersion=${VERSION}\nPackageAuthor=linuxserver.io" > /app/radarr/package_info && \
  rm -rf \
-	/opt/radarr/Radarr.Update \
+	/app/radarr/bin/Radarr.Update \
 	/tmp/* \
 	/var/lib/apt/lists/* \
 	/var/tmp/*
