@@ -25,13 +25,13 @@ RUN \
  radarr_url=$(curl -k -sX GET "https://radarr.aeonlucid.com/v1/update/${RADARR_BRANCH}/changes?os=linux" |jq -r ".[] \
 	| select(.version == \"${RADARR_RELEASE}\") | .url") && \
  mkdir -p \
-	/opt/radarr && \
+	/app/radarr/bin && \
  curl -o \
  /tmp/radar.tar.gz -L \
 	"${radarr_url}" && \
  tar ixzf \
  /tmp/radar.tar.gz -C \
-	/opt/radarr --strip-components=1 && \
+	/app/radarr/bin --strip-components=1 && \
  echo "**** clean up ****" && \
  rm -rf \
 	/tmp/* \

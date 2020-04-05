@@ -4,7 +4,7 @@ UMASK_SET=${UMASK_SET:-022}
 
 umask "$UMASK_SET"
 
-cd /opt/radarr || exit
+cd /app/radarr/bin || exit
 
 exec \
 	s6-setuidgid abc mono --debug Radarr.exe \
