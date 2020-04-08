@@ -28,4 +28,3 @@ repo_vars:
   - CI_WEBPATH=''
 sponsor_links:
   - { name: "Radarr", url: "https://opencollective.com/radarr" }
-  
