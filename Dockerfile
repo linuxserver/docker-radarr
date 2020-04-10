@@ -24,13 +24,13 @@ RUN \
  radarr_url=$(curl -s https://api.github.com/repos/Radarr/Radarr/releases/tags/"${RADARR_RELEASE}" \
 	|jq -r '.assets[].browser_download_url' |grep linux) && \
  mkdir -p \
-	/opt/radarr && \
+	/app/radarr/bin && \
  curl -o \
  /tmp/radar.tar.gz -L \
 	"${radarr_url}" && \
  tar ixzf \
  /tmp/radar.tar.gz -C \
-	/opt/radarr --strip-components=1 && \
+	/app/radarr/bin --strip-components=1 && \
  echo "**** clean up ****" && \
  rm -rf \
 	/tmp/* \
