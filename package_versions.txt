@@ -50,7 +50,7 @@ libc62.30-0ubuntu3
 libcap-ng00.7.9-2.1
 libc-bin2.30-0ubuntu3
 libcom-err21.45.3-4ubuntu2
-libcurl3-gnutls7.68.0-1ubuntu1
+libcurl3-gnutls7.68.0-1ubuntu2
 libcurl47.68.0-1ubuntu1
 libdb5.35.3.28+dfsg1-0.6ubuntu1
 libdebconfclient00.250ubuntu2
@@ -61,7 +61,7 @@ libgcc11:9.2.1-21ubuntu1
 libgcc-s110-20200304-1ubuntu1
 libgcrypt201.8.5-3ubuntu1
 libgmp102:6.1.2+dfsg-4
-libgnutls303.6.11.1-2
+libgnutls303.6.13-2ubuntu1
 libgpg-error01.36-7
 libgssapi3-heimdal7.7.0+dfsg-1
 libgssapi-krb5-21.17-6ubuntu4
