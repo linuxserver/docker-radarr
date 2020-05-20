@@ -148,7 +148,7 @@ sensible-utils0.0.12+nmu1
 sqlite33.31.1-4
 sysvinit-utils2.96-1ubuntu1
 tar1.30+dfsg-6
-tzdata2019c-3ubuntu1
+tzdata2020a-0ubuntu0.20.04
 ubuntu-keyring2018.09.18.1
 util-linux2.34-0.1ubuntu4
 zlib1g1:1.2.11.dfsg-1ubuntu3
