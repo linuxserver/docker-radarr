@@ -113,7 +113,7 @@ libsemanage13.0-1
 libsemanage-common3.0-1
 libsepol13.0-1
 libsmartcols12.34-0.1ubuntu4
-libsqlite3-03.31.1-4
+libsqlite3-03.31.1-4ubuntu0.1
 libss21.45.3-4ubuntu2
 libssh-40.9.3-2ubuntu1
 libssl1.11.1.1d-2ubuntu6
@@ -145,7 +145,7 @@ publicsuffix20200201.2258-1
 readline-common8.0-4
 sed4.7-1
 sensible-utils0.0.12+nmu1
-sqlite33.31.1-4
+sqlite33.31.1-4ubuntu0.1
 sysvinit-utils2.96-1ubuntu1
 tar1.30+dfsg-6
 tzdata2020a-0ubuntu0.20.04
