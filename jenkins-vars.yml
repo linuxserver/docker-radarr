@@ -7,7 +7,7 @@ release_type: prerelease
 release_tag: nightly
 ls_branch: nightly
 repo_vars:
-  - JSON_URL = 'http://radarr.aeonlucid.com/v1/update/nightly/changes?os=linux'
+  - JSON_URL = 'http://radarr.servarr.com/v1/update/nightly/changes?os=linux'
   - JSON_PATH = '.[0].version'
   - BUILD_VERSION_ARG = 'RADARR_RELEASE'
   - LS_USER = 'linuxserver'
