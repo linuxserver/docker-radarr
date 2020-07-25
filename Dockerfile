@@ -5,7 +5,7 @@ ARG BUILD_DATE
 ARG VERSION
 ARG RADARR_RELEASE
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
-LABEL maintainer="sparklyballs"
+LABEL maintainer="thelamer"
 
 # environment settings
 ARG DEBIAN_FRONTEND="noninteractive"
@@ -18,11 +18,11 @@ RUN \
  apt-get install -y \
 	jq && \
  echo "**** install radarr ****" && \
- if [ -z ${RADARR_RELEASE}+x} ]; then \
-        RADARR_RELEASE=$(curl -k "https://radarr.aeonlucid.com/v1/update/${RADARR_BRANCH}/changes?os=linux" \
+ if [ -z ${RADARR_RELEASE+x} ]; then \
+        RADARR_RELEASE=$(curl -k "https://radarr.servarr.com/v1/update/${RADARR_BRANCH}/changes?os=linux" \
         | jq -r '.[0].version'); \
  fi && \
- radarr_url=$(curl -k -sX GET "https://radarr.aeonlucid.com/v1/update/${RADARR_BRANCH}/changes?os=linux" |jq -r ".[] \
+ radarr_url=$(curl -k -sX GET "https://radarr.servarr.com/v1/update/${RADARR_BRANCH}/changes?os=linux" |jq -r ".[] \
 	| select(.version == \"${RADARR_RELEASE}\") | .url") && \
  mkdir -p \
 	/app/radarr/bin && \
