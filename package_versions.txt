@@ -8,7 +8,7 @@ bsdutils1:2.34-0.1ubuntu9
 bzip21.0.8-2
 ca-certificates20190110ubuntu1.1
 coreutils8.30-3ubuntu2
-curl7.68.0-1ubuntu2.1
+curl7.68.0-1ubuntu2.2
 dash0.5.10.2-6
 debconf1.5.73
 debianutils4.9.1
@@ -51,7 +51,7 @@ libc-bin2.31-0ubuntu9
 libcom-err21.45.5-2ubuntu1
 libcrypt11:4.4.10-10ubuntu4
 libcurl3-gnutls7.68.0-1ubuntu2.2
-libcurl47.68.0-1ubuntu2.1
+libcurl47.68.0-1ubuntu2.2
 libdb5.35.3.28+dfsg1-0.6ubuntu2
 libdebconfclient00.251ubuntu1
 libext2fs21.45.5-2ubuntu1
@@ -81,7 +81,7 @@ libksba81.3.5-2
 libldap-2.4-22.4.49+dfsg-2ubuntu1.3
 libldap-common2.4.49+dfsg-2ubuntu1.3
 liblz4-11.9.2-2
-liblzma55.2.4-1
+liblzma55.2.4-1ubuntu1
 libmediainfo0v519.09+dfsg-2build1
 libmms00.6.4-3
 libmount12.34-0.1ubuntu9
