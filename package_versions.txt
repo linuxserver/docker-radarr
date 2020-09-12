@@ -1,7 +1,7 @@
 adduser3.118ubuntu2
 apt2.0.2ubuntu0.1
 apt-utils2.0.2ubuntu0.1
-base-files11ubuntu5.1
+base-files11ubuntu5.2
 base-passwd3.5.47
 bash5.0-6ubuntu1.1
 bsdutils1:2.34-0.1ubuntu9
@@ -60,7 +60,7 @@ libffi73.3-4
 libgcc-s110-20200411-0ubuntu1
 libgcrypt201.8.5-5ubuntu1
 libgmp102:6.2.0+dfsg-4
-libgnutls303.6.13-2ubuntu1.2
+libgnutls303.6.13-2ubuntu1.3
 libgpg-error01.37-1
 libgssapi3-heimdal7.7.0+dfsg-1ubuntu1
 libgssapi-krb5-21.17-6ubuntu4
@@ -92,10 +92,10 @@ libnghttp2-141.40.0-1build1
 libnpth01.6-1
 libonig56.9.4-1
 libp11-kit00.23.20-1build1
-libpam0g1.3.1-5ubuntu4
-libpam-modules1.3.1-5ubuntu4
-libpam-modules-bin1.3.1-5ubuntu4
-libpam-runtime1.3.1-5ubuntu4
+libpam0g1.3.1-5ubuntu4.1
+libpam-modules1.3.1-5ubuntu4.1
+libpam-modules-bin1.3.1-5ubuntu4.1
+libpam-runtime1.3.1-5ubuntu4.1
 libpcre2-8-010.34-7
 libpcre32:8.39-12build1
 libprocps82:3.3.16-1ubuntu2
