@@ -4,7 +4,7 @@ apt-utils2.0.2ubuntu0.1
 base-files11ubuntu5.2
 base-passwd3.5.47
 bash5.0-6ubuntu1.1
-bsdutils1:2.34-0.1ubuntu9
+bsdutils1:2.34-0.1ubuntu9.1
 bzip21.0.8-2
 ca-certificates20190110ubuntu1.1
 coreutils8.30-3ubuntu2
@@ -16,7 +16,7 @@ diffutils1:3.7-3
 dirmngr2.2.19-3ubuntu2
 dpkg1.19.7ubuntu3
 e2fsprogs1.45.5-2ubuntu1
-fdisk2.34-0.1ubuntu9
+fdisk2.34-0.1ubuntu9.1
 findutils4.7.0-1ubuntu1
 gcc-10-base10-20200411-0ubuntu1
 gnupg2.2.19-3ubuntu2
@@ -42,7 +42,7 @@ libassuan02.5.3-7ubuntu2
 libattr11:2.4.48-5
 libaudit11:2.8.5-2ubuntu6
 libaudit-common1:2.8.5-2ubuntu6
-libblkid12.34-0.1ubuntu9
+libblkid12.34-0.1ubuntu9.1
 libbrotli11.0.7-6build1
 libbz2-1.01.0.8-2
 libc62.31-0ubuntu9
@@ -55,7 +55,7 @@ libcurl47.68.0-1ubuntu2.2
 libdb5.35.3.28+dfsg1-0.6ubuntu2
 libdebconfclient00.251ubuntu1
 libext2fs21.45.5-2ubuntu1
-libfdisk12.34-0.1ubuntu9
+libfdisk12.34-0.1ubuntu9.1
 libffi73.3-4
 libgcc-s110-20200411-0ubuntu1
 libgcrypt201.8.5-5ubuntu1
@@ -84,7 +84,7 @@ liblz4-11.9.2-2
 liblzma55.2.4-1ubuntu1
 libmediainfo0v519.09+dfsg-2build1
 libmms00.6.4-3
-libmount12.34-0.1ubuntu9
+libmount12.34-0.1ubuntu9.1
 libncurses66.2-0ubuntu2
 libncursesw66.2-0ubuntu2
 libnettle73.5.1+really3.5.1-2
@@ -111,7 +111,7 @@ libselinux13.0-1build2
 libsemanage13.0-1build2
 libsemanage-common3.0-1build2
 libsepol13.0-1
-libsmartcols12.34-0.1ubuntu9
+libsmartcols12.34-0.1ubuntu9.1
 libsqlite3-03.31.1-4ubuntu0.2
 libss21.45.5-2ubuntu1
 libssh-40.9.3-2ubuntu2.1
@@ -123,7 +123,7 @@ libtinfo66.2-0ubuntu2
 libtinyxml2-6a7.0.0+dfsg-1build1
 libudev1245.4-4ubuntu3.2
 libunistring20.9.10-2
-libuuid12.34-0.1ubuntu9
+libuuid12.34-0.1ubuntu9.1
 libwind0-heimdal7.7.0+dfsg-1ubuntu1
 libzen0v50.4.37-1build1
 libzstd11.4.4+dfsg-3
@@ -132,7 +132,7 @@ login1:4.8.1-1ubuntu5.20.04
 logsave1.45.5-2ubuntu1
 lsb-base11.1.0ubuntu2
 mawk1.3.4.20200120-2
-mount2.34-0.1ubuntu9
+mount2.34-0.1ubuntu9.1
 ncurses-base6.2-0ubuntu2
 ncurses-bin6.2-0ubuntu2
 openssl1.1.1f-1ubuntu2
@@ -149,5 +149,5 @@ sysvinit-utils2.96-2.1ubuntu1
 tar1.30+dfsg-7
 tzdata2020a-0ubuntu0.20.04
 ubuntu-keyring2020.02.11.2
-util-linux2.34-0.1ubuntu9
+util-linux2.34-0.1ubuntu9.1
 zlib1g1:1.2.11.dfsg-2ubuntu1
