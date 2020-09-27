@@ -61,9 +61,8 @@ This image provides various versions that are available via tags. `latest` tag u
 | Tag | Description |
 | :----: | --- |
 | latest | Stable Radarr releases |
-| nightly | Nightly Radarr releases |
-| preview | Preview Radarr releases, currently aphrodite |
 | 5.14 | Stable Radarr releases, but run on Mono 5.14 |
+| nightly | Nightly Radarr releases |
 
 ## Usage
 
@@ -79,9 +78,9 @@ docker create \
   -e TZ=Europe/London \
   -e UMASK_SET=022 `#optional` \
   -p 7878:7878 \
-  -v <path to data>:/config \
-  -v <path/to/movies>:/movies \
-  -v <path/to/downloadclient-downloads>:/downloads \
+  -v /path/to/data:/config \
+  -v /path/to/movies:/movies \
+  -v /path/to/downloadclient-downloads:/downloads \
   --restart unless-stopped \
   linuxserver/radarr
 ```
@@ -104,9 +103,9 @@ services:
       - TZ=Europe/London
       - UMASK_SET=022 #optional
     volumes:
-      - <path to data>:/config
-      - <path/to/movies>:/movies
-      - <path/to/downloadclient-downloads>:/downloads
+      - /path/to/data:/config
+      - /path/to/movies:/movies
+      - /path/to/downloadclient-downloads:/downloads
     ports:
       - 7878:7878
     restart: unless-stopped
@@ -124,8 +123,8 @@ Container images are configured using parameters passed at runtime (such as thos
 | `-e TZ=Europe/London` | Specify a timezone to use EG Europe/London, this is required for Radarr |
 | `-e UMASK_SET=022` | control permissions of files and directories created by Radarr |
 | `-v /config` | Database and Radarr configs |
-| `-v /movies` | Location of Movie library on disk |
-| `-v /downloads` | Location of download managers output directory |
+| `-v /movies` | Location of Movie library on disk (See note in Application setup) |
+| `-v /downloads` | Location of download managers output directory (See note in Application setup) |
 
 ## Environment variables from files (Docker secrets)
 
@@ -162,6 +161,10 @@ In this instance `PUID=1000` and `PGID=1000`, to find yours use `id user` as bel
 ## Application Setup
 
 Access the webui at `<your-ip>:7878`, for more information check out [Radarr](https://github.com/Radarr/Radarr).
+
+**Special Note**: Following our current folder structure will result in an inability to hardlink from your downloads to your movies folder because they are on seperate volumes. To support hardlinking, ensure that the movies and downloads data are on a single volume. For example, if you have `/mnt/storage/Movies` and `/mnt/storage/downloads/completed/Movies`, you would want something like `/mnt/storage:/media` for your volume. Then you can hardlink from `/media/downloads/completed` to `/media/Movies`.
+
+Another item to keep in mind, is that within Radarr itself, you should map your download client folder to your radarr folder. Navigate to **Settings -> Download Client -> Advanced Settings -> Remote Path Mappings**. Add a new mapping, and set: the Host as the same entry of the Host in your download client (for example its IP address), the Remote Path as `/downloads/Movies` (relative to the internal container path), and Local Path as `/media/downloads/completed/Movies`, assuming you have folders to separate your downloaded data types.
 
 
 ## Docker Mods
@@ -235,6 +238,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 ## Versions
 
 * **05.04.20:** - Move app to /app.
+* **01.08.19:** - Rebase to Linuxserver LTS mono version.
 * **13.06.19:** - Add env variable for setting umask.
 * **10.05.19:** - Rebase to Bionic.
 * **23.03.19:** - Switching to new Base images, shift to arm32v7 tag.
