@@ -63,7 +63,6 @@ This image provides various versions that are available via tags. `latest` tag u
 | latest | Stable Radarr releases |
 | 5.14 | Stable Radarr releases, but run on Mono 5.14 |
 | nightly | Nightly Radarr releases |
-| preview | Alpha Radarr releases, unsupported and for development only |
 
 ## Usage
 
@@ -165,7 +164,7 @@ Access the webui at `<your-ip>:7878`, for more information check out [Radarr](ht
 
 **Special Note**: Following our current folder structure will result in an inability to hardlink from your downloads to your movies folder because they are on seperate volumes. To support hardlinking, ensure that the movies and downloads data are on a single volume. For example, if you have `/mnt/storage/Movies` and `/mnt/storage/downloads/completed/Movies`, you would want something like `/mnt/storage:/media` for your volume. Then you can hardlink from `/media/downloads/completed` to `/media/Movies`.
 
-Another item to keep in mind, is that within Radarr itself, you should map your torrent client folder to your radarr folder. Navigate to **Settings -> Download Client -> Advanced Settings -> Remote Path Mappings**. Add a new mapping, and set: the Host as the same entry of the Host in your download client (for example its IP address), the Remote Path as `/downloads/Movies` (relative to the internal container path), and Local Path as `/media/downloads/completed/Movies`, assuming you have folders to seperate your downloaded data types.
+Another item to keep in mind, is that within Radarr itself, you should map your download client folder to your radarr folder. Navigate to **Settings -> Download Client -> Advanced Settings -> Remote Path Mappings**. Add a new mapping, and set: the Host as the same entry of the Host in your download client (for example its IP address), the Remote Path as `/downloads/Movies` (relative to the internal container path), and Local Path as `/media/downloads/completed/Movies`, assuming you have folders to separate your downloaded data types.
 
 
 ## Docker Mods
