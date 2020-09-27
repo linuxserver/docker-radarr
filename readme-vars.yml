@@ -3,7 +3,7 @@
 # project information
 project_name: radarr
 project_url: "https://github.com/Radarr/Radarr"
-project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/radarr.png"
+project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/radarr_alpha.png"
 project_blurb: |
   [{{ project_name|capitalize }}]({{ project_url }}) - A fork of Sonarr to work with movies à la Couchpotato.
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
@@ -14,17 +14,11 @@ available_architectures:
   - { arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
   - { arch: "{{ arch_armhf }}", tag: "arm32v7-latest"}
 
-# Optional Block
-optional_block_1: true
-optional_block_1_items:
-  - |
-    You can choose between ,using tags, various branch versions of radarr, no tag is required to remain on the main branch.
-
-    Add one of the tags,  if required,  to the linuxserver/radarr line of the run/create command in the following format, linuxserver/radarr:nightly
-
-    The nightly branch and master branch can from time to time be the same version.
-
-    HOWEVER , USE THE NIGHTLY BRANCH AT YOUR OWN PERIL !!!!!!!!!
+# development version
+development_versions: true
+development_versions_items:
+  - { tag: "latest", desc: "Stable Radarr releases" }
+  - { tag: "nightly", desc: "Nightly Radarr releases" }
 
 # container parameters
 param_container_name: "{{ project_name }}"
@@ -52,6 +46,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "09.27.20:", desc: "Merge Preview into Nightly." }
   - { date: "05.04.20:", desc: "Move app to /app." }
   - { date: "01.08.19:", desc: "Rebase to Linuxserver LTS mono version." }
   - { date: "13.06.19:", desc: "Add env variable for setting umask." }
