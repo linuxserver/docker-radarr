@@ -35,6 +35,7 @@ Find us at:
 [![Jenkins Build](https://img.shields.io/jenkins/build?labelColor=555555&logoColor=ffffff&style=for-the-badge&jobUrl=https%3A%2F%2Fci.linuxserver.io%2Fjob%2FDocker-Pipeline-Builders%2Fjob%2Fdocker-radarr%2Fjob%2F5.14%2F&logo=jenkins)](https://ci.linuxserver.io/job/Docker-Pipeline-Builders/job/docker-radarr/job/5.14/)
 [![LSIO CI](https://img.shields.io/badge/dynamic/yaml?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=CI&query=CI&url=https%3A%2F%2Flsio-ci.ams3.digitaloceanspaces.com%2Flinuxserver%2Fradarr%2Flatest%2Fci-status.yml)](https://lsio-ci.ams3.digitaloceanspaces.com/linuxserver/radarr/latest/index.html)
 
+**DEPRECATION NOTICE**: The 5.14 branch is now deprecated. Please switch to master.
 [Radarr](https://github.com/Radarr/Radarr) - A fork of Sonarr to work with movies à la Couchpotato.
 
 
@@ -237,6 +238,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **27.09.20:** - Deprecate 5.14 branch/tag. Please switch to master.
 * **05.04.20:** - Move app to /app.
 * **01.08.19:** - Rebase to Linuxserver LTS mono version.
 * **13.06.19:** - Add env variable for setting umask.
