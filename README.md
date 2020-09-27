@@ -232,9 +232,10 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
-* **02.20.20:** - Rebase Preview to Focal.
+* **27.09.20:** - Discontinue preview branch/tag. Please switch to nightly.
+* **20.02.20:** - Rebase Preview to Focal.
 * **01.06.20:** - Use Eoan packages for preview branch.
-* **10.15.19:** - Use Netcore builds for preview branch.
+* **15.10.19:** - Use Netcore builds for preview branch.
 * **08.09.19:** - Pull artifacts from new upstream Azure build env.
 * **01.08.19:** - Rebase to Linuxserver LTS mono version.
 * **13.06.19:** - Add env variable for setting umask.
