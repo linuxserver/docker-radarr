@@ -5,7 +5,7 @@ project_name: radarr
 project_url: "https://github.com/Radarr/Radarr"
 project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/radarr.png"
 project_blurb: |
-  **DEPRECATION NOTICE**: The 5.14 branch is now deprecated. Please switch to master.
+  **DEPRECATION NOTICE**: The 5.14 branch is now deprecated. Please switch to latest.
   [{{ project_name|capitalize }}]({{ project_url }}) - A fork of Sonarr to work with movies à la Couchpotato.
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
 
@@ -52,7 +52,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
-  - { date: "27.09.20:", desc: "Deprecate 5.14 branch/tag. Please switch to master." }
+  - { date: "27.09.20:", desc: "Deprecate 5.14 branch/tag. Please switch to latest." }
   - { date: "05.04.20:", desc: "Move app to /app." }
   - { date: "01.08.19:", desc: "Rebase to Linuxserver LTS mono version." }
   - { date: "13.06.19:", desc: "Add env variable for setting umask." }
