@@ -5,10 +5,9 @@ echo '
 ******************************************************
 *                                                    *
 *                                                    *
-*         This image is for development only         *
+*        The preview tag is no longer updated        *
 *                                                    *
-*              Use at your own peril                 *
-* It will likely have bugs and not function properly *
+*          Please switch to the nightly tag          *
 *                                                    *
 *                                                    *
 ******************************************************
