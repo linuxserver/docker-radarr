@@ -18,17 +18,16 @@ available_architectures:
 development_versions: true
 development_versions_items:
   - { tag: "latest", desc: "Stable Radarr releases" }
-  - { tag: "nightly", desc: "Nightly Radarr releases" }
-  - { tag: "preview", desc: "Preview Radarr releases, currently aphrodite" }
   - { tag: "5.14", desc: "Stable Radarr releases, but run on Mono 5.14" }
+  - { tag: "nightly", desc: "Nightly Radarr releases" }
 
 # container parameters
 param_container_name: "{{ project_name }}"
 param_usage_include_vols: true
 param_volumes:
-  - { vol_path: "/config", vol_host_path: "<path to data>", desc: "Database and Radarr configs" }
-  - { vol_path: "/movies", vol_host_path: "<path/to/movies>", desc: "Location of Movie library on disk" }
-  - { vol_path: "/downloads", vol_host_path: "<path/to/downloadclient-downloads>", desc: "Location of download managers output directory" }
+  - { vol_path: "/config", vol_host_path: "/path/to/data", desc: "Database and Radarr configs" }
+  - { vol_path: "/movies", vol_host_path: "/path/to/movies", desc: "Location of Movie library on disk (See note in Application setup)" }
+  - { vol_path: "/downloads", vol_host_path: "/path/to/downloadclient-downloads", desc: "Location of download managers output directory (See note in Application setup)" }
 
 param_usage_include_ports: true
 param_ports:
@@ -46,9 +45,14 @@ app_setup_block_enabled: true
 app_setup_block: |
   Access the webui at `<your-ip>:7878`, for more information check out [Radarr](https://github.com/Radarr/Radarr).
 
+  **Special Note**: Following our current folder structure will result in an inability to hardlink from your downloads to your movies folder because they are on seperate volumes. To support hardlinking, ensure that the movies and downloads data are on a single volume. For example, if you have `/mnt/storage/Movies` and `/mnt/storage/downloads/completed/Movies`, you would want something like `/mnt/storage:/media` for your volume. Then you can hardlink from `/media/downloads/completed` to `/media/Movies`.
+
+  Another item to keep in mind, is that within Radarr itself, you should map your download client folder to your radarr folder. Navigate to **Settings -> Download Client -> Advanced Settings -> Remote Path Mappings**. Add a new mapping, and set: the Host as the same entry of the Host in your download client (for example its IP address), the Remote Path as `/downloads/Movies` (relative to the internal container path), and Local Path as `/media/downloads/completed/Movies`, assuming you have folders to separate your downloaded data types.
+
 # changelog
 changelogs:
   - { date: "05.04.20:", desc: "Move app to /app." }
+  - { date: "01.08.19:", desc: "Rebase to Linuxserver LTS mono version." }
   - { date: "13.06.19:", desc: "Add env variable for setting umask." }
   - { date: "10.05.19:", desc: "Rebase to Bionic." }
   - { date: "23.03.19:", desc: "Switching to new Base images, shift to arm32v7 tag." }
