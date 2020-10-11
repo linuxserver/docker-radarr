@@ -18,7 +18,7 @@ dpkg1.19.7ubuntu3
 e2fsprogs1.45.5-2ubuntu1
 fdisk2.34-0.1ubuntu9.1
 findutils4.7.0-1ubuntu1
-gcc-10-base10-20200411-0ubuntu1
+gcc-10-base10.2.0-5ubuntu1~20.04
 gnupg2.2.19-3ubuntu2
 gnupg-l10n2.2.19-3ubuntu2
 gnupg-utils2.2.19-3ubuntu2
@@ -43,7 +43,7 @@ libattr11:2.4.48-5
 libaudit11:2.8.5-2ubuntu6
 libaudit-common1:2.8.5-2ubuntu6
 libblkid12.34-0.1ubuntu9.1
-libbrotli11.0.7-6build1
+libbrotli11.0.7-6ubuntu0.1
 libbz2-1.01.0.8-2
 libc62.31-0ubuntu9.1
 libcap-ng00.7.9-2.1build1
@@ -57,7 +57,7 @@ libdebconfclient00.251ubuntu1
 libext2fs21.45.5-2ubuntu1
 libfdisk12.34-0.1ubuntu9.1
 libffi73.3-4
-libgcc-s110-20200411-0ubuntu1
+libgcc-s110.2.0-5ubuntu1~20.04
 libgcrypt201.8.5-5ubuntu1
 libgmp102:6.2.0+dfsg-4
 libgnutls303.6.13-2ubuntu1.3
@@ -116,7 +116,7 @@ libsqlite3-03.31.1-4ubuntu0.2
 libss21.45.5-2ubuntu1
 libssh-40.9.3-2ubuntu2.1
 libssl1.11.1.1f-1ubuntu2
-libstdc++610-20200411-0ubuntu1
+libstdc++610.2.0-5ubuntu1~20.04
 libsystemd0245.4-4ubuntu3.2
 libtasn1-64.16.0-2
 libtinfo66.2-0ubuntu2
@@ -150,4 +150,4 @@ tar1.30+dfsg-7
 tzdata2020a-0ubuntu0.20.04
 ubuntu-keyring2020.02.11.2
 util-linux2.34-0.1ubuntu9.1
-zlib1g1:1.2.11.dfsg-2ubuntu1
+zlib1g1:1.2.11.dfsg-2ubuntu1.1
