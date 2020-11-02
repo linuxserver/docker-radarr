@@ -10,7 +10,7 @@ binutils-common2.30-21ubuntu1~18.04.4
 binutils-x86-64-linux-gnu2.30-21ubuntu1~18.04.4
 bsdutils1:2.31.1-0.4ubuntu3.7
 bzip21.0.6-8.1ubuntu0.2
-ca-certificates20190110~18.04.1
+ca-certificates20201027ubuntu0.18.04.1
 ca-certificates-mono5.14.0.177-0xamarin3+ubuntu1804b1
 cli-common0.9+xamarin7+ubuntu1804b1
 coreutils8.28-1ubuntu1
@@ -356,7 +356,7 @@ sensible-utils0.0.12
 sqlite33.22.0-1ubuntu0.4
 sysvinit-utils2.88dsf-59.10ubuntu1
 tar1.29b-2ubuntu0.1
-tzdata2020a-0ubuntu0.18.04
+tzdata2020d-0ubuntu0.18.04
 ubuntu-keyring2018.09.18.1~18.04.0
 ucf3.0038
 unzip6.0-21ubuntu1
