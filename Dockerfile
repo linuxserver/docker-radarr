@@ -1,4 +1,4 @@
-FROM lsiobase/ubuntu:focal
+FROM ghcr.io/linuxserver/baseimage-ubuntu:focal
 
 # set version label
 ARG BUILD_DATE
