@@ -137,7 +137,7 @@ ncurses-base6.2-0ubuntu2
 ncurses-bin6.2-0ubuntu2
 openssl1.1.1f-1ubuntu2
 passwd1:4.8.1-1ubuntu5.20.04
-perl-base5.30.0-9build1
+perl-base5.30.0-9ubuntu0.2
 pinentry-curses1.1.0-3build1
 procps2:3.3.16-1ubuntu2
 publicsuffix20200303.0012-1
