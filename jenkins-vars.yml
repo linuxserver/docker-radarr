@@ -2,14 +2,12 @@
 
 # jenkins variables
 project_name: docker-radarr
-external_type: github_devel
+external_type: na
+custom_version_command: curl -sL https://radarr.servarr.com/v1/update/master/changes?os=linux | jq -r '.[0].version'
 release_type: stable
 release_tag: latest
 ls_branch: master
 repo_vars:
-  - EXT_GIT_BRANCH = 'master'
-  - EXT_USER = 'Radarr'
-  - EXT_REPO = 'Radarr'
   - BUILD_VERSION_ARG = 'RADARR_RELEASE'
   - LS_USER = 'linuxserver'
   - LS_REPO = 'docker-radarr'

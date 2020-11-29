@@ -7,5 +7,5 @@ umask "$UMASK_SET"
 cd /app/radarr/bin || exit
 
 exec \
-	s6-setuidgid abc mono --debug Radarr.exe \
+	s6-setuidgid abc /app/radarr/bin/Radarr \
 	-nobrowser -data=/config
