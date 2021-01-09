@@ -91,7 +91,7 @@ libnettle73.5.1+really3.5.1-2
 libnghttp2-141.40.0-1build1
 libnpth01.6-1
 libonig56.9.4-1
-libp11-kit00.23.20-1build1
+libp11-kit00.23.20-1ubuntu0.1
 libpam0g1.3.1-5ubuntu4.1
 libpam-modules1.3.1-5ubuntu4.1
 libpam-modules-bin1.3.1-5ubuntu4.1
