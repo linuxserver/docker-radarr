@@ -64,6 +64,7 @@ This image provides various versions that are available via tags. `latest` tag u
 | Tag | Description |
 | :----: | --- |
 | latest | Stable Radarr releases |
+| develop | Radarr releases from their develop branch |
 | nightly | Nightly Radarr releases |
 
 ## Usage
@@ -85,7 +86,6 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Europe/London
-      - UMASK_SET=022 #optional
     volumes:
       - /path/to/data:/config
       - /path/to/movies:/movies
@@ -103,7 +103,6 @@ docker run -d \
   -e PUID=1000 \
   -e PGID=1000 \
   -e TZ=Europe/London \
-  -e UMASK_SET=022 `#optional` \
   -p 7878:7878 \
   -v /path/to/data:/config \
   -v /path/to/movies:/movies \
@@ -123,7 +122,6 @@ Container images are configured using parameters passed at runtime (such as thos
 | `-e PUID=1000` | for UserID - see below for explanation |
 | `-e PGID=1000` | for GroupID - see below for explanation |
 | `-e TZ=Europe/London` | Specify a timezone to use EG Europe/London, this is required for Radarr |
-| `-e UMASK_SET=022` | control permissions of files and directories created by Radarr |
 | `-v /config` | Database and Radarr configs |
 | `-v /movies` | Location of Movie library on disk (See note in Application setup) |
 | `-v /downloads` | Location of download managers output directory (See note in Application setup) |
@@ -240,6 +238,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **17.01.21:** - Deprecate `UMASK_SET` in favor of UMASK in baseimage, see above for more information.
 * **09.27.20:** - Merge Preview into Nightly.
 * **05.04.20:** - Move app to /app.
 * **01.08.19:** - Rebase to Linuxserver LTS mono version.
