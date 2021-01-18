@@ -36,9 +36,7 @@ param_usage_include_env: true
 param_env_vars:
   - { env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London, this is required for Radarr"}
 # optional env variables
-opt_param_usage_include_env: true
-opt_param_env_vars:
-  - { env_var: "UMASK_SET", env_value: "022", desc: "control permissions of files and directories created by Radarr"}
+opt_param_usage_include_env: false
 
 # application setup block
 app_setup_block_enabled: true
@@ -51,6 +49,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "17.01.21:", desc: "Deprecate `UMASK_SET` in favor of UMASK in baseimage, see above for more information." }
   - { date: "11.30.20:", desc: "Publish `develop` tag." }
   - { date: "11.28.20:", desc: "Switch to v3 .NET CORE builds (no more mono, `5.14` tag is deprecated). Rebase to Focal (for issues on arm32v7, [see here](https://docs.linuxserver.io/faq#my-host-is-incompatible-with-images-based-on-ubuntu-focal))." }
   - { date: "05.04.20:", desc: "Move app to /app." }
