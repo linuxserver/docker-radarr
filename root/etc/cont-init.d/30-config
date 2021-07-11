@@ -2,4 +2,4 @@
 
 # permissions
 chown -R abc:abc \
-	/config
+    /config
