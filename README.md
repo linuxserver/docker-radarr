@@ -70,9 +70,15 @@ This image provides various versions that are available via tags. `latest` tag u
 
 Access the webui at `<your-ip>:7878`, for more information check out [Radarr](https://github.com/Radarr/Radarr).
 
-**Special Note**: Following our current folder structure will result in an inability to hardlink from your downloads to your movies folder because they are on seperate volumes. To support hardlinking, ensure that the movies and downloads data are on a single volume. For example, if you have `/mnt/storage/Movies` and `/mnt/storage/downloads/completed/Movies`, you would want something like `/mnt/storage:/media` for your volume. Then you can hardlink from `/media/downloads/completed` to `/media/Movies`.
+### Media folders
 
-Another item to keep in mind, is that within Radarr itself, you should map your download client folder to your radarr folder. Navigate to **Settings -> Download Client -> Advanced Settings -> Remote Path Mappings**. Add a new mapping, and set: the Host as the same entry of the Host in your download client (for example its IP address), the Remote Path as `/downloads/Movies` (relative to the internal container path), and Local Path as `/media/downloads/completed/Movies`, assuming you have folders to separate your downloaded data types.
+We have set `/movies` and `/downloads` as ***optional paths***, this is because it is the easiest way to get started. While easy to use, it has some drawbacks. Mainly losing the ability to hardlink (TL;DR a way for a file to exist in multiple places on the same file system while only consuming one file worth of space), or atomic move (TL;DR instant file moves, rather than copy+delete) files while processing content.
+
+Use the optional paths if you dont understand, or dont want hardlinks/atomic moves.
+
+The folks over at servarr.com wrote a good [write-up](https://wiki.servarr.com/docker-guide#consistent-and-well-planned-paths) on how to get started with this.
+
+# changelog
 
 ## Usage
 
@@ -93,8 +99,8 @@ services:
       - TZ=Europe/London
     volumes:
       - /path/to/data:/config
-      - /path/to/movies:/movies
-      - /path/to/downloadclient-downloads:/downloads
+      - /path/to/movies:/movies #optional
+      - /path/to/downloadclient-downloads:/downloads #optional
     ports:
       - 7878:7878
     restart: unless-stopped
@@ -110,8 +116,8 @@ docker run -d \
   -e TZ=Europe/London \
   -p 7878:7878 \
   -v /path/to/data:/config \
-  -v /path/to/movies:/movies \
-  -v /path/to/downloadclient-downloads:/downloads \
+  -v /path/to/movies:/movies `#optional` \
+  -v /path/to/downloadclient-downloads:/downloads `#optional` \
   --restart unless-stopped \
   ghcr.io/linuxserver/radarr
 ```
@@ -239,6 +245,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **11.07.21:** - Make the paths clearer to the user
 * **17.01.21:** - Deprecate `UMASK_SET` in favor of UMASK in baseimage, see above for more information.
 * **11.30.20:** - Publish `develop` tag.
 * **11.28.20:** - Switch to v3 .NET CORE builds (no more mono, `5.14` tag is deprecated). Rebase to Focal (for issues on arm32v7, [see here](https://docs.linuxserver.io/faq#my-host-is-incompatible-with-images-based-on-ubuntu-focal)).
