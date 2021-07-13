@@ -103,7 +103,7 @@ pipeline {
       steps{
         script{
           env.EXT_RELEASE = sh(
-            script: ''' curl -sL https://radarr.servarr.com/v1/update/master/changes?os=linux | jq -r '.[0].version' ''',
+            script: ''' curl -sL https://radarr.servarr.com/v1/update/master/changes?runtime=netcore%26os=linux | jq -r '.[0].version' ''',
             returnStdout: true).trim()
             env.RELEASE_LINK = 'custom_command'
         }

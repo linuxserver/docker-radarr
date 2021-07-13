@@ -8,5 +8,5 @@ fi
 cd /app/radarr/bin || exit
 
 exec \
-	s6-setuidgid abc /app/radarr/bin/Radarr \
-	-nobrowser -data=/config
+  s6-setuidgid abc /app/radarr/bin/Radarr \
+  -nobrowser -data=/config
