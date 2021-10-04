@@ -6,7 +6,7 @@ base-passwd3.5.47
 bash5.0-6ubuntu1.1
 bsdutils1:2.34-0.1ubuntu9.1
 bzip21.0.8-2
-ca-certificates20210119~20.04.1
+ca-certificates20210119~20.04.2
 coreutils8.30-3ubuntu2
 curl7.68.0-1ubuntu2.7
 dash0.5.10.2-6
@@ -98,7 +98,7 @@ libpam-modules-bin1.3.1-5ubuntu4.2
 libpam-runtime1.3.1-5ubuntu4.2
 libpcre2-8-010.34-7
 libpcre32:8.39-12build1
-libprocps82:3.3.16-1ubuntu2.2
+libprocps82:3.3.16-1ubuntu2.3
 libpsl50.21.0-1ubuntu1
 libreadline88.0-4
 libroken18-heimdal7.7.0+dfsg-1ubuntu1
@@ -139,7 +139,7 @@ openssl1.1.1f-1ubuntu2.8
 passwd1:4.8.1-1ubuntu5.20.04.1
 perl-base5.30.0-9ubuntu0.2
 pinentry-curses1.1.0-3build1
-procps2:3.3.16-1ubuntu2.2
+procps2:3.3.16-1ubuntu2.3
 publicsuffix20200303.0012-1
 readline-common8.0-4
 sed4.7-1
