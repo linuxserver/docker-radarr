@@ -35,7 +35,6 @@ s6-ipcserver-2.11.0.0-r0
 scanelf-1.3.3-r0
 shadow-4.8.1-r1
 skalibs-2.11.0.0-r0
-sqlite-3.36.0-r0
 sqlite-libs-3.36.0-r0
 ssl_client-1.34.1-r3
 tzdata-2021e-r0
