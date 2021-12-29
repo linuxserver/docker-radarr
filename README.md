@@ -67,6 +67,7 @@ This image provides various versions that are available via tags. `latest` tag u
 | latest | Stable Radarr releases |
 | develop | Radarr releases from their develop branch |
 | nightly | Nightly Radarr releases |
+| nightly-alpine | Nightly Radarr releases using our Alpine baseimage |
 
 ## Application Setup
 
@@ -245,6 +246,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **27.12.21:** - Add nightly-alpine branch.
 * **13.12.21:** - Remove unused dependencies.
 * **17.10.21:** - Remove `UMASK_SET`.
 * **11.07.21:** - Make the paths clearer to the user
