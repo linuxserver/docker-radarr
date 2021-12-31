@@ -16,7 +16,7 @@ RUN \
   apk add -U --upgrade --no-cache \
     curl \
     jq \
-    icu \
+    icu-libs \
     sqlite-libs && \
   echo "**** install radarr ****" && \
   mkdir -p /app/radarr/bin && \
