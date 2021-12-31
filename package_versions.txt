@@ -8,7 +8,6 @@ ca-certificates-20191127-r7
 ca-certificates-bundle-20191127-r7
 coreutils-9.0-r2
 curl-7.80.0-r0
-icu-69.1-r1
 icu-libs-69.1-r1
 jq-1.6-r1
 libacl-2.2.53-r0
