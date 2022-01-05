@@ -14,7 +14,7 @@ ENV XDG_CONFIG_HOME="/config/xdg"
 
 RUN \
   echo "**** install packages ****" && \
-  apk add --no-cache && \
+  apk add --no-cache \
     libstdc++ \
     jq \
     icu-libs \
