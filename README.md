@@ -27,6 +27,12 @@ Find us at:
 * [GitHub](https://github.com/linuxserver) - view the source for all of our repositories.
 * [Open Collective](https://opencollective.com/linuxserver) - please consider helping us by either donating or contributing to our budget
 
+# DEPRECATION NOTICE
+
+This image is deprecated. We will not offer support for this image and it will not be updated.
+Our standard nightly tag is now Alpine based:
+https://github.com/linuxserver/docker-radarr
+
 # [linuxserver/radarr](https://github.com/linuxserver/docker-radarr)
 
 [![Scarf.io pulls](https://scarf.sh/installs-badge/linuxserver-ci/linuxserver%2Fradarr?color=94398d&label-color=555555&logo-color=ffffff&style=for-the-badge&package-type=docker)](https://scarf.sh/gateway/linuxserver-ci/docker/linuxserver%2Fradarr)
@@ -246,6 +252,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **04.02.22:** - Deprecate nightly-alpine branch.
 * **27.12.21:** - Add nightly-alpine branch.
 * **13.12.21:** - Remove unused dependencies.
 * **17.10.21:** - Remove `UMASK_SET`.

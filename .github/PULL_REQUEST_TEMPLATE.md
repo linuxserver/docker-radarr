@@ -1,3 +1,9 @@
+# DEPRECATION NOTICE
+
+This image is deprecated. We will not offer support for this image and it will not be updated.
+Our standard nightly tag is now Alpine based:
+https://github.com/linuxserver/docker-radarr
+
 <!--- Provide a general summary of your changes in the Title above -->
 
 [linuxserverurl]: https://linuxserver.io
