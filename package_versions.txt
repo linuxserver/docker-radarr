@@ -8,7 +8,7 @@ bsdutils1:2.34-0.1ubuntu9.3
 bzip21.0.8-2
 ca-certificates20210119~20.04.2
 coreutils8.30-3ubuntu2
-curl7.68.0-1ubuntu2.10
+curl7.68.0-1ubuntu2.11
 dash0.5.10.2-6
 debconf1.5.73
 debianutils4.9.1
@@ -51,7 +51,7 @@ libc-bin2.31-0ubuntu9.7
 libcom-err21.45.5-2ubuntu1
 libcrypt11:4.4.10-10ubuntu4
 libcurl3-gnutls7.68.0-1ubuntu2.11
-libcurl47.68.0-1ubuntu2.10
+libcurl47.68.0-1ubuntu2.11
 libdb5.35.3.28+dfsg1-0.6ubuntu2
 libdebconfclient00.251ubuntu1
 libext2fs21.45.5-2ubuntu1
@@ -127,7 +127,7 @@ libuuid12.34-0.1ubuntu9.3
 libwind0-heimdal7.7.0+dfsg-1ubuntu1
 libzen0v50.4.37-1build1
 libzstd11.4.4+dfsg-3ubuntu0.1
-locales2.31-0ubuntu9.7
+locales2.31-0ubuntu9.9
 login1:4.8.1-1ubuntu5.20.04.1
 logsave1.45.5-2ubuntu1
 lsb-base11.1.0ubuntu2
