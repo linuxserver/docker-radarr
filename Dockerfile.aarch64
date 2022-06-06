@@ -12,12 +12,11 @@ ENV XDG_CONFIG_HOME="/config/xdg"
 
 RUN \
   echo "**** install packages ****" && \
-  apt-get update && \
-  apt-get install --no-install-recommends -y \
+  apk add -U --upgrade --no-cache \
+    curl \
     jq \
-    libicu66 \
-    libmediainfo0v5 \
-    sqlite3 && \
+    icu-libs \
+    sqlite-libs && \
   echo "**** install radarr ****" && \
   mkdir -p /app/radarr/bin && \
   if [ -z ${RADARR_RELEASE+x} ]; then \
