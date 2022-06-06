@@ -56,6 +56,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "06.06.22:", desc: "Rebase master branch to Alpine 3.15." }
   - { date: "20.02.22:", desc: "Rebase develop branch to Alpine." }
   - { date: "04.02.22:", desc: "Rebase nightly branch to Alpine and deprecate nightly-alpine branch." }
   - { date: "27.12.21:", desc: "Add nightly-alpine branch." }
