@@ -2,7 +2,7 @@
 # jenkins variables
 project_name: docker-radarr
 external_type: na
-custom_version_command: curl -sL https://radarr.servarr.com/v1/update/master/changes?runtime=netcore%26os=linux | jq -r '.[0].version'
+custom_version_command: curl -sL https://radarr.servarr.com/v1/update/master/changes?runtime=netcore%26os=linuxmusl | jq -r '.[0].version'
 release_type: stable
 release_tag: latest
 ls_branch: master
@@ -14,7 +14,7 @@ repo_vars:
   - DOCKERHUB_IMAGE = 'linuxserver/radarr'
   - DEV_DOCKERHUB_IMAGE = 'lsiodev/radarr'
   - PR_DOCKERHUB_IMAGE = 'lspipepr/radarr'
-  - DIST_IMAGE = 'ubuntu'
+  - DIST_IMAGE = 'alpine'
   - MULTIARCH='true'
   - CI='true'
   - CI_WEB='true'
