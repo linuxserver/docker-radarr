@@ -1,0 +1,14 @@
+#!/usr/bin/with-contenv bash
+
+APK_WARN_MSG="PackageGlobalMessage=Warn: This image is now based on Alpine. Custom scripts using apt-get will need to be updated to use apk"
+
+if grep -q "apt-get" /config/custom-cont-init.d/*; then
+  if ! grep -q "${APK_WARN_MSG}" /app/radarr/package_info; then
+    echo -e "${APK_WARN_MSG}" >> /app/radarr/package_info
+  fi
+else
+  if grep -q "${APK_WARN_MSG}" /app/radarr/package_info; then
+    grep -v "${APK_WARN_MSG}" /app/radarr/package_info > /app/radarr/package_info_new
+    mv -f /app/radarr/package_info_new /app/radarr/package_info
+  fi
+fi
