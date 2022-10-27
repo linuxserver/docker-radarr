@@ -24,6 +24,6 @@ repo_vars:
   - CI_DELAY='120'
   - CI_DOCKERENV='TZ=Europe/London'
   - CI_AUTH='user:password'
-  - CI_WEBPATH=''
+  - CI_WEBPATH='/system/status'
 sponsor_links:
   - { name: "Radarr", url: "https://opencollective.com/radarr" }
