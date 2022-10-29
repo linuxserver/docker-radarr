@@ -245,6 +245,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **27.10.22:** - Rebase nightly to Alpine 3.16, migrate to s6v3.
 * **04.02.22:** - Rebase nightly branch to Alpine.
 * **13.12.21:** - Remove unused dependencies.
 * **17.10.21:** - Remove `UMASK_SET`.
