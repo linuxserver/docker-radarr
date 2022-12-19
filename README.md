@@ -247,6 +247,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **19.12.22:** - Rebase develop branch to Alpine 3.17, migrate to s6v3.
 * **20.02.22:** - Rebase develop branch to Alpine.
 * **17.10.21:** - Remove `UMASK_SET`.
 * **11.07.21:** - Make the paths clearer to the user
