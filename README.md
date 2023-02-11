@@ -56,7 +56,7 @@ The architectures supported by this image are:
 | :----: | :----: | ---- |
 | x86-64 | ✅ | amd64-\<version tag\> |
 | arm64 | ✅ | arm64v8-\<version tag\> |
-| armhf| ✅ | arm32v7-\<version tag\> |
+| armhf | ✅ | arm32v7-\<version tag\> |
 
 ## Version Tags
 
@@ -67,7 +67,6 @@ This image provides various versions that are available via tags. Please read th
 | latest | ✅ | Stable Radarr releases |
 | develop | ✅ | Radarr releases from their develop branch |
 | nightly | ✅ | Radarr releases from their nightly branch |
-
 ## Application Setup
 
 Access the webui at `<your-ip>:7878`, for more information check out [Radarr](https://github.com/Radarr/Radarr).
@@ -98,7 +97,7 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=Europe/London
+      - TZ=Etc/UTC
     volumes:
       - /path/to/data:/config
       - /path/to/movies:/movies #optional
@@ -115,13 +114,14 @@ docker run -d \
   --name=radarr \
   -e PUID=1000 \
   -e PGID=1000 \
-  -e TZ=Europe/London \
+  -e TZ=Etc/UTC \
   -p 7878:7878 \
   -v /path/to/data:/config \
   -v /path/to/movies:/movies `#optional` \
   -v /path/to/downloadclient-downloads:/downloads `#optional` \
   --restart unless-stopped \
   lscr.io/linuxserver/radarr:develop
+
 ```
 
 ## Parameters
@@ -133,7 +133,7 @@ Container images are configured using parameters passed at runtime (such as thos
 | `-p 7878` | The port for the Radarr webinterface |
 | `-e PUID=1000` | for UserID - see below for explanation |
 | `-e PGID=1000` | for GroupID - see below for explanation |
-| `-e TZ=Europe/London` | Specify a timezone to use EG Europe/London, this is required for Radarr |
+| `-e TZ=Etc/UTC` | specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List). |
 | `-v /config` | Database and Radarr configs |
 | `-v /movies` | Location of Movie library on disk (See note in Application setup) |
 | `-v /downloads` | Location of download managers output directory (See note in Application setup) |
