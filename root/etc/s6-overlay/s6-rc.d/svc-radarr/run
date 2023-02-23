@@ -2,6 +2,6 @@
 # shellcheck shell=bash
 
 exec \
-    s6-notifyoncheck -d -n 300 -w 1000 -c "nc -z localhost 7878" \
+    s6-notifyoncheck -d -n 300 -w 1000 \
         cd /app/radarr/bin s6-setuidgid abc /app/radarr/bin/Radarr \
         -nobrowser -data=/config
