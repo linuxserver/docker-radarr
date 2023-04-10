@@ -17,6 +17,7 @@ RUN \
   echo "**** install packages ****" && \
   apk add -U --upgrade --no-cache \
     icu-libs \
+    ffmpeg \
     sqlite-libs && \
   echo "**** install radarr ****" && \
   mkdir -p /app/radarr/bin && \
