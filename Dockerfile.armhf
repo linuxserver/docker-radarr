@@ -12,12 +12,12 @@ LABEL maintainer="thelamer"
 # environment settings
 ARG RADARR_BRANCH="master"
 ENV XDG_CONFIG_HOME="/config/xdg"
+ENV PATH "$PATH:/app/radarr/bin"
 
 RUN \
   echo "**** install packages ****" && \
   apk add -U --upgrade --no-cache \
     icu-libs \
-    ffmpeg \
     sqlite-libs && \
   echo "**** install radarr ****" && \
   mkdir -p /app/radarr/bin && \
