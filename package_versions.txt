@@ -90,8 +90,8 @@ Servarr.FluentMigrator.Runner.SqlServer                                        3
 Servarr.FluentMigrator.Runner.SqlServerCe                                      3.3.2.9                dotnet  
 SharpZipLib                                                                    1.3.3                  dotnet  
 SixLabors.ImageSharp                                                           3.0.1                  dotnet  
-Swashbuckle.AspNetCore.Swagger                                                 6.3.0                  dotnet  
-Swashbuckle.AspNetCore.SwaggerGen                                              6.3.0                  dotnet  
+Swashbuckle.AspNetCore.Swagger                                                 6.5.0                  dotnet  
+Swashbuckle.AspNetCore.SwaggerGen                                              6.5.0                  dotnet  
 System.AppContext                                                              4.3.0                  dotnet  
 System.Buffers                                                                 4.3.0                  dotnet  
 System.Collections                                                             4.3.0                  dotnet  
