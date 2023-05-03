@@ -4,7 +4,7 @@ DryIoc.Microsoft.DependencyInjection                                           6
 DryIoc.dll                                                                     5.3.4                  dotnet  
 Dynamitey                                                                      2.0.9.136              dotnet  
 Equ                                                                            2.3.0                  dotnet  
-FluentValidation                                                               8.6.2                  dotnet  
+FluentValidation                                                               9.5.4                  dotnet  
 Ical.Net                                                                       4.2.0                  dotnet  
 ImpromptuInterface                                                             7.0.1                  dotnet  
 Instances                                                                      1.6.1                  dotnet  
