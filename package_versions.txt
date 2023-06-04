@@ -56,8 +56,8 @@ Mono.Nat                                                                       3
 Mono.Posix.NETStandard                                                         5.20.1.34-servarr20    dotnet  
 MonoTorrent                                                                    2.0.7                  dotnet  
 NETStandard.Library                                                            1.6.1                  dotnet  
-NLog                                                                           5.0.1                  dotnet  
-NLog.Extensions.Logging                                                        5.0.0                  dotnet  
+NLog                                                                           5.2.0                  dotnet  
+NLog.Extensions.Logging                                                        5.3.0                  dotnet  
 NLog.Targets.Syslog                                                            7.0.0                  dotnet  
 Newtonsoft.Json                                                                13.0.2                 dotnet  
 NodaTime                                                                       3.0.0                  dotnet  
@@ -185,7 +185,7 @@ busybox-binsh                                                                  1
 ca-certificates                                                                20230506-r0            apk     
 ca-certificates-bundle                                                         20230506-r0            apk     
 coreutils                                                                      9.1-r0                 apk     
-curl                                                                           8.1.1-r1               apk     
+curl                                                                           8.1.2-r0               apk     
 icu-data-en                                                                    72.1-r1                apk     
 icu-libs                                                                       72.1-r1                apk     
 jq                                                                             1.6-r2                 apk     
@@ -193,13 +193,13 @@ libacl                                                                         2
 libattr                                                                        2.5.1-r2               apk     
 libbsd                                                                         0.11.7-r0              apk     
 libc-utils                                                                     0.7.2-r3               apk     
-libcrypto3                                                                     3.0.8-r4               apk     
-libcurl                                                                        8.1.1-r1               apk     
+libcrypto3                                                                     3.0.9-r1               apk     
+libcurl                                                                        8.1.2-r0               apk     
 libgcc                                                                         12.2.1_git20220924-r4  apk     
 libintl                                                                        0.21.1-r1              apk     
 libmd                                                                          1.0.4-r0               apk     
 libproc                                                                        3.3.17-r2              apk     
-libssl3                                                                        3.0.8-r4               apk     
+libssl3                                                                        3.0.9-r1               apk     
 libstdc++                                                                      12.2.1_git20220924-r4  apk     
 linux-pam                                                                      1.5.2-r1               apk     
 musl                                                                           1.2.3-r5               apk     
