@@ -56,7 +56,7 @@ The architectures supported by this image are:
 | :----: | :----: | ---- |
 | x86-64 | ✅ | amd64-\<version tag\> |
 | arm64 | ✅ | arm64v8-\<version tag\> |
-| armhf | ✅ | arm32v7-\<version tag\> |
+| armhf | ❌ | |
 
 ## Version Tags
 
@@ -247,6 +247,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **06.06.23:** - Rebase develop to Alpine 3.18.
 * **19.12.22:** - Rebase develop branch to Alpine 3.17, migrate to s6v3.
 * **20.02.22:** - Rebase develop branch to Alpine.
 * **17.10.21:** - Remove `UMASK_SET`.

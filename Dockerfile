@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM ghcr.io/linuxserver/baseimage-alpine:3.17
+FROM ghcr.io/linuxserver/baseimage-alpine:3.18
 
 # set version label
 ARG BUILD_DATE
@@ -17,7 +17,8 @@ RUN \
   echo "**** install packages ****" && \
   apk add -U --upgrade --no-cache \
     icu-libs \
-    sqlite-libs && \
+    sqlite-libs \
+    xmlstarlet && \
   echo "**** install radarr ****" && \
   mkdir -p /app/radarr/bin && \
   if [ -z ${RADARR_RELEASE+x} ]; then \
