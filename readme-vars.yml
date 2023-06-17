@@ -55,7 +55,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
-  - { date: "06.06.23:", desc: "Rebase master to Alpine 3.18." }
+  - { date: "06.06.23:", desc: "Rebase master to Alpine 3.18, deprecate armhf as per [https://www.linuxserver.io/armhf](https://www.linuxserver.io/armhf)." }
   - { date: "17.01.23:", desc: "Rebase master branch to Alpine 3.17, migrate to s6v3." }
   - { date: "06.06.22:", desc: "Rebase master branch to Alpine 3.15." }
   - { date: "20.02.22:", desc: "Rebase develop branch to Alpine." }
