@@ -6,6 +6,7 @@ custom_version_command: curl -sL https://radarr.servarr.com/v1/update/master/cha
 release_type: stable
 release_tag: latest
 ls_branch: master
+build_armhf: false
 repo_vars:
   - BUILD_VERSION_ARG = 'RADARR_RELEASE'
   - LS_USER = 'linuxserver'
