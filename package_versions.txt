@@ -203,7 +203,7 @@ libintl                                                                        0
 libmd                                                                          1.0.4-r2                apk     
 libncursesw                                                                    6.4_p20230506-r0        apk     
 libproc2                                                                       4.0.3-r1                apk     
-libssl3                                                                        3.1.1-r1                apk     
+libssl3                                                                        3.1.1-r2                apk     
 libstdc++                                                                      12.2.1_git20220924-r10  apk     
 libunistring                                                                   1.1-r1                  apk     
 libxml2                                                                        2.11.4-r0               apk     
