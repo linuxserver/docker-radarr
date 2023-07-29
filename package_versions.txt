@@ -209,7 +209,7 @@ libunistring                                                                   1
 libxml2                                                                        2.11.4-r0               apk     
 libxslt                                                                        1.1.38-r0               apk     
 linux-pam                                                                      1.5.2-r10               apk     
-musl                                                                           1.2.4-r0                apk     
+musl                                                                           1.2.4-r1                apk     
 musl-utils                                                                     1.2.4-r0                apk     
 ncurses-terminfo-base                                                          6.4_p20230506-r0        apk     
 netcat-openbsd                                                                 1.219-r1                apk     
