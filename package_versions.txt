@@ -183,14 +183,14 @@ NLog.Extensions.Logging for .NET 6                          5.3.0.360           
 Noda Time                                                   3.0.0.0                 dotnet  
 Npgsql                                                      7.0.4.0                 dotnet  
 Polly.Contrib.WaitAndRetry                                  1.1.1.0                 dotnet  
-Radarr                                                      4.7.5.7786              dotnet  
-Radarr.Api.V3                                               4.7.5.7786              dotnet  
-Radarr.Common                                               4.7.5.7786              dotnet  
-Radarr.Core                                                 4.7.5.7786              dotnet  
-Radarr.Host                                                 4.7.5.7786              dotnet  
-Radarr.Http                                                 4.7.5.7786              dotnet  
-Radarr.Mono                                                 4.7.5.7786              dotnet  
-Radarr.SignalR                                              4.7.5.7786              dotnet  
+Radarr                                                      4.7.5.7787              dotnet  
+Radarr.Api.V3                                               4.7.5.7787              dotnet  
+Radarr.Common                                               4.7.5.7787              dotnet  
+Radarr.Core                                                 4.7.5.7787              dotnet  
+Radarr.Host                                                 4.7.5.7787              dotnet  
+Radarr.Http                                                 4.7.5.7787              dotnet  
+Radarr.Mono                                                 4.7.5.7787              dotnet  
+Radarr.SignalR                                              4.7.5.7787              dotnet  
 ReusableTasks                                               2.0.0                   dotnet  
 Sentry                                                      3.23.1.0                dotnet  
 SixLabors.ImageSharp                                        3.0.1.0                 dotnet  
