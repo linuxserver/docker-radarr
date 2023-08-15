@@ -183,14 +183,14 @@ NLog.Extensions.Logging for .NET 6                          5.3.0.360           
 Noda Time                                                   3.0.0.0                 dotnet  
 Npgsql                                                      7.0.4.0                 dotnet  
 Polly.Contrib.WaitAndRetry                                  1.1.1.0                 dotnet  
-Radarr                                                      4.7.5.7821              dotnet  
-Radarr.Api.V3                                               4.7.5.7821              dotnet  
-Radarr.Common                                               4.7.5.7821              dotnet  
-Radarr.Core                                                 4.7.5.7821              dotnet  
-Radarr.Host                                                 4.7.5.7821              dotnet  
-Radarr.Http                                                 4.7.5.7821              dotnet  
-Radarr.Mono                                                 4.7.5.7821              dotnet  
-Radarr.SignalR                                              4.7.5.7821              dotnet  
+Radarr                                                      5.0.0.7836              dotnet  
+Radarr.Api.V3                                               5.0.0.7836              dotnet  
+Radarr.Common                                               5.0.0.7836              dotnet  
+Radarr.Core                                                 5.0.0.7836              dotnet  
+Radarr.Host                                                 5.0.0.7836              dotnet  
+Radarr.Http                                                 5.0.0.7836              dotnet  
+Radarr.Mono                                                 5.0.0.7836              dotnet  
+Radarr.SignalR                                              5.0.0.7836              dotnet  
 ReusableTasks                                               2.0.0                   dotnet  
 Sentry                                                      3.23.1.0                dotnet  
 SixLabors.ImageSharp                                        3.0.1.0                 dotnet  
@@ -217,7 +217,7 @@ System.Core                                                 6.0.1623.17311      
 System.Data                                                 6.0.1623.17311          dotnet  
 System.Data.Common                                          6.0.1623.17311          dotnet  
 System.Data.DataSetExtensions                               6.0.1623.17311          dotnet  
-System.Data.SQLite Core                                     1.0.115.5               dotnet  
+System.Data.SQLite Core                                     1.0.118.0               dotnet  
 System.Data.SqlServerCe                                     4.0.8876.1              dotnet  
 System.Diagnostics.Contracts                                6.0.1623.17311          dotnet  
 System.Diagnostics.Debug                                    6.0.1623.17311          dotnet  
