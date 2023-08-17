@@ -1,8 +1,8 @@
 NAME                                                        VERSION                 TYPE   
 BouncyCastle.Crypto                                         1.9.0.1                 dotnet  
-Dapper                                                      2.0.123.33578           dotnet  
-DryIoc netstandard2.1                                       5.3.4.0                 dotnet  
-DryIoc.Microsoft.DependencyInjection netstandard2.0         6.1.1.0                 dotnet  
+Dapper                                                      2.0.143.55328           dotnet  
+DryIoc net6.0                                               5.4.1.0                 dotnet  
+DryIoc.Microsoft.DependencyInjection net6.0                 6.2.0.0                 dotnet  
 Dynamitey                                                   2.0.9.136               dotnet  
 Equ                                                         2.3.0                   dotnet  
 FFMpegCore                                                  4.0.0.0                 dotnet  
@@ -30,7 +30,7 @@ ICSharpCode.SharpZipLib                                     1.3.3.11            
 Ical.Net                                                    1.0.0.0                 dotnet  
 ImpromptuInterface                                          7.0.1.0                 dotnet  
 Instances                                                   1.0.0.0                 dotnet  
-Json.NET .NET 6.0                                           13.0.2.27524            dotnet  
+Json.NET .NET 6.0                                           13.0.3.27908            dotnet  
 MailKit                                                     3.6.0.0                 dotnet  
 Microsoft.AspNetCore                                        6.0.1623.17406          dotnet  
 Microsoft.AspNetCore.Antiforgery                            6.0.1623.17406          dotnet  
@@ -128,7 +128,7 @@ Microsoft.Extensions.Configuration.KeyPerFile               6.0.1623.17406      
 Microsoft.Extensions.Configuration.UserSecrets              6.0.222.6406            dotnet  
 Microsoft.Extensions.Configuration.Xml                      6.0.21.52210            dotnet  
 Microsoft.Extensions.DependencyInjection                    6.0.1022.47605          dotnet  
-Microsoft.Extensions.DependencyInjection.Abstractions       6.0.21.52210            dotnet  
+Microsoft.Extensions.DependencyInjection.Abstractions       7.0.22.51805            dotnet  
 Microsoft.Extensions.Diagnostics.HealthChecks               6.0.1623.17406          dotnet  
 Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions  6.0.1623.17406          dotnet  
 Microsoft.Extensions.Features                               6.0.1623.17406          dotnet  
@@ -139,7 +139,7 @@ Microsoft.Extensions.FileProviders.Physical                 6.0.21.52210        
 Microsoft.Extensions.FileSystemGlobbing                     6.0.21.52210            dotnet  
 Microsoft.Extensions.Hosting                                6.0.222.6406            dotnet  
 Microsoft.Extensions.Hosting.Abstractions                   6.0.21.52210            dotnet  
-Microsoft.Extensions.Hosting.WindowsServices                6.0.1022.47605          dotnet  
+Microsoft.Extensions.Hosting.WindowsServices                6.0.1823.26907          dotnet  
 Microsoft.Extensions.Http                                   6.0.21.52210            dotnet  
 Microsoft.Extensions.Identity.Core                          6.0.1623.17406          dotnet  
 Microsoft.Extensions.Identity.Stores                        6.0.1623.17406          dotnet  
@@ -178,19 +178,19 @@ Mono.Nat                                                    3.0.1               
 Mono.Posix.NETStandard.dll                                  1.0.0.0                 dotnet  
 MonoTorrent                                                 2.0.7                   dotnet  
 NLog Syslog target                                          7.0.0.0                 dotnet  
-NLog for NetStandard 2.0                                    5.2.0.1813              dotnet  
-NLog.Extensions.Logging for .NET 6                          5.3.0.360               dotnet  
+NLog for NetStandard 2.0                                    5.2.3.1999              dotnet  
+NLog.Extensions.Logging for .NET 6                          5.3.3.381               dotnet  
 Noda Time                                                   3.0.0.0                 dotnet  
 Npgsql                                                      7.0.4.0                 dotnet  
 Polly.Contrib.WaitAndRetry                                  1.1.1.0                 dotnet  
-Radarr                                                      5.0.0.7836              dotnet  
-Radarr.Api.V3                                               5.0.0.7836              dotnet  
-Radarr.Common                                               5.0.0.7836              dotnet  
-Radarr.Core                                                 5.0.0.7836              dotnet  
-Radarr.Host                                                 5.0.0.7836              dotnet  
-Radarr.Http                                                 5.0.0.7836              dotnet  
-Radarr.Mono                                                 5.0.0.7836              dotnet  
-Radarr.SignalR                                              5.0.0.7836              dotnet  
+Radarr                                                      5.0.0.7844              dotnet  
+Radarr.Api.V3                                               5.0.0.7844              dotnet  
+Radarr.Common                                               5.0.0.7844              dotnet  
+Radarr.Core                                                 5.0.0.7844              dotnet  
+Radarr.Host                                                 5.0.0.7844              dotnet  
+Radarr.Http                                                 5.0.0.7844              dotnet  
+Radarr.Mono                                                 5.0.0.7844              dotnet  
+Radarr.SignalR                                              5.0.0.7844              dotnet  
 ReusableTasks                                               2.0.0                   dotnet  
 Sentry                                                      3.23.1.0                dotnet  
 SixLabors.ImageSharp                                        3.0.1.0                 dotnet  
@@ -333,7 +333,7 @@ System.Security.Principal.Windows                           6.0.1623.17311      
 System.Security.SecureString                                6.0.1623.17311          dotnet  
 System.ServiceModel.Web                                     6.0.1623.17311          dotnet  
 System.ServiceProcess                                       6.0.1623.17311          dotnet  
-System.ServiceProcess.ServiceController                     6.0.21.52210            dotnet  
+System.ServiceProcess.ServiceController                     6.0.1823.26907          dotnet  
 System.Text.Encoding                                        6.0.1623.17311          dotnet  
 System.Text.Encoding.CodePages                              6.0.1623.17311          dotnet  
 System.Text.Encoding.Extensions                             6.0.1623.17311          dotnet  
