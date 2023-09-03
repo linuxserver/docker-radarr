@@ -183,14 +183,14 @@ NLog.Extensions.Logging for .NET 6                          5.3.3.381           
 Noda Time                                                   3.0.0.0                 dotnet  
 Npgsql                                                      7.0.4.0                 dotnet  
 Polly.Contrib.WaitAndRetry                                  1.1.1.0                 dotnet  
-Radarr                                                      5.0.0.7952              dotnet  
-Radarr.Api.V3                                               5.0.0.7952              dotnet  
-Radarr.Common                                               5.0.0.7952              dotnet  
-Radarr.Core                                                 5.0.0.7952              dotnet  
-Radarr.Host                                                 5.0.0.7952              dotnet  
-Radarr.Http                                                 5.0.0.7952              dotnet  
-Radarr.Mono                                                 5.0.0.7952              dotnet  
-Radarr.SignalR                                              5.0.0.7952              dotnet  
+Radarr                                                      5.0.1.7993              dotnet  
+Radarr.Api.V3                                               5.0.1.7993              dotnet  
+Radarr.Common                                               5.0.1.7993              dotnet  
+Radarr.Core                                                 5.0.1.7993              dotnet  
+Radarr.Host                                                 5.0.1.7993              dotnet  
+Radarr.Http                                                 5.0.1.7993              dotnet  
+Radarr.Mono                                                 5.0.1.7993              dotnet  
+Radarr.SignalR                                              5.0.1.7993              dotnet  
 ReusableTasks                                               2.0.0                   dotnet  
 Sentry                                                      3.23.1.0                dotnet  
 SixLabors.ImageSharp                                        3.0.1.0                 dotnet  
@@ -396,7 +396,7 @@ libidn2                                                     2.3.4-r1            
 libintl                                                     0.21.1-r7               apk     
 libmd                                                       1.0.4-r2                apk     
 libncursesw                                                 6.4_p20230506-r0        apk     
-libproc2                                                    4.0.3-r1                apk     
+libproc2                                                    4.0.4-r0                apk     
 libssl3                                                     3.1.2-r0                apk     
 libstdc++                                                   12.2.1_git20220924-r10  apk     
 libunistring                                                1.1-r1                  apk     
@@ -411,7 +411,7 @@ netcat-openbsd                                              1.219-r1            
 netstandard                                                 6.0.1623.17311          dotnet  
 nghttp2-libs                                                1.55.1-r0               apk     
 oniguruma                                                   6.9.8-r1                apk     
-procps-ng                                                   4.0.3-r1                apk     
+procps-ng                                                   4.0.4-r0                apk     
 readline                                                    8.2.1-r1                apk     
 scanelf                                                     1.3.7-r1                apk     
 shadow                                                      4.13-r4                 apk     
