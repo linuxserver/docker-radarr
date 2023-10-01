@@ -183,14 +183,14 @@ NLog.Extensions.Logging for .NET 6                          5.3.3.381           
 Noda Time                                                   3.0.0.0                 dotnet  
 Npgsql                                                      7.0.4.0                 dotnet  
 Polly.Contrib.WaitAndRetry                                  1.1.1.0                 dotnet  
-Radarr                                                      5.0.2.8103              dotnet  
-Radarr.Api.V3                                               5.0.2.8103              dotnet  
-Radarr.Common                                               5.0.2.8103              dotnet  
-Radarr.Core                                                 5.0.2.8103              dotnet  
-Radarr.Host                                                 5.0.2.8103              dotnet  
-Radarr.Http                                                 5.0.2.8103              dotnet  
-Radarr.Mono                                                 5.0.2.8103              dotnet  
-Radarr.SignalR                                              5.0.2.8103              dotnet  
+Radarr                                                      5.0.3.8107              dotnet  
+Radarr.Api.V3                                               5.0.3.8107              dotnet  
+Radarr.Common                                               5.0.3.8107              dotnet  
+Radarr.Core                                                 5.0.3.8107              dotnet  
+Radarr.Host                                                 5.0.3.8107              dotnet  
+Radarr.Http                                                 5.0.3.8107              dotnet  
+Radarr.Mono                                                 5.0.3.8107              dotnet  
+Radarr.SignalR                                              5.0.3.8107              dotnet  
 ReusableTasks                                               2.0.0                   dotnet  
 Sentry                                                      3.23.1.0                dotnet  
 SixLabors.ImageSharp                                        3.0.2.0                 dotnet  
@@ -370,7 +370,7 @@ WindowsBase                                                 6.0.2123.36311      
 alpine-baselayout                                           3.4.3-r1                apk     
 alpine-baselayout-data                                      3.4.3-r1                apk     
 alpine-keys                                                 2.4-r1                  apk     
-alpine-release                                              3.18.3-r0               apk     
+alpine-release                                              3.18.4-r0               apk     
 apk-tools                                                   2.14.0-r2               apk     
 bash                                                        5.2.15-r5               apk     
 brotli-libs                                                 1.0.9-r14               apk     
