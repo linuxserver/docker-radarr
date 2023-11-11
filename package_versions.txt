@@ -1,8 +1,9 @@
 NAME                                                        VERSION                 TYPE   
 BouncyCastle.Crypto                                         1.9.0.1                 dotnet  
 Dapper                                                      2.0.143.55328           dotnet  
-DryIoc net6.0                                               5.4.1.0                 dotnet  
-DryIoc.Microsoft.DependencyInjection net6.0                 6.2.0.0                 dotnet  
+Diacritical                                                 1.0.4.0                 dotnet  
+DryIoc.Microsoft.DependencyInjectionnet6.0                  6.2.0.0                 dotnet  
+DryIocnet6.0                                                5.4.1.0                 dotnet  
 Dynamitey                                                   2.0.9.136               dotnet  
 Equ                                                         2.3.0                   dotnet  
 FFMpegCore                                                  4.0.0.0                 dotnet  
@@ -30,7 +31,7 @@ ICSharpCode.SharpZipLib                                     1.3.3.11            
 Ical.Net                                                    1.0.0.0                 dotnet  
 ImpromptuInterface                                          7.0.1.0                 dotnet  
 Instances                                                   1.0.0.0                 dotnet  
-Json.NET .NET 6.0                                           13.0.3.27908            dotnet  
+Json.NET.NET6.0                                             13.0.3.27908            dotnet  
 MailKit                                                     3.6.0.0                 dotnet  
 Microsoft.AspNetCore                                        6.0.2123.36438          dotnet  
 Microsoft.AspNetCore.Antiforgery                            6.0.2123.36438          dotnet  
@@ -177,20 +178,20 @@ MimeKit                                                     3.6.0.0             
 Mono.Nat                                                    3.0.1                   dotnet  
 Mono.Posix.NETStandard.dll                                  1.0.0.0                 dotnet  
 MonoTorrent                                                 2.0.7                   dotnet  
-NLog Syslog target                                          7.0.0.0                 dotnet  
-NLog for NetStandard 2.0                                    5.2.3.1999              dotnet  
-NLog.Extensions.Logging for .NET 6                          5.3.3.381               dotnet  
-Noda Time                                                   3.0.0.0                 dotnet  
+NLog.Extensions.Loggingfor.NET6                             5.3.3.381               dotnet  
+NLogSyslogtarget                                            7.0.0.0                 dotnet  
+NLogforNetStandard2.0                                       5.2.3.1999              dotnet  
+NodaTime                                                    3.0.0.0                 dotnet  
 Npgsql                                                      7.0.4.0                 dotnet  
 Polly.Contrib.WaitAndRetry                                  1.1.1.0                 dotnet  
-Radarr                                                      5.1.2.8207              dotnet  
-Radarr.Api.V3                                               5.1.2.8207              dotnet  
-Radarr.Common                                               5.1.2.8207              dotnet  
-Radarr.Core                                                 5.1.2.8207              dotnet  
-Radarr.Host                                                 5.1.2.8207              dotnet  
-Radarr.Http                                                 5.1.2.8207              dotnet  
-Radarr.Mono                                                 5.1.2.8207              dotnet  
-Radarr.SignalR                                              5.1.2.8207              dotnet  
+Radarr                                                      5.1.3.8246              dotnet  
+Radarr.Api.V3                                               5.1.3.8246              dotnet  
+Radarr.Common                                               5.1.3.8246              dotnet  
+Radarr.Core                                                 5.1.3.8246              dotnet  
+Radarr.Host                                                 5.1.3.8246              dotnet  
+Radarr.Http                                                 5.1.3.8246              dotnet  
+Radarr.Mono                                                 5.1.3.8246              dotnet  
+Radarr.SignalR                                              5.1.3.8246              dotnet  
 ReusableTasks                                               2.0.0                   dotnet  
 Sentry                                                      3.23.1.0                dotnet  
 SixLabors.ImageSharp                                        3.0.2.0                 dotnet  
@@ -217,7 +218,7 @@ System.Core                                                 6.0.2123.36311      
 System.Data                                                 6.0.2123.36311          dotnet  
 System.Data.Common                                          6.0.2123.36311          dotnet  
 System.Data.DataSetExtensions                               6.0.2123.36311          dotnet  
-System.Data.SQLite Core                                     1.0.115.5               dotnet  
+System.Data.SQLiteCore                                      1.0.115.5               dotnet  
 System.Data.SqlServerCe                                     4.0.8876.1              dotnet  
 System.Diagnostics.Contracts                                6.0.2123.36311          dotnet  
 System.Diagnostics.Debug                                    6.0.2123.36311          dotnet  
@@ -374,8 +375,8 @@ alpine-release                                              3.18.4-r0           
 apk-tools                                                   2.14.0-r2               apk     
 bash                                                        5.2.15-r5               apk     
 brotli-libs                                                 1.0.9-r14               apk     
-busybox                                                     1.36.1-r4               apk     
-busybox-binsh                                               1.36.1-r4               apk     
+busybox                                                     1.36.1-r5               apk     
+busybox-binsh                                               1.36.1-r5               apk     
 ca-certificates                                             20230506-r0             apk     
 ca-certificates-bundle                                      20230506-r0             apk     
 coreutils                                                   9.3-r1                  apk     
@@ -387,7 +388,7 @@ libacl                                                      2.3.1-r3            
 libattr                                                     2.5.1-r4                apk     
 libbsd                                                      0.11.7-r1               apk     
 libc-utils                                                  0.7.2-r5                apk     
-libcrypto3                                                  3.1.4-r0                apk     
+libcrypto3                                                  3.1.4-r1                apk     
 libcurl                                                     8.4.0-r0                apk     
 libgcc                                                      12.2.1_git20220924-r10  apk     
 libgcrypt                                                   1.10.2-r1               apk     
@@ -397,7 +398,7 @@ libintl                                                     0.21.1-r7           
 libmd                                                       1.0.4-r2                apk     
 libncursesw                                                 6.4_p20230506-r0        apk     
 libproc2                                                    4.0.4-r0                apk     
-libssl3                                                     3.1.4-r0                apk     
+libssl3                                                     3.1.4-r1                apk     
 libstdc++                                                   12.2.1_git20220924-r10  apk     
 libunistring                                                1.1-r1                  apk     
 libxml2                                                     2.11.4-r0               apk     
@@ -417,7 +418,7 @@ scanelf                                                     1.3.7-r1            
 shadow                                                      4.13-r4                 apk     
 skalibs                                                     2.13.1.1-r1             apk     
 sqlite-libs                                                 3.41.2-r2               apk     
-ssl_client                                                  1.36.1-r4               apk     
+ssl_client                                                  1.36.1-r5               apk     
 tzdata                                                      2023c-r1                apk     
 utmps-libs                                                  0.1.2.1-r1              apk     
 xmlstarlet                                                  1.6.1-r2                apk     
