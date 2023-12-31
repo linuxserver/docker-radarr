@@ -95,6 +95,8 @@ Microsoft.AspNetCore.SignalR.Protocols.Json                 6.0.2523.52315      
 Microsoft.AspNetCore.StaticFiles                            6.0.2523.52315                                                      dotnet  
 Microsoft.AspNetCore.WebSockets                             6.0.2523.52315                                                      dotnet  
 Microsoft.AspNetCore.WebUtilities                           6.0.2523.52315                                                      dotnet  
+Microsoft.Bcl.AsyncInterfaces                               6.0.21.52210                                                        dotnet  
+Microsoft.Bcl.TimeProvider                                  8.0.23.53103                                                        dotnet  
 Microsoft.CSharp                                            6.0.2523.51912                                                      dotnet  
 Microsoft.Data.SqlClient                                    2.0.20168.4                                                         dotnet  
 Microsoft.Extensions.Caching.Abstractions                   6.0.21.52210                                                        dotnet  
@@ -165,8 +167,10 @@ NLog.Extensions.Logging v5.3.3                              5.3.3.381           
 NLog.Targets.Syslog                                         7.0.0.0                                                             dotnet  
 NodaTime                                                    3.0.0.0                                                             dotnet  
 Npgsql                                                      7.0.6.0                                                             dotnet  
+Polly                                                       8.2.0.2702                                                          dotnet  
 Polly.Contrib.WaitAndRetry                                  1.1.1.0+7596d2dacf22d88bbd814bc49c28424fb6e921e9                    dotnet  
-Radarr                                                      5.2.6.8378                                                          dotnet  
+Polly.Core                                                  8.2.0.2702                                                          dotnet  
+Radarr                                                      5.3.0.8387                                                          dotnet  
 ReusableTasks                                               2.0.0-master+2aa9a10                                                dotnet  
 Sentry                                                      3.23.1.0                                                            dotnet  
 SixLabors.ImageSharp                                        3.0.2.0                                                             dotnet  
@@ -394,7 +398,7 @@ shadow                                                      4.13-r4             
 skalibs                                                     2.13.1.1-r1                                                         apk     
 sqlite-libs                                                 3.41.2-r2                                                           apk     
 ssl_client                                                  1.36.1-r5                                                           apk     
-tzdata                                                      2023c-r1                                                            apk     
+tzdata                                                      2023d-r0                                                            apk     
 utmps-libs                                                  0.1.2.1-r1                                                          apk     
 xmlstarlet                                                  1.6.1-r2                                                            apk     
 xz-libs                                                     5.4.3-r0                                                            apk     
