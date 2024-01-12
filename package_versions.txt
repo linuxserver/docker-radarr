@@ -170,7 +170,7 @@ Npgsql                                                      7.0.6.0             
 Polly                                                       8.2.0.2702                                                          dotnet  
 Polly.Contrib.WaitAndRetry                                  1.1.1.0+7596d2dacf22d88bbd814bc49c28424fb6e921e9                    dotnet  
 Polly.Core                                                  8.2.0.2702                                                          dotnet  
-Radarr                                                      5.3.1.8427                                                          dotnet  
+Radarr                                                      5.3.1.8428                                                          dotnet  
 ReusableTasks                                               2.0.0-master+2aa9a10                                                dotnet  
 Sentry                                                      3.23.1.0                                                            dotnet  
 SixLabors.ImageSharp                                        3.0.2.0                                                             dotnet  
@@ -367,7 +367,7 @@ libacl                                                      2.3.1-r3            
 libattr                                                     2.5.1-r4                                                            apk     
 libbsd                                                      0.11.7-r1                                                           apk     
 libc-utils                                                  0.7.2-r5                                                            apk     
-libcrypto3                                                  3.1.4-r1                                                            apk     
+libcrypto3                                                  3.1.4-r3                                                            apk     
 libcurl                                                     8.5.0-r0                                                            apk     
 libgcc                                                      12.2.1_git20220924-r10                                              apk     
 libgcrypt                                                   1.10.2-r1                                                           apk     
