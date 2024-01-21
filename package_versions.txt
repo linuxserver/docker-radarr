@@ -170,7 +170,7 @@ Npgsql                                                      7.0.6.0             
 Polly                                                       8.2.0.2702                                                          dotnet  
 Polly.Contrib.WaitAndRetry                                  1.1.1.0+7596d2dacf22d88bbd814bc49c28424fb6e921e9                    dotnet  
 Polly.Core                                                  8.2.0.2702                                                          dotnet  
-Radarr                                                      5.3.2.8504                                                          dotnet  
+Radarr                                                      5.3.2.8505                                                          dotnet  
 ReusableTasks                                               2.0.0-master+2aa9a10                                                dotnet  
 Sentry                                                      3.23.1.0                                                            dotnet  
 SixLabors.ImageSharp                                        3.0.2.0                                                             dotnet  
