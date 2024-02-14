@@ -170,7 +170,7 @@ Npgsql                                                      7.0.6.0             
 Polly                                                       8.2.0.2702                                                  dotnet  
 Polly.Contrib.WaitAndRetry                                  1.1.1.0+7596d2dacf22d88bbd814bc49c28424fb6e921e9            dotnet  
 Polly.Core                                                  8.2.0.2702                                                  dotnet  
-Radarr                                                      5.3.5.8594                                                  dotnet  
+Radarr                                                      5.3.6.8604                                                  dotnet  
 ReusableTasks                                               2.0.0                                                       dotnet  
 Sentry                                                      3.23.1.0                                                    dotnet  
 SixLabors.ImageSharp                                        3.0.2.0                                                     dotnet  
@@ -380,7 +380,7 @@ libproc2                                                    4.0.4-r0            
 libssl3                                                     3.1.4-r5                                                    apk     
 libstdc++                                                   12.2.1_git20220924-r10                                      apk     
 libunistring                                                1.1-r1                                                      apk     
-libxml2                                                     2.11.6-r0                                                   apk     
+libxml2                                                     2.11.7-r0                                                   apk     
 libxslt                                                     1.1.38-r0                                                   apk     
 linux-pam                                                   1.5.2-r10                                                   apk     
 mscorlib                                                    6.0.2523.51912                                              dotnet  
