@@ -32,7 +32,7 @@ pipeline {
     CI_SSL='false'
     CI_DELAY='120'
     CI_DOCKERENV='TZ=Europe/London'
-    CI_AUTH='user:password'
+    CI_AUTH=''
     CI_WEBPATH='/system/status'
   }
   stages {
