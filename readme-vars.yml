@@ -24,21 +24,16 @@ development_versions_items:
 param_container_name: "{{ project_name }}"
 param_usage_include_vols: true
 param_volumes:
-  - { vol_path: "/config", vol_host_path: "/path/to/data", desc: "Database and Radarr configs" }
+  - { vol_path: "/config", vol_host_path: "/path/to/{{ project_name }}/data", desc: "Database and Radarr configs" }
 
 opt_param_usage_include_vols: true
 opt_param_volumes:
   - { vol_path: "/movies", vol_host_path: "/path/to/movies", desc: "Location of Movie library on disk (See note in Application setup)" }
-  - { vol_path: "/downloads", vol_host_path: "/path/to/downloadclient-downloads", desc: "Location of download managers output directory (See note in Application setup)" }
+  - { vol_path: "/downloads", vol_host_path: "/path/to/download-client-downloads", desc: "Location of download managers output directory (See note in Application setup)" }
 
 param_usage_include_ports: true
 param_ports:
-  - { external_port: "7878", internal_port: "7878", port_desc: "The port for the Radarr webinterface" }
-param_usage_include_env: true
-param_env_vars:
-  - { env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London, this is required for Radarr"}
-# optional env variables
-opt_param_usage_include_env: false
+  - { external_port: "7878", internal_port: "7878", port_desc: "The port for the Radarr web UI" }
 
 # application setup block
 app_setup_block_enabled: true
@@ -48,13 +43,14 @@ app_setup_block: |
   ### Media folders
 
   We have set `/movies` and `/downloads` as ***optional paths***, this is because it is the easiest way to get started. While easy to use, it has some drawbacks. Mainly losing the ability to hardlink (TL;DR a way for a file to exist in multiple places on the same file system while only consuming one file worth of space), or atomic move (TL;DR instant file moves, rather than copy+delete) files while processing content.
-  
-  Use the optional paths if you dont understand, or dont want hardlinks/atomic moves.
-  
+
+  Use the optional paths if you don't understand, or don't want hardlinks/atomic moves.
+
   The folks over at servarr.com wrote a good [write-up](https://wiki.servarr.com/docker-guide#consistent-and-well-planned-paths) on how to get started with this.
 
   # changelog
 changelogs:
+  - { date: "20.03.24:", desc: "Rebase to Alpine 3.19." }
   - { date: "06.06.23:", desc: "Rebase develop to Alpine 3.18." }
   - { date: "19.12.22:", desc: "Rebase develop branch to Alpine 3.17, migrate to s6v3." }
   - { date: "20.02.22:", desc: "Rebase develop branch to Alpine." }
