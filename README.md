@@ -75,7 +75,7 @@ Access the webui at `<your-ip>:7878`, for more information check out [Radarr](ht
 
 We have set `/movies` and `/downloads` as ***optional paths***, this is because it is the easiest way to get started. While easy to use, it has some drawbacks. Mainly losing the ability to hardlink (TL;DR a way for a file to exist in multiple places on the same file system while only consuming one file worth of space), or atomic move (TL;DR instant file moves, rather than copy+delete) files while processing content.
 
-Use the optional paths if you dont understand, or dont want hardlinks/atomic moves.
+Use the optional paths if you don't understand, or don't want hardlinks/atomic moves.
 
 The folks over at servarr.com wrote a good [write-up](https://wiki.servarr.com/docker-guide#consistent-and-well-planned-paths) on how to get started with this.
 
@@ -96,9 +96,9 @@ services:
       - PGID=1000
       - TZ=Etc/UTC
     volumes:
-      - /path/to/data:/config
+      - /path/to/radarr/data:/config
       - /path/to/movies:/movies #optional
-      - /path/to/downloadclient-downloads:/downloads #optional
+      - /path/to/download-client-downloads:/downloads #optional
     ports:
       - 7878:7878
     restart: unless-stopped
@@ -113,9 +113,9 @@ docker run -d \
   -e PGID=1000 \
   -e TZ=Etc/UTC \
   -p 7878:7878 \
-  -v /path/to/data:/config \
+  -v /path/to/radarr/data:/config \
   -v /path/to/movies:/movies `#optional` \
-  -v /path/to/downloadclient-downloads:/downloads `#optional` \
+  -v /path/to/download-client-downloads:/downloads `#optional` \
   --restart unless-stopped \
   lscr.io/linuxserver/radarr:latest
 ```
@@ -126,7 +126,7 @@ Containers are configured using parameters passed at runtime (such as those abov
 
 | Parameter | Function |
 | :----: | --- |
-| `-p 7878` | The port for the Radarr webinterface |
+| `-p 7878` | The port for the Radarr Web UI |
 | `-e PUID=1000` | for UserID - see below for explanation |
 | `-e PGID=1000` | for GroupID - see below for explanation |
 | `-e TZ=Etc/UTC` | specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List). |
@@ -295,6 +295,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **20.03.24:** - Rebase to Alpine 3.19.
 * **06.06.23:** - Rebase master to Alpine 3.18, deprecate armhf as per [https://www.linuxserver.io/armhf](https://www.linuxserver.io/armhf).
 * **17.01.23:** - Rebase master branch to Alpine 3.17, migrate to s6v3.
 * **06.06.22:** - Rebase master branch to Alpine 3.15.
