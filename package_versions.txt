@@ -9,7 +9,7 @@ Equ                                                         2.3.0               
 FFMpegCore                                                  4.0.0.0                                                     dotnet                    
 FluentMigrator                                              3.3.2.9                                                     dotnet  (+19 duplicates)  
 FluentValidation                                            9.5.4.0                                                     dotnet                    
-ICSharpCode.SharpZipLib                                     1.3.3.11                                                    dotnet                    
+ICSharpCode.SharpZipLib                                     1.4.2.13                                                    dotnet                    
 Ical.Net                                                    1.0.0.0                                                     dotnet                    
 ImpromptuInterface                                          7.0.1.0                                                     dotnet                    
 Instances                                                   1.0.0.0                                                     dotnet                    
@@ -152,7 +152,7 @@ Microsoft.IdentityModel.Protocols.OpenIdConnect             6.8.0.11012235604.82
 Microsoft.IdentityModel.Tokens                              6.8.0.11012235604.824068adaeb7b158df2b36d8787f689646e715e0  dotnet                    
 Microsoft.JSInterop                                         6.0.2924.17108                                              dotnet                    
 Microsoft.Net.Http.Headers                                  6.0.2924.17108                                              dotnet                    
-Microsoft.OpenApi                                           1.2.3.0                                                     dotnet                    
+Microsoft.OpenApi                                           1.6.14.0                                                    dotnet                    
 Microsoft.VisualBasic                                       6.0.2924.17105                                              dotnet                    
 Microsoft.VisualBasic.Core                                  11.100.2924.17105                                           dotnet                    
 Microsoft.Win32.Primitives                                  6.0.2924.17105                                              dotnet                    
@@ -167,15 +167,16 @@ NLog.Extensions.Logging v5.3.3                              5.3.3.381           
 NLog.Targets.Syslog                                         7.0.0.0                                                     dotnet                    
 NodaTime                                                    3.0.0.0                                                     dotnet                    
 Npgsql                                                      7.0.7.0                                                     dotnet                    
-Polly                                                       8.3.1.3207                                                  dotnet                    
+Polly                                                       8.4.0.3442                                                  dotnet                    
 Polly.Contrib.WaitAndRetry                                  1.1.1.0+7596d2dacf22d88bbd814bc49c28424fb6e921e9            dotnet                    
-Polly.Core                                                  8.3.1.3207                                                  dotnet                    
-Radarr                                                      5.6.0.8846                                                  dotnet  (+7 duplicates)   
+Polly.Core                                                  8.4.0.3442                                                  dotnet                    
+Radarr                                                      5.7.0.8882                                                  dotnet  (+7 duplicates)   
 ReusableTasks                                               2.0.0                                                       dotnet                    
 Sentry                                                      4.0.2.0                                                     dotnet                    
 SixLabors.ImageSharp                                        3.1.4.0                                                     dotnet                    
-Swashbuckle.AspNetCore.Swagger                              6.5.0.0                                                     dotnet                    
-Swashbuckle.AspNetCore.SwaggerGen                           6.5.0.0                                                     dotnet                    
+Swashbuckle.AspNetCore.Annotations                          6.6.2.401                                                   dotnet                    
+Swashbuckle.AspNetCore.Swagger                              6.6.2.401                                                   dotnet                    
+Swashbuckle.AspNetCore.SwaggerGen                           6.6.2.401                                                   dotnet                    
 System                                                      6.0.2924.17105                                              dotnet                    
 System.AppContext                                           6.0.2924.17105                                              dotnet                    
 System.Buffers                                              6.0.2924.17105                                              dotnet                    
