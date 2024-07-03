@@ -35,6 +35,8 @@ param_usage_include_ports: true
 param_ports:
   - { external_port: "7878", internal_port: "7878", port_desc: "The port for the Radarr web UI" }
 
+readonly_supported: true
+
 # application setup block
 app_setup_block_enabled: true
 app_setup_block: |

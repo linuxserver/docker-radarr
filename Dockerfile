@@ -11,7 +11,9 @@ LABEL maintainer="Roxedus,thespad"
 
 # environment settings
 ARG RADARR_BRANCH="nightly"
-ENV XDG_CONFIG_HOME="/config/xdg"
+ENV XDG_CONFIG_HOME="/config/xdg" \
+  COMPlus_EnableDiagnostics=0 \
+  TMPDIR=/run/radarr-temp
 
 RUN \
   echo "**** install packages ****" && \
