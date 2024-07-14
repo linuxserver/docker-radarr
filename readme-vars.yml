@@ -50,7 +50,7 @@ app_setup_block: |
 
   The folks over at servarr.com wrote a good [write-up](https://wiki.servarr.com/docker-guide#consistent-and-well-planned-paths) on how to get started with this.
 
-  # changelog
+# changelog
 changelogs:
   - { date: "25.05.24:", desc: "Rebase to Alpine 3.20." }
   - { date: "20.03.24:", desc: "Rebase to Alpine 3.19." }
