@@ -162,18 +162,19 @@ MimeKit                                                     3.6.0.0             
 Mono.Nat                                                    3.0.1                                                       dotnet                    
 Mono.Posix.NETStandard                                      1.0.0.0                                                     dotnet                    
 MonoTorrent                                                 2.0.7                                                       dotnet                    
-NLog v5.2.3                                                 5.2.3.1999                                                  dotnet                    
-NLog.Extensions.Logging v5.3.3                              5.3.3.381                                                   dotnet                    
+NLog v5.3.3                                                 5.3.3.2683                                                  dotnet                    
+NLog.Extensions.Logging v5.3.12                             5.3.12.562                                                  dotnet                    
+NLog.Layouts.ClefJsonLayout                                 1.0.0.0                                                     dotnet                    
 NLog.Targets.Syslog                                         7.0.0.0                                                     dotnet                    
 NodaTime                                                    3.0.0.0                                                     dotnet                    
 Npgsql                                                      7.0.7.0                                                     dotnet                    
 Polly                                                       8.4.1.3582                                                  dotnet                    
 Polly.Contrib.WaitAndRetry                                  1.1.1.0+7596d2dacf22d88bbd814bc49c28424fb6e921e9            dotnet                    
 Polly.Core                                                  8.4.1.3582                                                  dotnet                    
-Radarr                                                      5.8.3.8933                                                  dotnet  (+7 duplicates)   
+Radarr                                                      5.9.1.9070                                                  dotnet  (+7 duplicates)   
 ReusableTasks                                               2.0.0                                                       dotnet                    
 Sentry                                                      4.0.2.0                                                     dotnet                    
-SixLabors.ImageSharp                                        3.1.4.0                                                     dotnet                    
+SixLabors.ImageSharp                                        3.1.5.0                                                     dotnet                    
 Swashbuckle.AspNetCore.Annotations                          6.6.2.401                                                   dotnet                    
 Swashbuckle.AspNetCore.Swagger                              6.6.2.401                                                   dotnet                    
 Swashbuckle.AspNetCore.SwaggerGen                           6.6.2.401                                                   dotnet                    
