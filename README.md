@@ -65,7 +65,7 @@ This image provides various versions that are available via tags. Please read th
 | :----: | :----: |--- |
 | latest | ✅ | Stable Radarr releases |
 | develop | ✅ | Radarr releases from their develop branch |
-| nightly | ✅ | Nightly Radarr releases |
+| nightly | ✅ | Radarr releases from their nightly branch |
 
 ## Application Setup
 
