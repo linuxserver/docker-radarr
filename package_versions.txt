@@ -10,8 +10,8 @@ FFMpegCore                                                  4.0.0.0             
 FluentMigrator                                              3.3.2.9                                                     dotnet  (+19 duplicates)  
 FluentValidation                                            9.5.4.0                                                     dotnet                    
 ICSharpCode.SharpZipLib                                     1.4.2.13                                                    dotnet                    
-IPAddressRange                                              6.0.0.0                                                     dotnet                    
-Ical.Net                                                    1.0.0.0                                                     dotnet                    
+IPAddressRange                                              6.1.0.0                                                     dotnet                    
+Ical.Net                                                    4.3.1+5889b14d90ccd3cd32b54229029dab52495a09b0              dotnet                    
 ImpromptuInterface                                          7.0.1.0                                                     dotnet                    
 Instances                                                   1.0.0.0                                                     dotnet                    
 Json.NET                                                    13.0.3.27908                                                dotnet                    
@@ -163,19 +163,19 @@ MimeKit                                                     3.6.0.0             
 Mono.Nat                                                    3.0.1                                                       dotnet                    
 Mono.Posix.NETStandard                                      1.0.0.0                                                     dotnet                    
 MonoTorrent                                                 2.0.7                                                       dotnet                    
-NLog v5.3.3                                                 5.3.3.2683                                                  dotnet                    
-NLog.Extensions.Logging v5.3.12                             5.3.12.562                                                  dotnet                    
-NLog.Layouts.ClefJsonLayout                                 1.0.0.0                                                     dotnet                    
+NLog v5.3.4                                                 5.3.4.2778                                                  dotnet                    
+NLog.Extensions.Logging v5.3.15                             5.3.15.614                                                  dotnet                    
+NLog.Layouts.ClefJsonLayout                                 1.0.2.0                                                     dotnet                    
 NLog.Targets.Syslog                                         7.0.0.0                                                     dotnet                    
-NodaTime                                                    3.0.0.0                                                     dotnet                    
-Npgsql                                                      7.0.8.0                                                     dotnet                    
-Polly                                                       8.4.2.3950                                                  dotnet                    
+NodaTime                                                    3.2.0.0                                                     dotnet                    
+Npgsql                                                      7.0.9.0                                                     dotnet                    
+Polly                                                       8.5.0.4130                                                  dotnet                    
 Polly.Contrib.WaitAndRetry                                  1.1.1.0+7596d2dacf22d88bbd814bc49c28424fb6e921e9            dotnet                    
-Polly.Core                                                  8.4.2.3950                                                  dotnet                    
-Radarr                                                      5.16.1.9490                                                 dotnet  (+7 duplicates)   
+Polly.Core                                                  8.5.0.4130                                                  dotnet                    
+Radarr                                                      5.16.1.9506                                                 dotnet  (+7 duplicates)   
 ReusableTasks                                               2.0.0                                                       dotnet                    
 Sentry                                                      4.0.2.0                                                     dotnet                    
-SixLabors.ImageSharp                                        3.1.5.0                                                     dotnet                    
+SixLabors.ImageSharp                                        3.1.6.0                                                     dotnet                    
 Swashbuckle.AspNetCore.Annotations                          6.6.2.401                                                   dotnet                    
 Swashbuckle.AspNetCore.Swagger                              6.6.2.401                                                   dotnet                    
 Swashbuckle.AspNetCore.SwaggerGen                           6.6.2.401                                                   dotnet                    
