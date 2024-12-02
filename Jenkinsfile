@@ -341,7 +341,7 @@ pipeline {
               echo "Starting Stage 2.5 - Update init diagram"
               if ! grep -q 'init_diagram:' readme-vars.yml; then
                 echo "Adding the key 'init_diagram' to readme-vars.yml"
-                sed -i '\\|^#.*changelog.*$|d' readme-vars.yml 
+                sed -i '\\|^#.*changelog.*$|d' readme-vars.yml
                 sed -i 's|^changelogs:|# init diagram\\ninit_diagram:\\n\\n# changelog\\nchangelogs:|' readme-vars.yml
               fi
               mkdir -p ${TEMPDIR}/d2
@@ -575,7 +575,7 @@ pipeline {
           --label \"org.opencontainers.image.title=Radarr\" \
           --label \"org.opencontainers.image.description=[Radarr](https://github.com/Radarr/Radarr) - A fork of Sonarr to work with movies à la Couchpotato.  \" \
           --no-cache --pull -t ${IMAGE}:${META_TAG} --platform=linux/amd64 \
-          --provenance=false --sbom=false --builder=container --load \
+          --provenance=true --sbom=true --builder=container --load \
           --build-arg ${BUILD_VERSION_ARG}=${EXT_RELEASE} --build-arg VERSION=\"${VERSION_TAG}\" --build-arg BUILD_DATE=${GITHUB_DATE} ."
         sh '''#! /bin/bash
               set -e
@@ -639,7 +639,7 @@ pipeline {
               --label \"org.opencontainers.image.title=Radarr\" \
               --label \"org.opencontainers.image.description=[Radarr](https://github.com/Radarr/Radarr) - A fork of Sonarr to work with movies à la Couchpotato.  \" \
               --no-cache --pull -t ${IMAGE}:amd64-${META_TAG} --platform=linux/amd64 \
-              --provenance=false --sbom=false --builder=container --load \
+              --provenance=true --sbom=true --builder=container --load \
               --build-arg ${BUILD_VERSION_ARG}=${EXT_RELEASE} --build-arg VERSION=\"${VERSION_TAG}\" --build-arg BUILD_DATE=${GITHUB_DATE} ."
             sh '''#! /bin/bash
                   set -e
@@ -696,7 +696,7 @@ pipeline {
               --label \"org.opencontainers.image.title=Radarr\" \
               --label \"org.opencontainers.image.description=[Radarr](https://github.com/Radarr/Radarr) - A fork of Sonarr to work with movies à la Couchpotato.  \" \
               --no-cache --pull -f Dockerfile.aarch64 -t ${IMAGE}:arm64v8-${META_TAG} --platform=linux/arm64 \
-              --provenance=false --sbom=false --builder=container --load \
+              --provenance=true --sbom=true --builder=container --load \
               --build-arg ${BUILD_VERSION_ARG}=${EXT_RELEASE} --build-arg VERSION=\"${VERSION_TAG}\" --build-arg BUILD_DATE=${GITHUB_DATE} ."
             sh '''#! /bin/bash
                   set -e
@@ -889,7 +889,7 @@ pipeline {
         retry_backoff(5,5) {
           sh '''#! /bin/bash
                 set -e
-                for PUSHIMAGE in "${GITHUBIMAGE}" "${GITLABIMAGE}" "${QUAYIMAGE}" "${IMAGE}"; do
+                for PUSHIMAGE in "${IMAGE}" "${GITLABIMAGE}" "${GITHUBIMAGE}" "${QUAYIMAGE}"; do
                   [[ ${PUSHIMAGE%%/*} =~ \\. ]] && PUSHIMAGEPLUS="${PUSHIMAGE}" || PUSHIMAGEPLUS="docker.io/${PUSHIMAGE}"
                   IFS=',' read -ra CACHE <<< "$BUILDCACHE"
                   for i in "${CACHE[@]}"; do
@@ -897,7 +897,7 @@ pipeline {
                           CACHEIMAGE=${i}
                       fi
                   done
-                  docker buildx imagetools create --prefer-index=false -t ${PUSHIMAGE}:${META_TAG} -t ${PUSHIMAGE}:nightly -t {PUSHIMAGE}:${EXT_RELEASE_TAG} ${CACHEIMAGE}:amd64-${COMMIT_SHA}-${BUILD_NUMBER}
+                  docker buildx imagetools create --prefer-index=false -t ${PUSHIMAGE}:${META_TAG} -t ${PUSHIMAGE}:nightly -t ${PUSHIMAGE}:${EXT_RELEASE_TAG} ${CACHEIMAGE}:amd64-${COMMIT_SHA}-${BUILD_NUMBER}
                   if [ -n "${SEMVER}" ]; then
                     docker buildx imagetools create --prefer-index=false -t ${PUSHIMAGE}:${SEMVER} ${CACHEIMAGE}:amd64-${COMMIT_SHA}-${BUILD_NUMBER}
                   fi
