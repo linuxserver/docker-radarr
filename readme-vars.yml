@@ -16,7 +16,7 @@ development_versions: true
 development_versions_items:
   - {tag: "latest", desc: "Stable Radarr releases"}
   - {tag: "develop", desc: "Radarr releases from their develop branch"}
-  - {tag: "nightly", desc: "Nightly Radarr releases"}
+  - {tag: "nightly", desc: "Radarr releases from their nightly branch"}
 # container parameters
 param_container_name: "{{ project_name }}"
 param_usage_include_vols: true
