@@ -3,7 +3,8 @@
 
 mkdir -p /run/radarr-temp
 
-# permissions
-lsiown -R abc:abc \
-    /config \
-    /run/radarr-temp
+if [[ -z ${LSIO_NON_ROOT_USER} ]]; then
+    lsiown -R abc:abc \
+        /config \
+        /run/radarr-temp
+fi
