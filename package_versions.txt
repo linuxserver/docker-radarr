@@ -1,5 +1,5 @@
 NAME                                                        VERSION                                                     TYPE                     
-Bouncy Castle for .NET (netstandard2.0)                     1.9.0.1                                                     dotnet                    
+BouncyCastle.NET                                            2.4.0.33771                                                 dotnet                    
 Dapper                                                      2.0.151.35995                                               dotnet                    
 Diacritical                                                 1.0.4.0                                                     dotnet                    
 DryIoc                                                      5.4.3.0                                                     dotnet                    
@@ -15,7 +15,7 @@ Ical.Net                                                    4.3.1+5889b14d90ccd3
 ImpromptuInterface                                          7.0.1.0                                                     dotnet                    
 Instances                                                   1.0.0.0                                                     dotnet                    
 Json.NET                                                    13.0.3.27908                                                dotnet                    
-MailKit                                                     3.6.0.0                                                     dotnet                    
+MailKit                                                     4.8.0.0                                                     dotnet                    
 Microsoft.AspNetCore                                        6.0.3524.46214                                              dotnet                    
 Microsoft.AspNetCore.Antiforgery                            6.0.3524.46214                                              dotnet                    
 Microsoft.AspNetCore.Authentication                         6.0.3524.46214                                              dotnet                    
@@ -99,7 +99,7 @@ Microsoft.AspNetCore.WebUtilities                           6.0.3524.46214      
 Microsoft.Bcl.AsyncInterfaces                               6.0.21.52210                                                dotnet                    
 Microsoft.Bcl.TimeProvider                                  8.0.23.53103                                                dotnet                    
 Microsoft.CSharp                                            6.0.3524.45918                                              dotnet                    
-Microsoft.Data.SqlClient                                    2.1.2+2a61e8301e9d21ada2338a9279cf27653e781757              dotnet                    
+Microsoft.Data.SqlClient                                    2.1.7+730a7d538680463c75dd8dceec5fb27d158abea4              dotnet                    
 Microsoft.Extensions.Caching.Abstractions                   6.0.21.52210                                                dotnet                    
 Microsoft.Extensions.Caching.Memory                         6.0.3524.45918                                              dotnet                    
 Microsoft.Extensions.Configuration                          6.0.322.12309                                               dotnet                    
@@ -159,7 +159,7 @@ Microsoft.VisualBasic.Core                                  11.100.3524.45918   
 Microsoft.Win32.Primitives                                  6.0.3524.45918                                              dotnet                    
 Microsoft.Win32.Registry                                    6.0.3524.45918                                              dotnet                    
 Microsoft.Win32.SystemEvents                                6.0.21.52210                                                dotnet                    
-MimeKit                                                     3.6.0.0                                                     dotnet                    
+MimeKit                                                     4.8.0.0                                                     dotnet                    
 Mono.Nat                                                    3.0.1                                                       dotnet                    
 Mono.Posix.NETStandard                                      1.0.0.0                                                     dotnet                    
 MonoTorrent                                                 2.0.7                                                       dotnet                    
@@ -172,7 +172,7 @@ Npgsql                                                      7.0.9.0             
 Polly                                                       8.5.0.4130                                                  dotnet                    
 Polly.Contrib.WaitAndRetry                                  1.1.1.0+7596d2dacf22d88bbd814bc49c28424fb6e921e9            dotnet                    
 Polly.Core                                                  8.5.0.4130                                                  dotnet                    
-Radarr                                                      5.16.3.9541                                                 dotnet  (+7 duplicates)   
+Radarr                                                      5.17.0.9555                                                 dotnet  (+7 duplicates)   
 ReusableTasks                                               2.0.0                                                       dotnet                    
 Sentry                                                      4.0.2.0                                                     dotnet                    
 SixLabors.ImageSharp                                        3.1.6.0                                                     dotnet                    
@@ -305,7 +305,7 @@ System.Security.Cryptography.Cng                            6.0.3524.45918      
 System.Security.Cryptography.Csp                            6.0.3524.45918                                              dotnet                    
 System.Security.Cryptography.Encoding                       6.0.3524.45918                                              dotnet                    
 System.Security.Cryptography.OpenSsl                        6.0.3524.45918                                              dotnet                    
-System.Security.Cryptography.Pkcs                           6.0.1823.26907                                              dotnet                    
+System.Security.Cryptography.Pkcs                           8.0.23.53103                                                dotnet                    
 System.Security.Cryptography.Primitives                     6.0.3524.45918                                              dotnet                    
 System.Security.Cryptography.ProtectedData                  6.0.21.52210                                                dotnet                    
 System.Security.Cryptography.X509Certificates               6.0.3524.45918                                              dotnet                    
