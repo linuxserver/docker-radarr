@@ -30,6 +30,7 @@ param_usage_include_ports: true
 param_ports:
   - {external_port: "7878", internal_port: "7878", port_desc: "The port for the Radarr Web UI"}
 readonly_supported: true
+nonroot_supported: true
 # application setup block
 app_setup_block_enabled: true
 app_setup_block: |
@@ -87,6 +88,7 @@ init_diagram: |
   "radarr:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "23.12.24:", desc: "Rebase Alpine 3.21."}
   - {date: "31.05.24:", desc: "Rebase Alpine 3.20."}
   - {date: "20.03.24:", desc: "Rebase to Alpine 3.19."}
   - {date: "06.06.23:", desc: "Rebase master to Alpine 3.18, deprecate armhf as per [https://www.linuxserver.io/armhf](https://www.linuxserver.io/armhf)."}
