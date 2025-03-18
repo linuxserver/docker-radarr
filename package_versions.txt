@@ -169,13 +169,13 @@ NLog.Layouts.ClefJsonLayout                                 1.0.3.0             
 NLog.Targets.Syslog                                         7.0.0.0                                                     dotnet                    
 NodaTime                                                    3.2.0.0                                                     dotnet                    
 Npgsql                                                      7.0.9.0                                                     dotnet                    
-Polly                                                       8.5.1.4253                                                  dotnet                    
+Polly                                                       8.5.2.4319                                                  dotnet                    
 Polly.Contrib.WaitAndRetry                                  1.1.1.0+7596d2dacf22d88bbd814bc49c28424fb6e921e9            dotnet                    
-Polly.Core                                                  8.5.1.4253                                                  dotnet                    
-Radarr                                                      5.19.3.9730                                                 dotnet  (+7 duplicates)   
+Polly.Core                                                  8.5.2.4319                                                  dotnet                    
+Radarr                                                      5.20.2.9777                                                 dotnet  (+7 duplicates)   
 ReusableTasks                                               2.0.0                                                       dotnet                    
 Sentry                                                      4.0.2.0                                                     dotnet                    
-SixLabors.ImageSharp                                        3.1.6.0                                                     dotnet                    
+SixLabors.ImageSharp                                        3.1.7.0                                                     dotnet                    
 Swashbuckle.AspNetCore.Annotations                          6.6.2.401                                                   dotnet                    
 Swashbuckle.AspNetCore.Swagger                              6.6.2.401                                                   dotnet                    
 Swashbuckle.AspNetCore.SwaggerGen                           6.6.2.401                                                   dotnet                    
