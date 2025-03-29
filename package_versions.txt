@@ -172,7 +172,7 @@ Npgsql                                                      7.0.10.0            
 Polly                                                       8.5.2.4319                                                  dotnet                    
 Polly.Contrib.WaitAndRetry                                  1.1.1.0+7596d2dacf22d88bbd814bc49c28424fb6e921e9            dotnet                    
 Polly.Core                                                  8.5.2.4319                                                  dotnet                    
-Radarr                                                      5.22.0.9806                                                 dotnet  (+7 duplicates)   
+Radarr                                                      5.22.0.9808                                                 dotnet  (+7 duplicates)   
 ReusableTasks                                               2.0.0                                                       dotnet                    
 Sentry                                                      4.0.2.0                                                     dotnet                    
 SixLabors.ImageSharp                                        3.1.7.0                                                     dotnet                    
@@ -407,7 +407,7 @@ shadow                                                      4.16.0-r1           
 skalibs-libs                                                2.14.3.0-r0                                                 apk                       
 sqlite-libs                                                 3.48.0-r0                                                   apk                       
 ssl_client                                                  1.37.0-r12                                                  apk                       
-tzdata                                                      2025a-r0                                                    apk                       
+tzdata                                                      2025b-r0                                                    apk                       
 utmps-libs                                                  0.1.2.3-r2                                                  apk                       
 xmlstarlet                                                  1.6.1-r2                                                    apk                       
 xz-libs                                                     5.6.3-r0                                                    apk                       
