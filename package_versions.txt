@@ -7,7 +7,7 @@ DryIoc.dll                                                   5.4.3              
 Dynamitey                                                    2.0.9.136            dotnet  (+3 duplicates)  
 Equ                                                          2.3.0                dotnet  (+5 duplicates)  
 FluentValidation                                             9.5.4                dotnet  (+5 duplicates)  
-IPAddressRange                                               6.1.0                dotnet  (+7 duplicates)  
+IPAddressRange                                               6.2.0                dotnet  (+7 duplicates)  
 Ical.Net                                                     4.3.1                dotnet  (+2 duplicates)  
 ImpromptuInterface                                           7.0.1                dotnet  (+3 duplicates)  
 Instances                                                    1.6.1                dotnet  (+5 duplicates)  
@@ -125,7 +125,7 @@ bash                                                         5.2.37-r0          
 brotli-libs                                                  1.1.0-r2             apk                      
 busybox                                                      1.37.0-r12           apk                      
 busybox-binsh                                                1.37.0-r12           apk                      
-c-ares                                                       1.34.3-r0            apk                      
+c-ares                                                       1.34.5-r0            apk                      
 ca-certificates                                              20241121-r1          apk                      
 ca-certificates-bundle                                       20241121-r1          apk                      
 catatonit                                                    0.2.0-r0             apk                      
