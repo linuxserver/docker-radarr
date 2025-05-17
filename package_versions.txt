@@ -99,7 +99,7 @@ Servarr.FluentMigrator.Runner.SqlAnywhere                    3.3.2.9            
 Servarr.FluentMigrator.Runner.SqlServer                      3.3.2.9              dotnet  (+5 duplicates)  
 Servarr.FluentMigrator.Runner.SqlServerCe                    3.3.2.9              dotnet  (+5 duplicates)  
 SharpZipLib                                                  1.4.2                dotnet  (+7 duplicates)  
-SixLabors.ImageSharp                                         3.1.7                dotnet  (+5 duplicates)  
+SixLabors.ImageSharp                                         3.1.8                dotnet  (+5 duplicates)  
 Swashbuckle.AspNetCore.Annotations                           6.6.2                dotnet  (+2 duplicates)  
 Swashbuckle.AspNetCore.Swagger                               6.6.2                dotnet  (+2 duplicates)  
 Swashbuckle.AspNetCore.SwaggerGen                            6.6.2                dotnet  (+2 duplicates)  
@@ -155,7 +155,7 @@ libpsl                                                       0.21.5-r3          
 libssl3                                                      3.3.3-r0             apk                      
 libstdc++                                                    14.2.0-r4            apk                      
 libunistring                                                 1.2-r0               apk                      
-libxml2                                                      2.13.4-r5            apk                      
+libxml2                                                      2.13.4-r6            apk                      
 libxslt                                                      1.1.42-r2            apk                      
 linux-pam                                                    1.6.1-r1             apk                      
 musl                                                         1.2.5-r9             apk                      
