@@ -64,9 +64,9 @@ NLog.Targets.Syslog                                          7.0.0              
 Newtonsoft.Json                                              13.0.3               dotnet  (+7 duplicates)  
 NodaTime                                                     3.2.0                dotnet  (+2 duplicates)  
 Npgsql                                                       7.0.10               dotnet  (+7 duplicates)  
-Polly                                                        8.5.2                dotnet  (+5 duplicates)  
+Polly                                                        8.6.0                dotnet  (+5 duplicates)  
 Polly.Contrib.WaitAndRetry                                   1.1.1                dotnet  (+7 duplicates)  
-Polly.Core                                                   8.5.2                dotnet  (+5 duplicates)  
+Polly.Core                                                   8.6.0                dotnet  (+5 duplicates)  
 Radarr                                                       1.0.0                dotnet                   
 Radarr.Api.V3                                                1.0.0                dotnet  (+2 duplicates)  
 Radarr.Common                                                1.0.0                dotnet  (+7 duplicates)  
