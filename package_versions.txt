@@ -19,7 +19,7 @@ IPAddressRange                                               6.2.0              
 Ical.Net                                                     4.3.1                dotnet  (+2 duplicates)  
 ImpromptuInterface                                           8.0.6                dotnet  (+3 duplicates)  
 Instances                                                    1.6.1                dotnet  (+5 duplicates)  
-MailKit                                                      4.15.1               dotnet  (+5 duplicates)  
+MailKit                                                      4.16.0               dotnet  (+5 duplicates)  
 Microsoft.AspNetCore.Cryptography.Internal                   8.0.17               dotnet  (+5 duplicates)  
 Microsoft.AspNetCore.Cryptography.KeyDerivation              8.0.17               dotnet  (+5 duplicates)  
 Microsoft.Bcl.AsyncInterfaces                                8.0.0                dotnet  (+5 duplicates)  
@@ -67,7 +67,7 @@ Microsoft.IdentityModel.Tokens                               7.7.1              
 Microsoft.OpenApi                                            1.6.23               dotnet  (+2 duplicates)  
 Microsoft.SqlServer.Server                                   1.0.0                dotnet  (+5 duplicates)  
 Microsoft.Win32.SystemEvents                                 8.0.0                dotnet  (+5 duplicates)  
-MimeKit                                                      4.15.1               dotnet  (+5 duplicates)  
+MimeKit                                                      4.16.0               dotnet  (+5 duplicates)  
 Mono.Nat                                                     3.0.0                dotnet  (+5 duplicates)  
 Mono.Posix.NETStandard                                       5.20.1.34-servarr20  dotnet                   
 MonoTorrent                                                  3.0.2                dotnet  (+5 duplicates)  
