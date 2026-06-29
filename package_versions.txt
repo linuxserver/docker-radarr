@@ -91,7 +91,7 @@ Radarr.SignalR                                               1.0.0              
 ReusableTasks                                                4.0.0                dotnet  (+5 duplicates)  
 Sentry                                                       4.0.2                dotnet  (+7 duplicates)  
 Servarr.FFMpegCore                                           4.7.0-26             dotnet  (+5 duplicates)  
-Servarr.FFprobe                                              5.1.4.112            dotnet  (+5 duplicates)  
+Servarr.FFprobe                                              5.1.10.124           dotnet  (+5 duplicates)  
 SharpZipLib                                                  1.4.2                dotnet  (+7 duplicates)  
 SixLabors.ImageSharp                                         3.1.12               dotnet  (+5 duplicates)  
 SourceGear.sqlite3                                           3.50.4.5             dotnet  (+7 duplicates)  
