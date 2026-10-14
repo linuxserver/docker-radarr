@@ -85,7 +85,7 @@ System.ComponentModel.Annotations                            5.0.0             d
 System.Data.SQLite                                           2.0.4             dotnet  (+7 duplicates)  
 System.Diagnostics.EventLog                                  10.0.13           dotnet  (+4 duplicates)  
 System.IO.FileSystem.AccessControl                           5.0.0             dotnet  (+5 duplicates)  
-System.Security.Cryptography.Pkcs                            10.0.0            dotnet  (+4 duplicates)  
+System.Security.Cryptography.Pkcs                            10.0.13           dotnet  (+4 duplicates)  
 System.ServiceProcess.ServiceController                      10.0.13           dotnet  (+7 duplicates)  
 acl-libs                                                     2.3.2-r1          apk                      
 alpine-baselayout                                            3.7.2-r1          apk                      
