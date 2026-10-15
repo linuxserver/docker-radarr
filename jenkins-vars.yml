@@ -3,6 +3,8 @@
 project_name: docker-radarr
 external_type: na
 custom_version_command: curl -sL https://radarr.servarr.com/v1/update/master/changes?runtime=netcore%26os=linuxmusl | jq -r '.[0].version'
+custom_release_notes_command: |-
+  curl -H "Authorization: token ${GITHUB_TOKEN}" -s https://api.github.com/repos/radarr/radarr/releases/tags/v${EXT_RELEASE} | jq -r '. |.body' > releasebody.json
 release_type: stable
 release_tag: latest
 ls_branch: master
