@@ -19,6 +19,7 @@ RUN \
   echo "**** install packages ****" && \
   apk add -U --upgrade --no-cache \
     icu-libs \
+    krb5-libs \
     sqlite-libs \
     xmlstarlet && \
   echo "**** install radarr ****" && \
