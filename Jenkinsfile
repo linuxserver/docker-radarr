@@ -1230,7 +1230,7 @@ pipeline {
                   "type": "commit",\
                   "tagger": {"name": "LinuxServer-CI","email": "ci@linuxserver.io","date": "'${GITHUB_DATE}'"}}'
               echo "Pushing New release for Tag"
-              curl -H "Authorization: token ${GITHUB_TOKEN}" -s https://api.github.com/repos/radarr/radarr/releases/tags/v${EXT_RELEASE} | jq -r '. |.body' > releasebody.json
+              curl -H "Authorization: token ${GITHUB_TOKEN}" -s https://api.github.com/repos/radarr/radarr/releases/tags/v${EXT_RELEASE} | jq -r '. |.body' | sed -e 's|\\b\\([0-9a-fA-F]\\{40\\}\\)\\b|[\\1](https://github.com/Radarr/Radarr/commit/\\1)|g' | sed -e 's|\\[\\([0-9a-fA-F]\\{6\\}\\)[0-9a-fA-F]\\{34\\}\\]|[\\1]|g' > releasebody.json
               jq -n \
                 --arg tag_name "$META_TAG" \
                 --arg target_commitish "master" \
