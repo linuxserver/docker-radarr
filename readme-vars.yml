@@ -80,6 +80,7 @@ init_diagram: |
   "radarr:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "19.10.26:", desc: "Add krb5-libs for better postgresql support."}
   - {date: "04.07.26:", desc: "Rebase to Alpine 3.24."}
   - {date: "15.01.26:", desc: "Rebase to Alpine 3.23."}
   - {date: "05.07.25:", desc: "Rebase to Alpine 3.22."}
