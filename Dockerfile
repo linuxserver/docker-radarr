@@ -13,6 +13,7 @@ LABEL maintainer="Roxedus,thespad"
 ARG RADARR_BRANCH="nightly"
 ENV XDG_CONFIG_HOME="/config/xdg" \
   COMPlus_EnableDiagnostics=0 \
+  PGGSSENCMODE=disable \
   TMPDIR=/run/radarr-temp
 
 RUN \
