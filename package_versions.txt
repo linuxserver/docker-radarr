@@ -14,42 +14,42 @@ FluentMigrator.Runner.Postgres                               8.0.1             d
 FluentMigrator.Runner.SQLite                                 8.0.1             dotnet  (+5 duplicates)  
 FluentValidation                                             9.5.4             dotnet  (+5 duplicates)  
 IPAddressRange                                               6.3.0             dotnet  (+7 duplicates)  
-Ical.Net                                                     5.2.3             dotnet  (+2 duplicates)  
+Ical.Net                                                     5.2.4             dotnet  (+2 duplicates)  
 ImpromptuInterface                                           8.1.0             dotnet  (+3 duplicates)  
 Instances                                                    3.1.0             dotnet  (+5 duplicates)  
 MailKit                                                      4.18.2            dotnet  (+5 duplicates)  
-Microsoft.AspNetCore.Authentication.OpenIdConnect            10.0.14           dotnet  (+3 duplicates)  
-Microsoft.AspNetCore.Cryptography.Internal                   10.0.14           dotnet  (+2 duplicates)  
-Microsoft.AspNetCore.Cryptography.KeyDerivation              10.0.14           dotnet  (+2 duplicates)  
+Microsoft.AspNetCore.Authentication.OpenIdConnect            10.0.15           dotnet  (+3 duplicates)  
+Microsoft.AspNetCore.Cryptography.Internal                   10.0.15           dotnet  (+2 duplicates)  
+Microsoft.AspNetCore.Cryptography.KeyDerivation              10.0.15           dotnet  (+2 duplicates)  
 Microsoft.Bcl.Cryptography                                   10.0.2            dotnet  (+3 duplicates)  
-Microsoft.Extensions.Configuration                           10.0.14           dotnet  (+4 duplicates)  
-Microsoft.Extensions.Configuration.Abstractions              10.0.14           dotnet  (+4 duplicates)  
-Microsoft.Extensions.Configuration.Binder                    10.0.14           dotnet  (+4 duplicates)  
-Microsoft.Extensions.Configuration.CommandLine               10.0.14           dotnet  (+4 duplicates)  
-Microsoft.Extensions.Configuration.EnvironmentVariables      10.0.14           dotnet  (+4 duplicates)  
-Microsoft.Extensions.Configuration.FileExtensions            10.0.14           dotnet  (+4 duplicates)  
-Microsoft.Extensions.Configuration.Json                      10.0.14           dotnet  (+4 duplicates)  
-Microsoft.Extensions.Configuration.UserSecrets               10.0.14           dotnet  (+4 duplicates)  
-Microsoft.Extensions.DependencyInjection                     10.0.14           dotnet  (+4 duplicates)  
-Microsoft.Extensions.DependencyInjection.Abstractions        10.0.14           dotnet  (+4 duplicates)  
-Microsoft.Extensions.Diagnostics                             10.0.14           dotnet  (+4 duplicates)  
-Microsoft.Extensions.Diagnostics.Abstractions                10.0.14           dotnet  (+4 duplicates)  
-Microsoft.Extensions.FileProviders.Abstractions              10.0.14           dotnet  (+4 duplicates)  
-Microsoft.Extensions.FileProviders.Physical                  10.0.14           dotnet  (+4 duplicates)  
-Microsoft.Extensions.FileSystemGlobbing                      10.0.14           dotnet  (+4 duplicates)  
-Microsoft.Extensions.Hosting                                 10.0.14           dotnet  (+4 duplicates)  
-Microsoft.Extensions.Hosting.Abstractions                    10.0.14           dotnet  (+4 duplicates)  
-Microsoft.Extensions.Hosting.WindowsServices                 10.0.14           dotnet  (+7 duplicates)  
-Microsoft.Extensions.Logging                                 10.0.14           dotnet  (+4 duplicates)  
-Microsoft.Extensions.Logging.Abstractions                    10.0.14           dotnet  (+4 duplicates)  
-Microsoft.Extensions.Logging.Configuration                   10.0.14           dotnet  (+4 duplicates)  
-Microsoft.Extensions.Logging.Console                         10.0.14           dotnet  (+4 duplicates)  
-Microsoft.Extensions.Logging.Debug                           10.0.14           dotnet  (+4 duplicates)  
-Microsoft.Extensions.Logging.EventLog                        10.0.14           dotnet  (+4 duplicates)  
-Microsoft.Extensions.Logging.EventSource                     10.0.14           dotnet  (+4 duplicates)  
-Microsoft.Extensions.Options                                 10.0.14           dotnet  (+4 duplicates)  
-Microsoft.Extensions.Options.ConfigurationExtensions         10.0.14           dotnet  (+4 duplicates)  
-Microsoft.Extensions.Primitives                              10.0.14           dotnet  (+4 duplicates)  
+Microsoft.Extensions.Configuration                           10.0.15           dotnet  (+4 duplicates)  
+Microsoft.Extensions.Configuration.Abstractions              10.0.15           dotnet  (+4 duplicates)  
+Microsoft.Extensions.Configuration.Binder                    10.0.15           dotnet  (+4 duplicates)  
+Microsoft.Extensions.Configuration.CommandLine               10.0.15           dotnet  (+4 duplicates)  
+Microsoft.Extensions.Configuration.EnvironmentVariables      10.0.15           dotnet  (+4 duplicates)  
+Microsoft.Extensions.Configuration.FileExtensions            10.0.15           dotnet  (+4 duplicates)  
+Microsoft.Extensions.Configuration.Json                      10.0.15           dotnet  (+4 duplicates)  
+Microsoft.Extensions.Configuration.UserSecrets               10.0.15           dotnet  (+4 duplicates)  
+Microsoft.Extensions.DependencyInjection                     10.0.15           dotnet  (+4 duplicates)  
+Microsoft.Extensions.DependencyInjection.Abstractions        10.0.15           dotnet  (+4 duplicates)  
+Microsoft.Extensions.Diagnostics                             10.0.15           dotnet  (+4 duplicates)  
+Microsoft.Extensions.Diagnostics.Abstractions                10.0.15           dotnet  (+4 duplicates)  
+Microsoft.Extensions.FileProviders.Abstractions              10.0.15           dotnet  (+4 duplicates)  
+Microsoft.Extensions.FileProviders.Physical                  10.0.15           dotnet  (+4 duplicates)  
+Microsoft.Extensions.FileSystemGlobbing                      10.0.15           dotnet  (+4 duplicates)  
+Microsoft.Extensions.Hosting                                 10.0.15           dotnet  (+4 duplicates)  
+Microsoft.Extensions.Hosting.Abstractions                    10.0.15           dotnet  (+4 duplicates)  
+Microsoft.Extensions.Hosting.WindowsServices                 10.0.15           dotnet  (+7 duplicates)  
+Microsoft.Extensions.Logging                                 10.0.15           dotnet  (+4 duplicates)  
+Microsoft.Extensions.Logging.Abstractions                    10.0.15           dotnet  (+4 duplicates)  
+Microsoft.Extensions.Logging.Configuration                   10.0.15           dotnet  (+4 duplicates)  
+Microsoft.Extensions.Logging.Console                         10.0.15           dotnet  (+4 duplicates)  
+Microsoft.Extensions.Logging.Debug                           10.0.15           dotnet  (+4 duplicates)  
+Microsoft.Extensions.Logging.EventLog                        10.0.15           dotnet  (+4 duplicates)  
+Microsoft.Extensions.Logging.EventSource                     10.0.15           dotnet  (+4 duplicates)  
+Microsoft.Extensions.Options                                 10.0.15           dotnet  (+4 duplicates)  
+Microsoft.Extensions.Options.ConfigurationExtensions         10.0.15           dotnet  (+4 duplicates)  
+Microsoft.Extensions.Primitives                              10.0.15           dotnet  (+4 duplicates)  
 Microsoft.IdentityModel.Abstractions                         8.19.2            dotnet  (+3 duplicates)  
 Microsoft.IdentityModel.JsonWebTokens                        8.19.2            dotnet  (+3 duplicates)  
 Microsoft.IdentityModel.Logging                              8.19.2            dotnet  (+3 duplicates)  
@@ -67,12 +67,12 @@ NLog.Targets.Syslog                                          7.0.0             d
 Newtonsoft.Json                                              13.0.4            dotnet  (+7 duplicates)  
 NodaTime                                                     3.2.2             dotnet  (+2 duplicates)  
 Npgsql                                                       10.0.3            dotnet  (+7 duplicates)  
-Openur.FFMpegCore                                            5.5.0.45          dotnet  (+5 duplicates)  
+Openur.FFMpegCore                                            6.0.0.60          dotnet  (+5 duplicates)  
 Openur.FFprobeStatic                                         9.0.2.508         dotnet  (+5 duplicates)  
 Openur.Mono.Unix                                             7.1.0.256         dotnet                   
-Polly                                                        8.8.0             dotnet  (+5 duplicates)  
+Polly                                                        8.9.1             dotnet  (+5 duplicates)  
 Polly.Contrib.WaitAndRetry                                   1.1.1             dotnet  (+7 duplicates)  
-Polly.Core                                                   8.8.0             dotnet  (+5 duplicates)  
+Polly.Core                                                   8.9.1             dotnet  (+5 duplicates)  
 Radarr                                                       1.0.0             dotnet                   
 Radarr.Api.V3                                                1.0.0             dotnet  (+2 duplicates)  
 Radarr.Common                                                1.0.0             dotnet  (+7 duplicates)  
@@ -91,11 +91,11 @@ Swashbuckle.AspNetCore.Swagger                               10.3.1            d
 Swashbuckle.AspNetCore.SwaggerGen                            10.3.1            dotnet  (+2 duplicates)  
 System.ComponentModel.Annotations                            5.0.0             dotnet  (+4 duplicates)  
 System.Data.SQLite                                           2.0.4             dotnet  (+7 duplicates)  
-System.Diagnostics.EventLog                                  10.0.14           dotnet  (+4 duplicates)  
+System.Diagnostics.EventLog                                  10.0.15           dotnet  (+4 duplicates)  
 System.IO.FileSystem.AccessControl                           5.0.0             dotnet  (+5 duplicates)  
 System.IdentityModel.Tokens.Jwt                              8.19.2            dotnet  (+3 duplicates)  
-System.Security.Cryptography.Pkcs                            10.0.14           dotnet  (+4 duplicates)  
-System.ServiceProcess.ServiceController                      10.0.14           dotnet  (+7 duplicates)  
+System.Security.Cryptography.Pkcs                            10.0.15           dotnet  (+4 duplicates)  
+System.ServiceProcess.ServiceController                      10.0.15           dotnet  (+7 duplicates)  
 acl-libs                                                     2.3.2-r1          apk                      
 alpine-baselayout                                            3.7.2-r1          apk                      
 alpine-baselayout-data                                       3.7.2-r1          apk                      
@@ -121,7 +121,7 @@ icu-libs                                                     78.1-r0           a
 jq                                                           1.8.2-r0          apk                      
 keyutils-libs                                                1.6.3-r4          apk                      
 krb5-conf                                                    1.0-r2            apk                      
-krb5-libs                                                    1.22.2-r1         apk                      
+krb5-libs                                                    1.22.3-r0         apk                      
 libapk                                                       3.0.9-r0          apk                      
 libattr                                                      2.5.2-r2          apk                      
 libbsd                                                       0.12.2-r0         apk                      
@@ -140,7 +140,7 @@ libstdc++                                                    15.2.0-r5         a
 libunistring                                                 1.4.2-r0          apk                      
 libverto                                                     0.3.2-r2          apk                      
 libxml2                                                      2.13.9-r2         apk                      
-libxslt                                                      1.1.43-r3         apk                      
+libxslt                                                      1.1.43-r4         apk                      
 linux-pam                                                    1.7.1-r2          apk                      
 musl                                                         1.2.6-r3          apk                      
 musl-utils                                                   1.2.6-r3          apk                      
@@ -150,8 +150,8 @@ nghttp2-libs                                                 1.70.0-r0         a
 oniguruma                                                    6.9.10-r0         apk                      
 procps-ng                                                    4.0.6-r0          apk                      
 readline                                                     8.3.3-r1          apk                      
-runtimepack.Microsoft.AspNetCore.App.Runtime.linux-musl-x64  10.0.14           dotnet  (+4 duplicates)  
-runtimepack.Microsoft.NETCore.App.Runtime.linux-musl-x64     10.0.14           dotnet  (+7 duplicates)  
+runtimepack.Microsoft.AspNetCore.App.Runtime.linux-musl-x64  10.0.15           dotnet  (+4 duplicates)  
+runtimepack.Microsoft.NETCore.App.Runtime.linux-musl-x64     10.0.15           dotnet  (+7 duplicates)  
 scanelf                                                      1.3.9-r1          apk                      
 shadow                                                       4.18.0-r1         apk                      
 skalibs-libs                                                 2.15.0.0-r0       apk                      
